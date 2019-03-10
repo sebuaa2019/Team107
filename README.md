@@ -2,4 +2,4 @@
 
 ## 家庭报警系统
 
-Using PowerPC
+Using Arduino+Respberry
