@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'apps.apps.AppsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'HomeAlarmSys.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',  # 数据库名
+        'NAME': 'mansys',  # 数据库名
         'USER': 'root',  # 用户名
         'PASSWORD': '123456',
         'PORT': '3306',
@@ -106,17 +107,17 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
+LANGUAGE_CODE = 'zh-hans'
+ 
+TIME_ZONE = 'Asia/Shanghai'
+ 
 USE_I18N = True
-
+ 
 USE_L10N = True
+ 
+USE_TZ = False
 
-USE_TZ = True
-
-
+#AUTH_USER_MODEL = 'apps.UserProfile'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
