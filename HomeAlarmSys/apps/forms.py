@@ -15,3 +15,11 @@ class RegisterForm(forms.Form):
     email = forms.EmailField(label="邮箱地址", widget=forms.EmailInput(attrs={'class': 'form-control'}))
     phone = forms.CharField(label="联系电话", max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}))
     captcha = CaptchaField(label='验证码')
+
+
+class EditForm(forms.Form):
+    password1 = forms.CharField(label="密码", max_length=256, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    password2 = forms.CharField(label="确认密码", max_length=256, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    email = forms.EmailField(label="邮箱地址", widget=forms.EmailInput(attrs={'class': 'form-control'}))
+    phone = forms.CharField(label="联系电话", max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    captcha = CaptchaField(label='验证码')
