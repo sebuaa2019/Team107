@@ -1,22 +1,27 @@
 from . import models
-from .forms import UserForm,RegisterForm,EditForm
+from .forms import UserForm, RegisterForm, EditForm
 from django.shortcuts import render, redirect
-# Create your views here.
 import hashlib
+from django.template import loader
+from django.http import HttpResponse
 
-##加密
+
+def index(request):
+    context = {}
+    if not request.session.get("is_login", None):
+        return redirect('/login/')
+    else:
+        return render(request, 'app/index.html')
+
 def hash_code(s, salt='mysite'):  # 加点盐
     h = hashlib.sha256()
     s += salt
     h.update(s.encode())  # update方法只接收bytes类型
     return h.hexdigest()
 
-def index(request):
-    pass
-    return render(request, 'login/index.html')
-
 
 def login(request):
+    register_form = RegisterForm()
     if request.session.get('is_login', None):
         return redirect("/index/")
 
@@ -32,19 +37,22 @@ def login(request):
                     request.session['is_login'] = True
                     request.session['user_id'] = user.id
                     request.session['user_name'] = user.name
+                    request.session['email'] = user.email
+                    request.session['phone'] = user.phone
                     return redirect('/index/')
                 else:
                     message = "密码不正确！"
             except:
                 message = "用户不存在！"
-        return render(request, 'login/login.html', locals())
+        return render(request, 'app/login.html', locals())
 
     login_form = UserForm()
-    return render(request, 'login/login.html', locals())
+    return render(request, 'app/login.html', locals())
 
 
 def register(request):
-    if request.session.get('is_login', None):
+    login_form = UserForm()
+    if not request.session.get('is_login', None):
         # 登录状态不允许注册。你可以修改这条原则！
         return redirect("/index/")
     if request.method == "POST":
@@ -58,16 +66,16 @@ def register(request):
             phone = register_form.cleaned_data['phone']
             if password1 != password2:  # 判断两次密码是否相同
                 message = "两次输入的密码不同！"
-                return render(request, 'login/register.html', locals())
+                return render(request, 'app/login.html', locals())
             else:
                 same_name_user = models.User.objects.filter(name=username)
                 if same_name_user:  # 用户名唯一
                     message = '用户已经存在，请重新选择用户名！'
-                    return render(request, 'login/register.html', locals())
+                    return render(request, 'app/login.html', locals())
                 same_email_user = models.User.objects.filter(email=email)
                 if same_email_user:  # 邮箱地址唯一
                     message = '该邮箱地址已被注册，请使用别的邮箱！'
-                    return render(request, 'login/register.html', locals())
+                    return render(request, 'app/login.html', locals())
 
                 # 当一切都OK的情况下，创建新用户
 
@@ -79,18 +87,24 @@ def register(request):
                 new_user.save()
                 return redirect('/login/')  # 自动跳转到登录页面
     register_form = RegisterForm()
-    return render(request, 'login/register.html', locals())
+    return render(request, 'app/login.html', locals())
+
 
 def logout(request):
-    if not request.session.get('is_login', None):
-        # 如果本来就未登录，也就没有登出一说
-        return redirect("/index/")
     request.session.flush()
-    # 或者使用下面的方法
-    # del request.session['is_login']
-    # del request.session['user_id']
-    # del request.session['user_name']
     return redirect("/index/")
+
+
+# 查看个人资料
+def profile(request):
+    if not request.session.get('is_login', None):
+        return redirect("/index/")
+    if request.method == "GET":
+        username = request.session['user_name']
+        phone = request.session['phone']
+        email = request.session['email']
+        return render(request, 'login/profile.html', locals())
+
 
 def edit(request):
     if not request.session.get('is_login', None):
@@ -109,14 +123,14 @@ def edit(request):
                 return render(request, 'login/edit.html', locals())
                 # 当一切都OK的情况下，创建新用户
             else:
-                user = models.User.objects.get(id = request.session['user_id'])
+                user = models.User.objects.get(id=request.session['user_id'])
                 user.password = hash_code(password1)
                 user.email = email
                 user.phone = phone
                 user.save()
                 return redirect('/login/')  # 自动跳转到登录页面
     edit_form = EditForm()
-    return render(request, 'login/edit.html', locals())
+    return render('login/edit.html', locals())
 
 
 

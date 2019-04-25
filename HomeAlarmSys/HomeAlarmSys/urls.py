@@ -16,7 +16,14 @@ Including another URLconf
 from django.conf.urls import url, include 
 from django.contrib import admin
 
+#urlpatterns = [
+#    url(r'^admin/', admin.site.urls),
+#    url(r'^/*', include('apps.urls')),
+# ]
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^/*', include('apps.urls')),
+    # app/ -> Genetelella UI and resources
+    url(r'^app/', include('apps.urls')),
+    url(r'^', include('apps.urls')),
+
 ]

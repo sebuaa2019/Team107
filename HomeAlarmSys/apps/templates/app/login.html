@@ -1,0 +1,107 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} Login {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+  <!-- Animate.css -->
+  <link href="/static/vendors/animate.css/animate.min.css" rel="stylesheet">
+{% endblock stylesheets %}
+
+{% block body_class %}login{% endblock body_class %}
+
+{% block body %}
+  <div>
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
+
+    <div class="login_wrapper">
+      <div class="animate form login_form">
+        <section class="login_content">
+          <form action="/login/" method="post">
+            <h1>Login Form</h1>
+              {% if message %}
+                  <div class="alert alert-warning">{{ message }}</div>
+              {% endif %}
+            {% csrf_token %}
+            <div>
+              {{ login_form.email }}
+            </div>
+            <div>
+              {{ login_form.password }}
+            </div>
+            <div>
+              <button class="btn btn-default submit" type="submit">Log in</button>
+              <a class="reset_pass" href="#">Lost your password?</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">New to site?
+                <a href="#signup" class="to_register"> Create Account </a>
+              </p>
+
+              <div class="clearfix"></div>
+              <br />
+
+              <div>
+                <h1><i class="fa fa-paw"></i> AAA家庭报警装置管理系统</h1>
+                <p>©2019 All Rights Reserved.</p>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div id="register" class="animate form registration_form">
+        <section class="login_content">
+          <form action="/register/" method="post">
+            {% csrf_token %}
+            <h1>Create Account</h1>
+              {% if message %}
+                  <div class="alert alert-warning">{{ message }}</div>
+              {% endif %}
+            <div>
+                {{ register_form.username}}
+            </div>
+            <div>
+                {{ register_form.email }}
+            </div>
+               <div>
+                {{ register_form.phone }}
+            </div>
+            <div>
+                {{ register_form.password1 }}
+            </div>
+              <div>
+
+                {{ register_form.password2 }}
+            </div>
+
+            <div>
+              <button class="btn btn-default submit" type="submit">Submit</button>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">Already a member ?
+                <a href="#signin" class="to_register"> Log in </a>
+              </p>
+
+              <div class="clearfix"></div>
+              <br />
+
+              <div>
+                <h1><i class="fa fa-paw"></i> AAA家庭报警装置管理系统</h1>
+                <p>©2019 All Rights Reserved.</p>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
+
