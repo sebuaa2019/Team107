@@ -29,4 +29,5 @@ class EditForm(forms.Form):
     password2 = forms.CharField(label="确认密码", max_length=256, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
     email = forms.EmailField(label="邮箱地址", widget=forms.EmailInput(attrs={'class': 'form-control'}))
     phone = forms.CharField(label="联系电话", max_length=20, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    #extra_form = forms.CharField(label='info', max_length=255)
     #captcha = CaptchaField(label='验证码')
