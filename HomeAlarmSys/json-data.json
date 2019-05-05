@@ -1,0 +1,53 @@
+// http://www.aaa14home.top/sensor
+// http://www.aaa14home.top/room
+// http://www.aaa14home.top/room_sensor
+// http://www.aaa14home.top/sensor_arg
+// http://www.aaa14home.top/device
+// http://www.aaa14home.top/device_arg
+
+
+
+
+{    "RoomID":  0,
+     "Sensors":
+          [ {
+              "SensorID:" : 1,
+              "SensorType" : "Alarm",
+              "SensorValueType" : "Bool",
+              "SensorValueRange" : "0~1",
+            },
+            {
+              "SensorID:" : 2,
+              "SensorType" : "Temperature",
+              "SensorValueType" : "Integer",
+              "SensorValueRange" : "-30~100",
+            }
+          ],
+          "SmartDevices":
+          [ {
+              "DeviceID" : 1,
+              "DeviceType" : "light",
+              "DeviceStatusType" : "Bool",
+              "DeviceStatusRange" : "0~1",
+            },
+            {
+              "DeviceID" : 2,
+              "DeviceType" : "Aircon",
+              "DeviceStatusType" :
+              [ {
+                "PowerStatus" : "0~1",
+                "TempStatue" : "17~37",
+                }
+              ]
+            },
+            {
+              "DeviceID" : 3,
+              "DeviceType" : "Relay",
+              "DeviceStatusType" :
+              [ {
+                "PowerStatus" : "0~1"
+                }
+              ]
+            }
+          ]
+}

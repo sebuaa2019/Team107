@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/room/add_room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/room/edit_room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/room/rooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/scene/scenes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/static/build/js/user/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/app/master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/app/room_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/app/scene_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/app/user_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeAlarmSys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeAlarmSys/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeAlarmSys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeAlarmSys/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/build/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/static/build/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/templates/app/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/base_site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/templates/app/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/top_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/top_navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/templates/app/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/templates/app/tables_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/tables_dynamic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scene.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,30 +93,40 @@
     <session id="156718619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="27" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="32" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="89" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="48" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="86" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2744" />
-          <entry key="PLAIN_TEXT" value="345" />
-          <entry key="Python" value="2114" />
+          <entry key="HTML" value="3922" />
+          <entry key="JSON" value="264" />
+          <entry key="JavaScript" value="2830" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="856" />
+          <entry key="Python" value="6426" />
         </counts>
       </usages-collector>
     </session>
@@ -106,52 +134,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/templates/app/profile.html">
+        <entry file="file://$PROJECT_DIR$/apps/templates/app/room_manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+            <state relative-caret-position="275">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/models.py">
+        <entry file="file://$PROJECT_DIR$/apps/scene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="950">
+              <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#1#21#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/templates/app/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -162,36 +160,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/views.py">
+        <entry file="file://$PROJECT_DIR$/apps/templates/app/scene_manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+            <state relative-caret-position="275">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/scenes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/templates/app/top_navigation.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="456">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/apps/static/build/js/table.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+        <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+            <state relative-caret-position="781">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,8 +237,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -216,6 +253,18 @@
       <find>fa-ph</find>
       <find>mail</find>
       <find>{</find>
+      <find>table</find>
+      <find>tables</find>
+      <find>x_pa</find>
+      <find>locales</find>
+      <find>map</find>
+      <find>app</find>
+      <find>user</find>
+      <find>room</find>
+      <find>Role</find>
+      <find>角色</find>
+      <find>console</find>
+      <find>role</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,18 +278,42 @@
         <option value="$PROJECT_DIR$/apps/1.py" />
         <option value="$PROJECT_DIR$/apps/templates/login/register.html" />
         <option value="$PROJECT_DIR$/apps/templates/base.html" />
-        <option value="$PROJECT_DIR$/apps/models.py" />
         <option value="$PROJECT_DIR$/apps/templates/login/profile.html" />
         <option value="$PROJECT_DIR$/apps/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/HomeAlarmSys/urls.py" />
-        <option value="$PROJECT_DIR$/apps/templates/app/login.html" />
-        <option value="$PROJECT_DIR$/apps/templates/app/sidebar.html" />
-        <option value="$PROJECT_DIR$/apps/urls.py" />
         <option value="$PROJECT_DIR$/HomeAlarmSys/settings.py" />
-        <option value="$PROJECT_DIR$/apps/forms.py" />
         <option value="$PROJECT_DIR$/apps/templates/app/profile.html" />
-        <option value="$PROJECT_DIR$/apps/views.py" />
         <option value="$PROJECT_DIR$/apps/templates/app/top_navigation.html" />
+        <option value="$PROJECT_DIR$/json-data.json" />
+        <option value="$PROJECT_DIR$/apps/static/vendors/bootstrap-table/src/locale/README.md" />
+        <option value="$PROJECT_DIR$/apps/templates/app/tables.html" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/user/users.js" />
+        <option value="$PROJECT_DIR$/apps/templates/app/sidebar.html" />
+        <option value="$PROJECT_DIR$/apps/templates/base_scripts.html" />
+        <option value="$PROJECT_DIR$/apps/templates/master.html" />
+        <option value="$PROJECT_DIR$/apps/templates/app/master.html" />
+        <option value="$PROJECT_DIR$/apps/templates/app/login.html" />
+        <option value="$PROJECT_DIR$/apps/templates/app/tables_dynamic.html" />
+        <option value="$PROJECT_DIR$/apps/templates/app/user_manage.html" />
+        <option value="$PROJECT_DIR$/apps/forms.py" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/room/add_room.js" />
+        <option value="$PROJECT_DIR$/apps/views.py" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/room/edit.js" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/scene/scene.js" />
+        <option value="$PROJECT_DIR$/apps/templates/scene.py" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/custom.js" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/room/rooms.js" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/scene/scenes.js" />
+        <option value="$PROJECT_DIR$/apps/templates/app/base_site.html" />
+        <option value="$PROJECT_DIR$/HomeAlarmSys/urls.py" />
+        <option value="$PROJECT_DIR$/apps/models.py" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js" />
+        <option value="$PROJECT_DIR$/apps/urls.py" />
+        <option value="$PROJECT_DIR$/apps/templates/app/room_manage.html" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/table.js" />
+        <option value="$PROJECT_DIR$/apps/templates/app/scene_manage.html" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js" />
+        <option value="$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js" />
+        <option value="$PROJECT_DIR$/apps/scene.py" />
       </list>
     </option>
   </component>
@@ -279,10 +352,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
-    <option name="y" value="-26" />
-    <option name="width" value="994" />
-    <option name="height" value="1061" />
+    <option name="x" value="-39" />
+    <option name="y" value="-39" />
+    <option name="width" value="1001" />
+    <option name="height" value="1074" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -292,6 +365,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,14 +382,37 @@
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
@@ -326,16 +423,25 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="console.log&#9;null&#9;null&#10;console&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../django-gentelella/gentelella" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Challenging\Desktop\Course\Team107\HomeAlarmSys\apps" />
+      <recent name="C:\Users\Challenging\Desktop\Course\Team107\HomeAlarmSys\apps\templates\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Challenging\Desktop\Course\Team107\HomeAlarmSys\apps\templates\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -409,12 +515,12 @@
     <frame x="-7" y="-7" width="1732" height="940" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21274039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18088943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939904" weight="0.40764332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,14 +528,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50060093" side_tool="true" weight="0.40764332" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32738853" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" show_stripe_button="false" weight="0.3296501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3298217" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3298217" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32932693" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20252404" />
@@ -466,169 +573,301 @@
     <option name="LAST_COMMIT_MESSAGE" value="use templates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a4bc15e0-453b-4a1a-bbe8-dc89dcae6ffb/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/managesys/apps.py" />
-    <entry file="file://$PROJECT_DIR$/managesys/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/apps/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/xx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/user/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="9" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/captcha/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/templates/base_scripts.html" />
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/role_manage.html" />
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/fixed_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/tables_dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="540" column="35" selection-start-line="540" selection-start-column="35" selection-end-line="540" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/project_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/page_404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/other_charts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/user_edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/user_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="774" selection-start-line="774" selection-end-line="774" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/user_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="117" selection-start-line="117" selection-end-line="360" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/edit_room.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/inbox.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/form_validation.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="2525" column="32" lean-forward="true" selection-start-line="2525" selection-start-column="32" selection-end-line="2525" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/pkgs/sphinx-1.7.4-py36_0/Lib/site-packages/sphinx/util/console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/add_room.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="3" lean-forward="true" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="102" column="72" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/gauge.js/assets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="68965" selection-start-line="8" selection-start-column="68965" selection-end-line="8" selection-end-column="68965" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/rooms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="592" column="8" selection-start-line="592" selection-start-column="8" selection-end-line="592" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeAlarmSys/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/login/edit.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/login/login.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/login/register.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/login/profile.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/login/index.html" />
-    <entry file="file://$PROJECT_DIR$/apps/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/inbox.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/index2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates111/login/register.html" />
     <entry file="file://$PROJECT_DIR$/HomeAlarmSys/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="432">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/base_site.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates111/base.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates111/login/login.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates111/login/index.html" />
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/font-awesome/css/font-awesome.css">
+    <entry file="file://D:/Anaconda/Lib/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="472" column="8" selection-start-line="472" selection-start-column="4" selection-end-line="472" selection-end-column="8" />
+        <state relative-caret-position="37">
+          <caret line="364" column="8" selection-start-line="364" selection-start-column="8" selection-end-line="364" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/pdfmake/build/pdfmake.js">
+    <entry file="file://$PROJECT_DIR$/apps/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13242" column="17" selection-start-line="13242" selection-start-column="17" selection-end-line="13242" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://D:/Anaconda/Lib/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="995" column="4" selection-start-line="995" selection-start-column="4" selection-end-line="995" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/login.html">
+    <entry file="file://D:/Anaconda/Lib/wsgiref/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state relative-caret-position="145">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/room_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="275">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/scenes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="575">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/profile.html">
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        <state relative-caret-position="212">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/scene_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/urls.py">
+    <entry file="file://$PROJECT_DIR$/apps/scene.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+        <state relative-caret-position="950">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#1#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/top_navigation.html">
+    <entry file="file://$PROJECT_DIR$/apps/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

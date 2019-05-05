@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
       {% endblock meta %}
 
-      <title>Gentelella Alela! | {% block title %}{% endblock %}</title>
+      <title>家庭报警装置平台</title>
 
       {% block stylesheets %}
         <!-- Bootstrap -->
@@ -27,7 +27,8 @@
         <link href="/static/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
         <!-- JQVMap -->
         <link href="/static/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
-      {% endblock stylesheets %}
+        <link href="/static/vendors/bootstrap-table/dist/bootstrap-table.css" rel="stylesheet"/>
+         {% endblock stylesheets %}
       <!-- Custom Theme Style -->
       <link href="/static/build/css/custom.css" rel="stylesheet">
     {% endblock head %}
@@ -96,9 +97,15 @@
         <script src="/static/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
         <!-- starrr -->
         <script src="/static/vendors/starrr/dist/starrr.js"></script>
+         <!-- bootstrap-table-->
+          <script src="/static/vendors/bootstrap-table/dist/bootstrap-table.js"></script>
+          <script src="/static/vendors/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js"></script>
+          <script src="/static/vendors/bootstrap-notify/bootstrap-notify.js"></script>
+
       {% endblock %}
       <!-- Custom Theme Scripts -->
-      <script src="/static/build/js/custom.js"></script>
+        <script src="/static/build/js/custom.js"></script>
+
     {% endblock body %}
   </body>
 </html>

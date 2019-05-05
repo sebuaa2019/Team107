@@ -1,0 +1,49 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} Tables {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+  <div class="right_col" role="main">
+    <div class="">
+
+
+      <div class="page-title">
+        <div class="title_left">
+          <h3>用户管理表 <small></small></h3>
+        </div>
+
+        <div class="title_right">
+          <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix">
+
+          <table id="userTable"></table>
+
+      </div>
+
+
+    </div>
+  </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super }}
+    <script src="/static/build/js/table.js"></script>
+    <script src="/static/build/js/user/users.js"></script>
+{% endblock javascripts %}
+
+
+

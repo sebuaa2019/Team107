@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+
+<div th:fragment="header-bar">
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <i class="fa fa-reorder"></i>
+            </button>
+            <a href="" class="navbar-brand">NLP Research</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 系统设置 <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="/user/manage">用户管理</a>
+                        </li>
+                        <li><a href="/role/manage">角色管理</a>
+                        </li>
+                        <li><a href="">权限管理</a>
+                        </li>
+                        <li><a href="">菜单管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> NLP工具 <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="">词法分析</a>
+                        </li>
+                        <li><a href="">依存分析</a>
+                        </li>
+                        <li><a href="">信息抽取</a>
+                        </li>
+                        <li><a href="">情感分析</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> AI社区 <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="">博客分享</a>
+                        </li>
+                        <li><a href="">资源分享</a>
+                        </li>
+                        <li><a href="">最新资讯</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 开发资源 <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="">文档中心</a>
+                        </li>
+                        <li><a href="">SDK下载</a>
+                        </li>
+                        <li><a href="">常见问题</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+
+
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <span class="clear" >
+                                   <span><strong class="font-bold" th:text="${user.name}"></strong></span>
+                                    </span>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="J_menuItem" href="form_avatar.html">修改头像</a>
+                        </li>
+                        <li><a class="J_menuItem" href="profile.html">个人资料</a>
+                        </li>
+                        <li><a class="J_menuItem" href="contacts.html">联系我们</a>
+                        </li>
+                        <li><a class="J_menuItem" href="mailbox.html">信箱</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/logout">安全退出</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+</html>
