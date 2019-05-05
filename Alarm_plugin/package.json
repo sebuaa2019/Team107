@@ -1,0 +1,11 @@
+{
+  "name": "alarm_plugin",
+  "version": "0.0.1",
+  "description": "Plugin for Arduino Alarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon",
+  "license": "ISC"
+}
