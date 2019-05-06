@@ -15,7 +15,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h3 class="m-t-none m-b">添加新房间</h3>
+                            <h3 class="m-t-none m-b" id="add-room-modal-title">添加新房间</h3>
 
                             <form role="form" id = "add-room-form">
                                 <div class="form-group">
@@ -23,7 +23,7 @@
                                     <input type="text" name="room_name" placeholder="请输入房间名" class="form-control">
                                 </div>
                                 <div>
-                                    <button id="add-room-btn"  class="btn btn-sm btn-primary pull-right m-t-n-xs" type="button"><strong>添加</strong>
+                                    <button id="add-room-btn" name="save" class="btn btn-sm btn-primary pull-right m-t-n-xs" type="button"><strong>提交</strong>
                                     </button>
                                  </div>
                             </form>
@@ -50,11 +50,9 @@
                            data-toggle="modal"
                            data-target="#room-add" >添加房间</a>
                   </li>
-                  <li><a class="dropdown-item"
-                           data-toggle="modal"
-                           data-target="#room-edit" >修改房间</a>
+                  <li><a onclick="updateRoom()">修改房间</a>
                   </li>
-                  <li><a href="#">删除房间</a>
+                  <li><a onclick="deleteRoom()">删除房间</a>
                   </li>
                 </ul>
 
@@ -79,6 +77,8 @@
     <script src="/static/build/js/table.js"></script>
     <script src="/static/build/js/room/rooms.js"></script>
     <script src="/static/build/js/room/add_room.js"></script>
+    <script src="/static/build/js/room/edit_room.js"></script>
+    <script src="/static/build/js/room/delete_room.js"></script>
 {% endblock javascripts %}
 
 

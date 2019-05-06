@@ -1,8 +1,8 @@
-function deleteScene(){
-    var selected  = $('#sceneTable').bootstrapTable('getSelections');
+function deleteRoom(){
+    var selected  = $('#roomTable').bootstrapTable('getSelections');
     var selected_length = selected.length;
     if (selected_length === 0 ){
-        $TableManager.n_warning("请勾选要删除的场景");
+        $TableManager.n_warning("请勾选要删除的房间");
         return;
     }
     var ids = "";
@@ -14,13 +14,13 @@ function deleteScene(){
 
 
     $.ajax({
-        url: '/scene/delete/',
+        url: '/room/delete/',
         type: 'POST',
         data: JSON.stringify({"idString":ids}),
         success: function (r) {
             if (r=== '200'){
                 $TableManager.n_success(r);
-                $TableManager.refreshTable('sceneTable');
+                $TableManager.refreshTable('roomTable');
             }
             else{
                 $TableManager.n_danger(r);

@@ -2,7 +2,8 @@ from django.conf.urls import url, include
 
 from . import views
 from . import scene
-
+from . import room
+from . import device
 
 urlpatterns = [
     # Matches any html file - to be used for gentella
@@ -23,9 +24,14 @@ urlpatterns = [
     url(r'user/manage/', views.user_manage, name='user_manage'),
     url(r'user/table/', views.user_table, name='user_table'),
 
-    url(r'room/manage/', views.room_manage, name='room_manage'),
-    url(r'room/table/', views.room_table, name='room_table'),
-    url(r'room/add/', views.room_add, name='room_add'),
+    url(r'room/manage/', room.room_manage, name='room_manage'),
+    url(r'room/table/', room.room_table, name='room_table'),
+    url(r'room/add/', room.room_add, name='room_add'),
+    url(r'room/getRoom/', room.room_get, name='room_get'),
+    url(r'room/update/', room.room_update, name='room_update'),
+    url(r'room/delete/', room.room_delete, name='room_delete'),
+
+
 
     url(r'scene/manage/', scene.scene_manage, name='scene_manage'),
     url(r'scene/table/', scene.scene_table, name='scene_table'),
@@ -33,6 +39,16 @@ urlpatterns = [
     url(r'scene/getScene/', scene.scene_get, name='scene_get'),
     url(r'scene/update/', scene.scene_update, name='scene_update'),
     url(r'scene/delete/', scene.scene_delete, name='scene_delete'),
+
+    url(r'device/manage/', device.device_manage, name='device_manage'),
+    url(r'device/table/', device.device_table, name='device_table'),
+    url(r'device/add/', device.device_add, name='device_add'),
+    url(r'device/getDevice/', device.device_get, name='device_get'),
+    url(r'device/update/', device.device_update, name='device_update'),
+    url(r'device/delete/', device.device_delete, name='device_delete'),
+
+
+
 
     url('^$', views.index, name='index'),
 ]

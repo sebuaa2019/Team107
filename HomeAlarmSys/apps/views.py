@@ -110,22 +110,7 @@ def user_table(request):
     return HttpResponse(json.dumps(user_list), content_type='application/json; charset=utf-8')
 
 
-def room_manage(request):
-    return render(request, 'app/room_manage.html', locals())
 
-
-def room_table(request):
-    room_list = []
-    all_room = models.Room.objects.all()
-    for room in all_room:
-        room_list.append({"id": room.id, "room_name": room.room_name})
-    return HttpResponse(json.dumps(room_list), content_type='application/json; charset=utf-8')
-
-def room_add(request):
-    room = models.Room.objects.create()
-    room.room_name = json.loads(request.body)[0].get('value')
-    room.save()
-    return HttpResponse(200)
 
 
 def logout(request):
