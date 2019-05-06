@@ -1,0 +1,85 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} Tables {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+  <div class="right_col" role="main">
+      <div class="row">
+          <div id="room-add" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="m-t-none m-b">添加新房间</h3>
+
+                            <form role="form" id = "add-room-form">
+                                <div class="form-group">
+                                    <label>房间名：</label>
+                                    <input type="text" name="room_name" placeholder="请输入房间名" class="form-control">
+                                </div>
+                                <div>
+                                    <button id="add-room-btn"  class="btn btn-sm btn-primary pull-right m-t-n-xs" type="button"><strong>添加</strong>
+                                    </button>
+                                 </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <div class="col-md-12">
+        <div class="x_panel tile">
+          <div class="x_title">
+            <h2>房间列表</h2>
+            <ul class="nav navbar-right panel_toolbox">
+              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a class="dropdown-item"
+                           data-toggle="modal"
+                           data-target="#room-add" >添加房间</a>
+                  </li>
+                  <li><a class="dropdown-item"
+                           data-toggle="modal"
+                           data-target="#room-edit" >修改房间</a>
+                  </li>
+                  <li><a href="#">删除房间</a>
+                  </li>
+                </ul>
+
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+          <div class="x_content">
+                  <table id="roomTable">
+
+                  </table>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super }}
+    <script src="/static/build/js/table.js"></script>
+    <script src="/static/build/js/room/rooms.js"></script>
+    <script src="/static/build/js/room/add_room.js"></script>
+{% endblock javascripts %}
+
+
+

@@ -1,0 +1,94 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} Tables {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+  <div class="right_col" role="main">
+      <div class="row">
+          <div id="scene-add" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="m-t-none m-b" id="add-scene-modal-title">添加新场景</h3>
+
+                            <form role="form" id = "add-scene-form">
+                                <div class="form-group">
+                                    <label>场景名：</label>
+                                    <input type="text" name="scene_name" placeholder="请输入场景名" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="status" style="margin: 2px 10px 0 -20px" id="statusRadio1" value="1" checked> 启用
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="status" style="margin: 2px 10px 0 -20px" id="statusRadio2" value="0"> 禁用
+                                    </label>
+                                </div>
+                                <div>
+                                    <button id="add-scene-btn" type="button" name="save" class="btn btn-sm btn-primary pull-right m-t-n-xs"><strong>提交</strong>
+                                    </button>
+
+                                 </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <div class="col-md-12">
+        <div class="x_panel tile">
+          <div class="x_title">
+            <h2>场景列表</h2>
+            <ul class="nav navbar-right panel_toolbox">
+              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a class="dropdown-item"
+                           data-toggle="modal"
+                           data-target="#scene-add" >添加场景</a>
+                  </li>
+                     <li><a onclick="updateScene()">修改场景</a>
+                     </li>
+                     <li><a onclick="deleteScene()">删除场景</a>
+                     </li>
+                </ul>
+
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+          <div class="x_content">
+                  <table id="sceneTable">
+
+                  </table>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super }}
+    <script src="/static/build/js/table.js"></script>
+    <script src="/static/build/js/scene/scenes.js"></script>
+    <script src="/static/build/js/scene/add_scene.js"></script>
+    <script src="/static/build/js/scene/edit_scene.js"></script>
+    <script src="/static/build/js/scene/delete_scene.js"></script>
+{% endblock javascripts %}
+
+
+
