@@ -1,9 +1,9 @@
 from django.conf.urls import url, include 
 
-from . import views
-from . import scene
-from . import room
-from . import device
+from .view import views
+from .view import scene
+from .view import room
+from .view import device
 
 urlpatterns = [
     # Matches any html file - to be used for gentella
@@ -30,7 +30,7 @@ urlpatterns = [
     url(r'room/getRoom/', room.room_get, name='room_get'),
     url(r'room/update/', room.room_update, name='room_update'),
     url(r'room/delete/', room.room_delete, name='room_delete'),
-
+    url(r'room/list/', room.room_list, name='room_list'),
 
 
     url(r'scene/manage/', scene.scene_manage, name='scene_manage'),
@@ -46,7 +46,12 @@ urlpatterns = [
     url(r'device/getDevice/', device.device_get, name='device_get'),
     url(r'device/update/', device.device_update, name='device_update'),
     url(r'device/delete/', device.device_delete, name='device_delete'),
+    url(r'device/upload/', device.device_upload, name='device_upload'),
 
+
+    url(r'device/alarm/', device.device_alarm, name='device_alarm'),
+    url(r'device/fire/', device.device_fire, name='device_fire'),
+    url(r'device/smoke/', device.device_smoke, name='device_smoke'),
 
 
 

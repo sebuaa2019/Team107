@@ -1,12 +1,11 @@
-from . import models
-from .forms import UserForm, RegisterForm, EditForm
+from .. import models
+from ..forms import UserForm, RegisterForm, EditForm
 from django.shortcuts import render, redirect
 import hashlib
 from django.template import loader
 from django.http import HttpResponse
 from django.core import serializers
 import json
-
 
 
 def room_add(request):
@@ -50,3 +49,11 @@ def room_delete(request):
     for i in id_list:
         models.Room.objects.get(id=i).delete()
     return HttpResponse(200)
+
+
+def room_list(request):
+    rooms = models.Room.objects.all()
+    room_l = []
+    for r in rooms:
+        room_l.append(r.__str__())
+    return HttpResponse(json.dumps(room_l), content_type='application/json; charset=utf-8')

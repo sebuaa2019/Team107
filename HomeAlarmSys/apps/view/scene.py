@@ -1,5 +1,5 @@
-from . import models
-from .forms import UserForm, RegisterForm, EditForm
+from .. import models
+from ..forms import UserForm, RegisterForm, EditForm
 from django.shortcuts import render, redirect
 import hashlib
 from django.template import loader

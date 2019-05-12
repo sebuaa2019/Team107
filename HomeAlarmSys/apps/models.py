@@ -23,7 +23,7 @@ class Room(models.Model):
     room_name = models.CharField(verbose_name="房间名称", max_length=20)
 
     def __str__(self):
-        return json.dumps({"id": self.id, "room_name": self.room_name})
+        return {"id": self.id, "room_name": self.room_name}
 
     class Meta:
         verbose_name = "房间"
@@ -38,15 +38,25 @@ class Device(models.Model):
     arg = models.FloatField(verbose_name="参数值", default=0)
 
     def __str__(self):
-        return json.dumps({"id": self.device_id,
-                           "device_name": self.device_name,
-                           "status": self.status,
-                           "arg_type": self.arg_type,
-                           "arg": self.arg
-                           })
+        return {"id": self.device_id,
+                "device_name": self.device_name,
+                "status": self.status,
+                "arg_type": self.arg_type,
+                "arg": self.arg,
+                "room_id": "",
+                }
 
     class Meta:
         verbose_name = "设备"
+        verbose_name_plural = verbose_name
+
+
+class RoomDevice(models.Model):
+    room_id = models.IntegerField(verbose_name="房间id")
+    device_id = models.IntegerField(verbose_name="设备id")
+
+    class Meta:
+        verbose_name = "房间设备分配表"
         verbose_name_plural = verbose_name
 
 

@@ -1,53 +1,98 @@
-// http://www.aaa14home.top/sensor
-// http://www.aaa14home.top/room
-// http://www.aaa14home.top/room_sensor
-// http://www.aaa14home.top/sensor_arg
-// http://www.aaa14home.top/device
-// http://www.aaa14home.top/device_arg
-
-
-
-
-{    "RoomID":  0,
-     "Sensors":
-          [ {
-              "SensorID:" : 1,
-              "SensorType" : "Alarm",
-              "SensorValueType" : "Bool",
-              "SensorValueRange" : "0~1",
-            },
-            {
-              "SensorID:" : 2,
-              "SensorType" : "Temperature",
-              "SensorValueType" : "Integer",
-              "SensorValueRange" : "-30~100",
+{   "sensors" : [
+        {
+            "aid" : 3,
+            "name" : "Temperature-Room1",
+            "type" : {
+                "valuetype" : 0,
+                "valuerange" : "-10~100",
+                "currentvalue" : 26
             }
-          ],
-          "SmartDevices":
-          [ {
-              "DeviceID" : 1,
-              "DeviceType" : "light",
-              "DeviceStatusType" : "Bool",
-              "DeviceStatusRange" : "0~1",
-            },
-            {
-              "DeviceID" : 2,
-              "DeviceType" : "Aircon",
-              "DeviceStatusType" :
-              [ {
-                "PowerStatus" : "0~1",
-                "TempStatue" : "17~37",
-                }
-              ]
-            },
-            {
-              "DeviceID" : 3,
-              "DeviceType" : "Relay",
-              "DeviceStatusType" :
-              [ {
-                "PowerStatus" : "0~1"
-                }
-              ]
+        },
+        {
+            "aid" : 4,
+            "name" : "Humidity-Room1",
+            "type" : {
+                "valuetype" : 0,
+                "valuerange" : "-10~100",
+                "currentvalue" : 26
             }
-          ]
+        },
+        {
+            "aid" : 5,
+            "name" : "Body-Sensor-Room1",
+            "type" : {
+                "valuetype" : 1,
+                "currentvalue" : true
+            }
+        },
+        {
+            "aid" : 6,
+            "name" : "Fire-Sensor-Room1",
+            "type" : {
+                "valuetype" : 1,
+                "currentvalue" : false
+            }
+        }
+    ],
+    "accessories":[
+        {
+            "aid" : 7,
+            "name" : "Desk-Lamp-Room2",
+            "iids":[
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                },
+                {
+                    "iid" : 11,
+                    "valuetype" : 0,
+                    "currentvalue" : 50
+                },
+                {
+                    "iid" : 12,
+                    "valuetype" : 0,
+                    "currentvalue" : 99
+                },
+                {
+                    "iid" : 13,
+                    "valuetype" : 0,
+                    "currentvalue" : 49
+                }
+            ]
+        },
+        {
+            "aid" : 8,
+            "name" : "Overall-Alarm-Control-Room2",
+            "iids" : [
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                }
+            ]
+        },
+        {
+            "aid" : 9,
+            "name" : "Body-Sensor-Alarm-Control-Room2",
+            "iids" : [
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                }
+            ]
+        },
+        {
+            "aid" : 10,
+            "name" : "Fire-Alarm-Control-Room2",
+            "iids" : [
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                }
+            ]
+        }
+    ]
 }

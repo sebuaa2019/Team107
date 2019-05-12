@@ -1,3 +1,5 @@
+
+
 function updateDevice(){
     var selected = $("#deviceTable").bootstrapTable("getSelections");
     var selected_length = selected.length;
@@ -22,6 +24,12 @@ function updateDevice(){
             var device = r;
             $('#add-device-modal-title').html('修改设备');
             $form.find("input[name='device_name']").val(device.device_name);
+            $form.find("input[name='id']").val(device.id);
+            $("#roomSelect").val(device.room_id);
+            console.log(device.room_id);
+            if (device.room_id == ""){
+                $("#roomSelect").val(roomList[0].id);
+            }
             var status = device.status;
             if (status === 1) {
                 $("#statusRadio1").prop("checked", true);

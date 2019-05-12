@@ -1,5 +1,5 @@
-from . import models
-from .forms import UserForm, RegisterForm, EditForm
+from .. import models
+from ..forms import UserForm, RegisterForm, EditForm
 from django.shortcuts import render, redirect
 import hashlib
 from django.template import loader
@@ -108,9 +108,6 @@ def user_table(request):
     for user in all_user:
         user_list.append({'name': user.name, 'email': user.email, 'phone': user.phone})
     return HttpResponse(json.dumps(user_list), content_type='application/json; charset=utf-8')
-
-
-
 
 
 def logout(request):
