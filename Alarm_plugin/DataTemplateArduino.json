@@ -1,0 +1,6 @@
+{
+    "temperature" : 20.0,
+    "humitidy" : 83.0,
+    "occupancy" : 0,    //0 for not detected, 1 for detected
+    "smoke" : 0 //0 for not detected, 1 for detected
+}
