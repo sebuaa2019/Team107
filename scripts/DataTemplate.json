@@ -4,6 +4,7 @@
             "aid" : 5,
             "iid" : 10,
             "name" : "Temperature",
+            "key" : "temperature",
             "type" : {
                 "valuetype" : 0,
                 "valuerange" : "-10~100",
@@ -14,6 +15,7 @@
             "aid" : 5,
             "iid" : 13,
             "name" : "Humidity",
+            "key" : "humidity",
             "type" : {
                 "valuetype" : 0,
                 "valuerange" : "-10~100",
@@ -24,6 +26,7 @@
             "aid" : 5,
             "iid" : 25,
             "name" : "Body-Sensor",
+            "key" : "occupancy",
             "type" : {
                 "valuetype" : 1,
                 "currentvalue" : true
@@ -33,6 +36,7 @@
             "aid" : 5,
             "iid" : 19,
             "name" : "Smoke-Sensor",
+            "key" : "smoke",
             "type" : {
                 "valuetype" : 1,
                 "currentvalue" : false
@@ -82,7 +86,7 @@
             ]
         },
         {
-            "aid" : 4,
+            "aid" : 7,
             "name" : "Overall-Alarm-Control",
             "iids" : [
                 {
