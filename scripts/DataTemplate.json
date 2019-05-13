@@ -1,0 +1,96 @@
+{
+    "sensors" : [
+        {
+            "aid" : 5,
+            "iid" : 10,
+            "name" : "Temperature",
+            "type" : {
+                "valuetype" : 0,
+                "valuerange" : "-10~100",
+                "currentvalue" : 26
+            }
+        },
+        {
+            "aid" : 5,
+            "iid" : 13,
+            "name" : "Humidity",
+            "type" : {
+                "valuetype" : 0,
+                "valuerange" : "-10~100",
+                "currentvalue" : 44
+            }
+        },
+        {
+            "aid" : 5,
+            "iid" : 25,
+            "name" : "Body-Sensor",
+            "type" : {
+                "valuetype" : 1,
+                "currentvalue" : true
+            }
+        },
+        {
+            "aid" : 5,
+            "iid" : 19,
+            "name" : "Smoke-Sensor",
+            "type" : {
+                "valuetype" : 1,
+                "currentvalue" : false
+            }
+        }
+    ],
+    "accessories":[
+        {
+            "aid" : 2,
+            "name" : "Desk-Lamp-1",
+            "iids":[
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                },
+                {
+                    "iid" : 11,
+                    "valuetype" : 0,
+                    "currentvalue" : 50
+                },
+                {
+                    "iid" : 12,
+                    "valuetype" : 0,
+                    "currentvalue" : 1
+                }
+            ]
+        },{
+            "aid" : 3,
+            "name" : "Desk-Lamp-2-pro",
+            "iids":[
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
+                },
+                {
+                    "iid" : 11,
+                    "valuetype" : 0,
+                    "currentvalue" : 50
+                },
+                {
+                    "iid" : 12,
+                    "valuetype" : 0,
+                    "currentvalue" : 85
+                }
+            ]
+        },
+        {
+            "aid" : 4,
+            "name" : "Overall-Alarm-Control",
+            "iids" : [
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : false
+                }
+            ]
+        }
+    ]
+}

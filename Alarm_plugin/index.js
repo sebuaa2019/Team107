@@ -11,7 +11,7 @@ var superagentCache = require("superagent-cache-plugin")(cache);
 module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("homebridge-httpalarm", "HttpAlarm", HttpAlarm);
+    homebridge.registerAccessory("homebridge-httpalarm", "HttpAlarm", HttpAlarm, true);
 }
 function HttpAlarm(log, config) {
     this.log = log;
@@ -28,7 +28,7 @@ function HttpAlarm(log, config) {
     this.cacheExpiration = config["cacheExpiration"] || 60;
 }
 
-HttpTemphum.prototype = {
+HttpAlarm.prototype = {
 
     getRemoteState: function (service, callback) {
         request(this.httpMethod, this.url)
@@ -54,7 +54,7 @@ HttpTemphum.prototype = {
                     );
                     this.humidity = res.body.humidity;
 
-                    this.OccupancyService.setCharacteristic(
+                    this.occupancyService.setCharacteristic(
                         Characteristic.OccupancyDetected,
                         res.body.occupancy
                     );
@@ -125,14 +125,14 @@ HttpTemphum.prototype = {
         this.humidityService = new Service.HumiditySensor(this.name);
         this.humidityService
             .getCharacteristic(Characteristic.CurrentRelativeHumidity)
-            .setProps({ minValue: 0, maxValue: 100 })
+            //.setProps({ minValue: 0, maxValue: 100 })
             .on("get", this.getHumidityState.bind(this));
         services.push(this.humidityService);
 
         this.occupancyService = new Service.OccupancySensor(this.name);
         this.occupancyService
             .getCharacteristic(Characteristic.OccupancyDetected)
-            .setProps({ minValue: 0, maxValue: 1 })
+	    .setProps({ minValue: 0, maxValue: 1 })
             .on("get", this.getOccupancyState.bind(this));
         services.push(this.occupancyService);
 
