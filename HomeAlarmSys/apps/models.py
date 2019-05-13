@@ -32,7 +32,7 @@ class Room(models.Model):
 
 class Device(models.Model):
     device_id = models.IntegerField(verbose_name="设备id", primary_key=True)
-    device_name = models.CharField(verbose_name="设备", max_length=20)
+    device_name = models.CharField(verbose_name="设备", max_length=50)
     status = models.IntegerField(verbose_name="状态", default=0)
     arg_type = models.IntegerField(verbose_name="参数类型", default=0)
     arg = models.FloatField(verbose_name="参数值", default=0)

@@ -1,16 +1,10 @@
-{   "sensors" : [
+{
+    "sensors" : [
         {
-            "aid" : 3,
-            "name" : "Temperature-Room1",
-            "type" : {
-                "valuetype" : 0,
-                "valuerange" : "-10~100",
-                "currentvalue" : 26
-            }
-        },
-        {
-            "aid" : 4,
-            "name" : "Humidity-Room1",
+            "aid" : 5,
+            "iid" : 10,
+            "name" : "Temperature",
+            "key" : "temperature",
             "type" : {
                 "valuetype" : 0,
                 "valuerange" : "-10~100",
@@ -19,15 +13,30 @@
         },
         {
             "aid" : 5,
-            "name" : "Body-Sensor-Room1",
+            "iid" : 13,
+            "name" : "Humidity",
+            "key" : "humidity",
+            "type" : {
+                "valuetype" : 0,
+                "valuerange" : "-10~100",
+                "currentvalue" : 44
+            }
+        },
+        {
+            "aid" : 5,
+            "iid" : 25,
+            "name" : "Body-Sensor",
+            "key" : "occupancy",
             "type" : {
                 "valuetype" : 1,
                 "currentvalue" : true
             }
         },
         {
-            "aid" : 6,
-            "name" : "Fire-Sensor-Room1",
+            "aid" : 5,
+            "iid" : 19,
+            "name" : "Smoke-Sensor",
+            "key" : "smoke",
             "type" : {
                 "valuetype" : 1,
                 "currentvalue" : false
@@ -36,8 +45,8 @@
     ],
     "accessories":[
         {
-            "aid" : 7,
-            "name" : "Desk-Lamp-Room2",
+            "aid" : 2,
+            "name" : "Desk-Lamp-1",
             "iids":[
                 {
                     "iid" : 10,
@@ -52,45 +61,38 @@
                 {
                     "iid" : 12,
                     "valuetype" : 0,
-                    "currentvalue" : 99
+                    "currentvalue" : 1
+                }
+            ]
+        },{
+            "aid" : 3,
+            "name" : "Desk-Lamp-2-pro",
+            "iids":[
+                {
+                    "iid" : 10,
+                    "valuetype" : 1,
+                    "currentvalue" : true
                 },
                 {
-                    "iid" : 13,
+                    "iid" : 11,
                     "valuetype" : 0,
-                    "currentvalue" : 49
+                    "currentvalue" : 50
+                },
+                {
+                    "iid" : 12,
+                    "valuetype" : 0,
+                    "currentvalue" : 85
                 }
             ]
         },
         {
-            "aid" : 8,
-            "name" : "Overall-Alarm-Control-Room2",
+            "aid" : 7,
+            "name" : "Overall-Alarm-Control",
             "iids" : [
                 {
                     "iid" : 10,
                     "valuetype" : 1,
-                    "currentvalue" : true
-                }
-            ]
-        },
-        {
-            "aid" : 9,
-            "name" : "Body-Sensor-Alarm-Control-Room2",
-            "iids" : [
-                {
-                    "iid" : 10,
-                    "valuetype" : 1,
-                    "currentvalue" : true
-                }
-            ]
-        },
-        {
-            "aid" : 10,
-            "name" : "Fire-Alarm-Control-Room2",
-            "iids" : [
-                {
-                    "iid" : 10,
-                    "valuetype" : 1,
-                    "currentvalue" : true
+                    "currentvalue" : false
                 }
             ]
         }
