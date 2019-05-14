@@ -6,9 +6,12 @@ import random
 
 key = '031-45-155'
 ip = 'http://192.168.50.69'
-server_url = ''
+server_url = 'http://39.106.138.175/device/upload/'
 port = 39000
 headers = {'Content-Type': 'application/json'}
+occupancy_text = "主人SAMA, 你家可能被偷了( ´_ゝ｀)" + str(random.random())
+smoke_text = "主人SAMA, 你家可能着火了( ´_ゝ｀)" + str(random.random())
+server_chan_url = "https://sc.ftqq.com/SCU37298T847874b7bf139ffb4081081f070bcbbc5c0bc8a6a0078.send?"
 
 # In[]
 with open('./DataTemplate.json') as f:
@@ -17,15 +20,10 @@ with open('./DataTemplate.json') as f:
 while 1:
 
     for i in range(len(load_dict['sensors'])):
-        #url = ip + ':' + str(port) + '/characteristics?id=' + str(load_dict['sensors'][i]['aid']) + '.' + str(load_dict['sensors'][i]['iid'])
-        #r = requests.get(url)
-        #di = json.loads(r.text)
-        #load_dict['accessories'][i]['type']['currentvalue'] = di['characteristics'][0]['value']
         url = ip + ':8000/sensor_db/'
         r = requests.get(url)
         di = json.loads(r.text)
         load_dict['sensors'][i]['type']['currentvalue'] = di[load_dict['sensors'][i]['key']]
-
 
     for i in range(len(load_dict['accessories'])):
         for j in range(len(load_dict['accessories'][i]['iids'])):
@@ -34,13 +32,8 @@ while 1:
             di = json.loads(r.text)
             load_dict['accessories'][i]['iids'][j]['currentvalue'] = di['characteristics'][0]['value']
     
-    # Send to Server
-    #response_server = requests.post(url=server_url, headers=headers, data=json.dumps(load_dict))
-
     # Primary Notification
-    occupancy_text = "主人SAMA, 你家可能被偷了( ´_ゝ｀)" + str(random.random())
-    smoke_text = "主人SAMA, 你家可能着火了( ´_ゝ｀)" + str(random.random())
-    server_chan_url = "https://sc.ftqq.com/SCU37298T847874b7bf139ffb4081081f070bcbbc5c0bc8a6a0078.send?"
+    
     if(load_dict['accessories'][2]['iids'][0]['currentvalue']):
         print("Alarm On")
         if(load_dict['sensors'][2]['type']['currentvalue'] and load_dict['sensors'][3]['type']['currentvalue']):
@@ -60,4 +53,19 @@ while 1:
             print('Fire Alarm Triggered')
     else:
         print("Alarm Off")
+
+    # Send to Server
+    response_server = requests.post(url=server_url, headers=headers, data=json.dumps(load_dict))
     time.sleep(3)
+# In[]
+    # Status Refresh
+    # Alarm Switch 
+    Raspberry_headers = {'authorization': key}
+    Raspberry_url = 'http://192.168.50.69:39000/characteristics'
+    on_data = '{"characteristics":[{"aid":7,"iid":10,"value":true,"status":0}]}'
+    off_data = '{"characteristics":[{"aid":7,"iid":10,"value":false,"status":0}]}'
+    ServerResponse_dict = json.loads(response_server.text)
+    if(ServerResponse_dict['sensors'][2]['type']['currentvalue']):
+        requests.put(url=Raspberry_url,headers=Raspberry_headers,data=on_data)
+    else:
+        requests.put(url=Raspberry_url,headers=Raspberry_headers,data=off_data)
