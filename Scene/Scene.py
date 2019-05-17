@@ -147,6 +147,10 @@ class lamp_control_service_2(ControlService):
         data = '{"characteristics":[{"aid":' + str(self.aid) + ',"iid":' + str(self.iid) + ',"value":' + str(value).lower() + ',"status":0}]}'
         r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
 
+class trigger():
+    def __init__(self, condition, ):
+        
+
 def setup():
     ReadServices = []
     ReadServices.append(time_service())
@@ -163,5 +167,6 @@ def setup():
     ControlServices.append(lamp_control_service_1)
     ControlServices.append(lamp_control_service_2)
 
-def SceneLoop():
-    with open(./)
+def SceneLoop(scenes):
+    for i in range(len(scenes)):
+        scenes[i]

@@ -3,1545 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/cropper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/prod-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/prod-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/prod-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/prod-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/prod-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/images/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/GruntFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-af-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-AE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-BH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-DZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-EG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-IQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-JO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-KW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-LB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-LY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-MA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-OM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-QA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-SA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-TN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ar-YE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-az-Cyrl-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-az-Latn-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-be-BY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-bg-BG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-bs-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ca-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-cs-CZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-cy-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-da-DK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-de-AT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-de-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-de-LI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-de-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-dv-MV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-029.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-AU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-BZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-IE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-JM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-PH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-TT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-US.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-en-ZW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-AR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-CL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-CO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-CR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-DO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-GT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-HN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-NI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-PA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-PR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-PY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-SV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-UY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-es-VE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-et-EE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-eu-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fa-IR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fi-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fo-FO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-fr-MC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-gl-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-gu-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-he-IL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-hi-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-hr-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-hr-HR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-hu-HU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-hy-AM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-id-ID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-is-IS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-it-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ka-GE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-kk-KZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-kn-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ko-KR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-kok-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ky-KG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-lt-LT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-lv-LV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-mi-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-mk-MK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-mn-MN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-mr-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ms-BN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ms-MY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-mt-MT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-nb-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-nl-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-nl-NL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-nn-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ns-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-pa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-pt-PT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-quz-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-quz-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-quz-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ro-RO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-se-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-se-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-se-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sk-SK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sl-SI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sma-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sma-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-smj-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-smj-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-smn-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sms-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sq-AL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sr-Cyrl-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sr-Cyrl-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sr-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sr-Latn-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sv-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-sw-KE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-syr-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ta-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-te-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-th-TH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-tn-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-tr-TR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-tt-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-uk-UA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-ur-PK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-uz-Cyrl-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-uz-Latn-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-vi-VN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-xh-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-HK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-MO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-SG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zu-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/af-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-AE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-BH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-DZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-EG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-IQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-JO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-KW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-LB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-LY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-MA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-OM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-QA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-SA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-TN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ar-YE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/az-Cyrl-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/az-Latn-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/be-BY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/bg-BG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/bs-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ca-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/cs-CZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/cy-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/da-DK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/de-AT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/de-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/de-LI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/de-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/dv-MV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-029.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-AU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-BZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-IE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-JM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-PH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-TT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/en-ZW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-AR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-CL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-CO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-CR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-DO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-GT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-HN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-NI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-PA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-PR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-PY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-SV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-UY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/es-VE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/et-EE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/eu-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fa-IR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fi-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fo-FO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/fr-MC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/gl-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/gu-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/he-IL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/hi-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/hr-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/hr-HR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/hu-HU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/hy-AM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/id-ID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/is-IS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/it-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ka-GE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/kk-KZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/kn-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ko-KR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/kok-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ky-KG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/lt-LT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/lv-LV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/mi-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/mk-MK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/mn-MN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/mr-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ms-BN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ms-MY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/mt-MT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/nb-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/nl-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/nl-NL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/nn-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ns-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/pa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/pt-PT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/quz-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/quz-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/quz-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ro-RO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/se-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/se-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/se-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sk-SK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sl-SI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sma-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sma-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/smj-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/smj-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/smn-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sms-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sq-AL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sr-Cyrl-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sr-Cyrl-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sr-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sr-Latn-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sv-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/sw-KE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/syr-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ta-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/te-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/th-TH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/tn-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/tr-TR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/tt-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/uk-UA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/ur-PK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/uz-Cyrl-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/uz-Latn-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/vi-VN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/xh-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zh-HK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zh-MO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zh-SG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/build/i18n/zu-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/coverage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/core-prototypes.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/core.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/extras.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/format_parser.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/i18n.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/parser.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/parsing_grammar.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/parsing_operators.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/parsing_translator.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/sugarpak.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/time_period.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/core/time_span.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov-report/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/reports/lcov.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/core-prototypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/extras.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/format_parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/parsing_grammar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/parsing_operators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/parsing_translator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/sugarpak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/time_period.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/core/time_span.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/af-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-AE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-BH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-DZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-EG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-IQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-JO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-KW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-LB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-LY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-MA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-OM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-QA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-SA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-TN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ar-YE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/az-Cyrl-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/az-Latn-AZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/be-BY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/bg-BG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/bs-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ca-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/cs-CZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/cy-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/da-DK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/de-AT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/de-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/de-LI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/de-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/dv-MV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-029.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-AU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-BZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-GB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-IE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-JM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-PH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-TT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/en-ZW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-AR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-CL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-CO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-CR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-DO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-GT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-HN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-NI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-PA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-PR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-PY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-SV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-UY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/es-VE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/et-EE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/eu-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fa-IR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fi-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fo-FO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-CA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-LU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/fr-MC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/gl-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/gu-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/he-IL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/hi-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/hr-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/hr-HR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/hu-HU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/hy-AM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/id-ID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/is-IS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/it-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ka-GE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/kk-KZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/kn-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ko-KR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/kok-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ky-KG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/lt-LT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/lv-LV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/mi-NZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/mk-MK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/mn-MN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/mr-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ms-BN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ms-MY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/mt-MT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/nb-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/nl-BE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/nl-NL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/nn-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ns-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/pa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/pt-PT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/quz-BO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/quz-EC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/quz-PE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ro-RO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sa-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/se-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/se-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/se-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sk-SK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sl-SI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sma-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sma-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/smj-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/smj-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/smn-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sms-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sq-AL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sr-Cyrl-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sr-Cyrl-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sr-Latn-BA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sr-Latn-CS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sv-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/sw-KE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/syr-SY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ta-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/te-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/th-TH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/tn-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/tr-TR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/tt-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/uk-UA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/ur-PK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/uz-Cyrl-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/uz-Latn-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/vi-VN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/xh-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zh-HK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zh-MO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zh-SG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/DateJS/src/i18n/zu-ZA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.colVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.colVis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.flash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.flash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.html5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/buttons.print.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/dataTables.buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-buttons/js/dataTables.buttons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/js/dataTables.keyTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/js/dataTables.responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-responsive/js/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/js/dataTables.scroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net-scroller/js/dataTables.scroller.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/datatables.net/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/REGIONS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/create/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/create/config/continent.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/create/config/new-york.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/create/config/syria.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/create/jqvmap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/jquery.vmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/jquery.vmap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/jqvmap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/jqvmap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.africa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.asia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.australia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.europe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.north-america.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/continents/jquery.vmap.south-america.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.algeria.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.argentina.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.brazil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.canada.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.europe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.france.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.germany.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.greece.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.iran.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.iraq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.russia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.tunisia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.turkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.usa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/dist/maps/jquery.vmap.world.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/algeria.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/argentina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/brazil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/continents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/europe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/france.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/germany.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/greece.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/globe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/marker/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/images/tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/inactive_regions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/iran.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/iraq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/labels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/multi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/pins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/pins_custom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/responsive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/russia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/touch_detect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/tunisia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/turkey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/usa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/examples/world.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/bump.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/changelog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/clean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/qunit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/grunt/uglify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/Base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/arrayToRgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/getColor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/rgbToArray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/setColors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/setMax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/setMin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/setNormalizeFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/vectorAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/vectorLength.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/vectorMult.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/vectorSubtract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/ColorScale/vectorToNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/applyTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/bindZoomButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/deselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/getCountryId.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/getPin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/getPinId.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/getPins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/isSelected.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/makeDraggable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/placePins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/positionPins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/removePin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/removePins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/selectIndex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setBackgroundColor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setColors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setNormalizeFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setScale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setScaleColors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/setValues.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/unhighlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/zoomIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/JQVMap/zoomOut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas/applyTransformParams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas/createGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas/createPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas/pathSvgToVml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jqvmap/src/VectorCanvas/setSize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/DOCS-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/LICENSE-MIT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/affix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/js/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/alerts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/badges.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/bootstrap.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/breadcrumbs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/button-groups.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/carousel.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/close.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/code.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/component-animations.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/dropdowns.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/glyphicons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/input-groups.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/jumbotron.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/list-group.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/media.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/modals.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/navbar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/navs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/normalize.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/pager.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/pagination.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/panels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/popovers.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/print.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/progress-bars.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/responsive-utilities.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/tables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/thumbnails.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/tooltip.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/type.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/utilities.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/bootstrap/less/wells.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/expect.js/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/expect.js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/expect.js/support/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/MIT-LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/parseJSON.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/defaultDisplay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/var/isHidden.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/var/rmargin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/data/accepts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/data/var/data_priv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/data/var/data_user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/intro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/outro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/rnotwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/strundefined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/media/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/mocha.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/mocha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/mocha/scripts/ensure-compatible-npm.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/sinonjs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/sinonjs/sinon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/uwidget/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/uwidget/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/uwidget/uwidget.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/uwidget/uwidget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/bower_components/uwidget/uwidget.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/al.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/cs.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/de.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/el.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/en.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/fi.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/fr.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/he.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/hr.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/id.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/it.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/lv.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ms.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/nl.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/pt-pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ro.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ru.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/sv.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/uk.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/zh_cn.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/zh_cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/i18n/zh_tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/parsley.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/parsley.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/parsley.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/dist/parsley.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/gulpfile.babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/plugin/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/validator/comparison.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/validator/dateiso.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/validator/luhn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/validator/notequalto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/extra/validator/words.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/al.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/cs.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/de.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/el.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/en.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/fi.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/fr.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/he.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/hr.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/id.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/it.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/lv.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ms.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/nl.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/pt-pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ro.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ru.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/sv.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/uk.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/zh_cn.extra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/zh_cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/i18n/zh_tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/abstract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/defaults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/factory/constraint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/field.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/multiple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/pubsub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/remote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/validator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/parsley/validator_registry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/parsleyjs/src/vendor/inputevent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/build/pdfmake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/build/pdfmake.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/build/pdfmake.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pdfmake/build/vfs_fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.jshintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/css/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/css/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/dist/js/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/basics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/disabled-mode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/disabled-results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/hide-search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/localization-rtl-diacritics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/matcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/multiple-max.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/placeholders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/programmatic-control.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/themes-templating-responsive-design.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/examples/tokenizer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/ga.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/js-source-states.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/nav/announcements-4.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/nav/examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/nav/options-old.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/nav/options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/navigation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/notice-previous.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/adapters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/backwards-compatibility.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/core-options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/dropdown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options-old/setting-default-options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility/initial-selection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility/introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility/matcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility/query-function.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/compatibility/text-input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/core.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/core/amd-support.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/core/data-attributes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/core/options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/data/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/data/array.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/data/select.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/dropdown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/dropdown/filtering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/dropdown/placement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/dropdown/selections.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/dropdown/tagging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/events/internal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/events/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/not-written.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/selections.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/selections/clearing-selections.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/selections/multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/selections/placeholder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/options/selections/templating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_includes/social-buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_layouts/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_anchorjs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_dl-panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_examples.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_featurette.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_hamburger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_prettify.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_result-repository.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_sidenav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_social.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_syntax-highlighting.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_breadcrumbs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_button-groups.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_component-animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_glyphicons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_input-groups.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_navs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_pager.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_popovers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_print.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_progress-bars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_responsive-embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_responsive-utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_scaffolding.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_thumbnails.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/_wells.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_center-block.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_opacity.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/_sass/vendor/font-awesome/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/announcements-4.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/community.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/css/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/css/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/css/s2-docs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/android-chrome-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/android-chrome-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/android-chrome-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/mstile-310x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/images/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/options-old.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/al.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/az.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/co.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ct.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/fl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/hi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/id.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/il.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/la.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/mi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/mn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/mo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/mt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/nv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ny.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/oh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/or.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/pa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ri.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/sc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/tn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/tx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/ut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/va.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/vt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/wa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/wi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/wv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/images/flags/wy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/js/anchor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/js/placeholders.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/docs/vendor/js/prettify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/select2.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/banner.end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/banner.start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/jquery.mousewheel.shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/jquery.select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/jquery.shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/containerCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/dropdownCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/initSelection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/inputData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/matcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/compat/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/maximumInputLength.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/maximumSelectionLength.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/minimumInputLength.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/tags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/data/tokenizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/defaults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/diacritics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/attachBody.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/attachContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/closeOnSelect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/hidePlaceholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/infiniteScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/minimumResultsForSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/selectOnClose.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/dropdown/stopPropagation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/results.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/allowClear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/clickMask.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/eventRelay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/multiple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/single.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/selection/stopPropagation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/translation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/select2/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/wrapper.end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/js/wrapper.start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/_multiple.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/_single.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/classic/_defaults.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/classic/_multiple.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/classic/_single.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/classic/layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/default/_multiple.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/default/_single.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/src/scss/theme/default/layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/a11y/search-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/a11y/selection-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/array-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/base-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/inputData-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/maximumInputLength-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/maximumSelectionLength-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/minimumInputLength-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/select-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/tags-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/data/tokenizer-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/dropdown/dropdownCss-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/dropdown/positioning-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/dropdown/selectOnClose-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/dropdown/stopPropagation-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/integration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/integration/dom-changes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/integration/jquery-calls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/integration/select2-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/options/ajax-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/options/data-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/options/deprecated-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/options/translation-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/options/width-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/results/focusing-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/allowClear-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/containerCss-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/multiple-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/placeholder-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/search-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/single-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/selection/stopPropagation-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/unit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/utils/decorator-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/utils/escapeMarkup-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/vendor/jquery-1.7.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/vendor/qunit-1.23.1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/tests/vendor/qunit-1.23.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/vendors/select2/vendor/jquery-2.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/base_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/e_commerce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form_advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form_buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form_upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form_validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/form_wizards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/media_gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/pricing_tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/project_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/tables_dynamic.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1607,7 +68,7 @@
     <session id="156718619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="5" />
@@ -1622,7 +83,8 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -1675,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
+            <state relative-caret-position="6675">
               <caret line="267" selection-start-line="267" selection-end-line="267" />
             </state>
           </provider>
@@ -1683,32 +145,26 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2400" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-CN.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/templates/app/base_site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/templates/app/calendar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3354" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -1836,7 +292,6 @@
       <path value="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/package.json" />
       <path value="$PROJECT_DIR$/apps/static/vendors/cropper/package.json" />
       <path value="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/echarts/package.json" />
       <path value="$PROJECT_DIR$/apps/static/vendors/eve/package.json" />
       <path value="$PROJECT_DIR$/apps/static/vendors/flot-spline/package.json" />
       <path value="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/package.json" />
@@ -1850,10 +305,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-59" />
-    <option name="y" value="-59" />
+    <option name="x" value="-60" />
+    <option name="y" value="-60" />
     <option name="width" value="1001" />
-    <option name="height" value="1094" />
+    <option name="height" value="1095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1881,19 +336,6 @@
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
@@ -1996,15 +438,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1302" height="698" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1732" height="940" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29578605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30048078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939904" weight="0.40147328" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939904" weight="0.40127388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5174954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2152,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2173,13 +611,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -2194,19 +626,12 @@
     <entry file="file://$PROJECT_DIR$/apps/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/prod-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/prod-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/images/prod-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/apps/static/images/prod-2.jpg" />
     <entry file="file://$PROJECT_DIR$/apps/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2219,47 +644,35 @@
     <entry file="file://$PROJECT_DIR$/apps/static/images/forward_enabled_hover.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/american-express.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/images/american-express.png" />
     <entry file="file://$PROJECT_DIR$/apps/static/images/back_disabled.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/cropper.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/images/cropper.jpg" />
     <entry file="file://$PROJECT_DIR$/apps/static/images/back_enabled.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/images/user.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/picture.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/paypal.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/images/picture.jpg" />
+    <entry file="file://$PROJECT_DIR$/apps/static/images/paypal.png" />
     <entry file="file://$PROJECT_DIR$/apps/static/images/media.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/images/mastercard.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/project_detail.html" />
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/form_upload.html" />
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-xh-ZA.js" />
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/index.js" />
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/GruntFile.js" />
     <entry file="file://$PROJECT_DIR$/apps/static/images/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/project_detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/images/inbox.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/form_upload.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/templates/app/chartjs2.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -2269,48 +682,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="6675">
           <caret line="267" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-xh-ZA.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/GruntFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/calendar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/images/img.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/templates/app/base_site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        <state relative-caret-position="138">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3354" />
       </provider>
     </entry>
   </component>
