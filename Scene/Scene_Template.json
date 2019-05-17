@@ -1,0 +1,119 @@
+{
+    "scenes":[
+        {
+            "id" : 0,
+            "trigger" : {
+                "readserviceid" : 0,
+                "description" : "time",
+                "condition" : 0,
+                "value" : 16.5
+            },
+            "action" : {
+                "controlserviceid" : 1,
+                "value" : true,
+                "description" : "lamp"
+            }
+        },{
+            "id" : 1,
+            "trigger" : {
+                "readserviceid" : 0,
+                "description" : "time",
+                "condition" : 0,
+                "value" : 16.5
+            },
+            "action" : {
+                "controlserviceid" : 0,
+                "value" : true,
+                "description" : "Alarm switch"
+            }
+        },{
+            "id" : 2,
+            "trigger" : {
+                "readserviceid" : 1,
+                "description" : "tempture",
+                "condition" : 1,
+                "value" : 26
+            },
+            "action" : {
+                "controlserviceid" : 2,
+                "value" : true,
+                "description" : "Alarm switch"
+            }
+        }
+    ],
+    "readservices" : [
+        {
+            "id" : 0,
+            "aid" : 0,
+            "iid" : 0,
+            "name" : "time_service",
+            "allowed_condition" : 0,
+            "description" : "time. allowed_condition 0 for equal and condition 0 for equal"
+        },{
+            "id" : 1,
+            "aid" : 5,
+            "iid" : 10,
+            "allowed_condition" : 1,
+            "description" : "temperature. allowed_condition 1 for less, equal, bigger and 0 for less, 1 for equal, 2 for bigger"
+        },{
+            "id" : 2,
+            "aid" : 5,
+            "iid" : 13,
+            "allowed_condition" : 1,
+            "description" : "humidity. allowed_condition 1 for less, equal, bigger"
+        },{
+            "id" : 3,
+            "aid" : 5,
+            "iid" : 19,
+            "allowed_condition" : 0,
+            "description" : "smoke. allowed_condition 0 for equal"
+        },{
+            "id" : 4,
+            "aid" : 5,
+            "iid" : 25,
+            "allowed_condition" : 0,
+            "description" : "Occupancy. allowed_condition 0 for equal"
+        },{
+            "id" : 5,
+            "aid" : 3,
+            "iid" : 10,
+            "allowed_condition" : 0,
+            "description" : "Lamp power. allowed_condition 0 for equal"
+        },{
+            "id" : 6,
+            "aid" : 2,
+            "iid" : 10,
+            "allowed_condition" : 0,
+            "description" : "Lamp power. allowed_condition 0 for equal"
+        },{
+            "id" : 7,
+            "aid" : 7,
+            "iid" : 10,
+            "allowed_condition" : 0,
+            "description" : "Alarm switch. allowed_condition 0 for equal"
+        }
+    ],
+    "description_read" : "Read-only data, containing time, sensor value and accessory status",
+    "controlservices" : [
+        {
+            "id" : 0,
+            "aid" : 7,
+            "iid" : 10,
+            "allowed_value" : 0,
+            "description" : "Alarm switch. allowed_value 0 for bool"
+        },{
+            "id" : 1,
+            "aid" : 2,
+            "iid" : 10,
+            "allowed_value" : 0,
+            "description" : "Lamp Power. allowed_value 0 for bool"
+        },{
+            "id" : 2,
+            "aid" : 3,
+            "iid" : 10,
+            "allowed_value" : 0,
+            "description" : "Lamp Power. allowed_value 0 for bool"
+        }
+    ],
+    "description_control" : "information to control certain accessory like a lamp(aid, iid, value)"
+}
