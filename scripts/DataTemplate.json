@@ -45,7 +45,7 @@
     ],
     "accessories":[
         {
-            "aid" : 2,
+            "aid" : 8,
             "name" : "Desk-Lamp-1",
             "iids":[
                 {
@@ -65,7 +65,7 @@
                 }
             ]
         },{
-            "aid" : 3,
+            "aid" : 9,
             "name" : "Desk-Lamp-2-pro",
             "iids":[
                 {

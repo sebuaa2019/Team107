@@ -3,10 +3,7 @@ import requests
 import json
 import time
 import random
-
-key = '031-45-155'
-ip = 'http://192.168.50.69'
-#server_url = 'http://39.106.138.175/device/upload/'
+server_url = 'http://39.106.138.175/scene/uploadScene/'
 headers = {'Content-Type': 'application/json'}
 
 # In[]
@@ -19,4 +16,6 @@ while 1:
         response_server = requests.post(purl=server_url, headers=headers, data=json.dumps(load_dict))
         with open('./Scenes.json') as fo:
             fo.write(json.dumps(response_server.text,ensure_ascii=False,indent=2))
+    except:
+        print("SceneToServer: Server no Response")
     time.sleep(30)

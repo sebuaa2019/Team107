@@ -38,14 +38,14 @@
         },
         {
             "id": 5,
-            "aid": 3,
+            "aid": 8,
             "iid": 10,
             "allowed_condition": 0,
             "description": "Lamp power. allowed_condition 0 for equal"
         },
         {
             "id": 6,
-            "aid": 2,
+            "aid": 9,
             "iid": 10,
             "allowed_condition": 0,
             "description": "Lamp power. allowed_condition 0 for equal"
@@ -69,14 +69,14 @@
         },
         {
             "id": 1,
-            "aid": 2,
+            "aid": 8,
             "iid": 10,
             "allowed_value": 0,
             "description": "Lamp Power. allowed_value 0 for bool"
         },
         {
             "id": 2,
-            "aid": 3,
+            "aid": 9,
             "iid": 10,
             "allowed_value": 0,
             "description": "Lamp Power. allowed_value 0 for bool"

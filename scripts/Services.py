@@ -1,6 +1,9 @@
 import requests
 import json
 import time
+
+HB_url = 'http://localhost'
+
 class ReadService():
     def __init__(self):
         self.id = 0
@@ -11,7 +14,7 @@ class ReadService():
     
     def get_value(self):
         try:
-            r = requests.get('localhost:8000/sensor_db/')
+            r = requests.get(HB_url + ':8000/sensor_db/')
             di = json.loads(r.text)
             return di[self.key]
         except:
@@ -26,11 +29,10 @@ class ControlService():
     allowedvalue = 0
     def __init__(self):
         pass
-    
     def set_value(self, value):
         Raspberry_headers = {'authorization': self.key}
-        Raspberry_url = 'http://localhost:39000/characteristics' 
-        data = '{"characteristics":[{"aid":' + str(self.aid) + ',"iid":' + str(self.iid) + ',"value":' + str(value).lower() + ',"status":0}]}'
+        Raspberry_url = HB_url + ':39000/characteristics' 
+        data = '{\"characteristics\":[{\"aid\":' + str(self.aid) + ',\"iid\":' + str(self.iid) + ',\"value\":' + str(value).lower() + ',\"status\":0}]}'
         try:
             r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
@@ -84,44 +86,44 @@ class occupancy_service(ReadService):
 class lamp_service_1(ReadService):
     def __init__(self):
         self.id = 5
-        self.aid = 5
-        self.iid = 25
+        self.aid = 8
+        self.iid = 10
         self.allowercondition = 0
         self.key = "value"
 
     def get_value(self):
-        url = 'localhost:39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
+        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
         r = requests.get(url)
         di = json.loads(r.text)
-        return di[self.key]
+        return di['characteristics'][0][self.key]
 
 class lamp_service_2(ReadService):
     def __init__(self):
         self.id = 6
-        self.aid = 5
-        self.iid = 25
+        self.aid = 9
+        self.iid = 10
         self.allowercondition = 0
         self.key = "value"
 
     def get_value(self):
-        url = 'localhost:39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
+        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
         r = requests.get(url)
         di = json.loads(r.text)
-        return di[self.key]
+        return di['characteristics'][0][self.key]
 
 class alarm_read_service(ReadService):
     def __init__(self):
         self.id = 7
-        self.aid = 5
-        self.iid = 25
+        self.aid = 7
+        self.iid = 10
         self.allowercondition = 0
         self.key = "value"
 
     def get_value(self):
-        url = 'localhost:39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
+        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
         r = requests.get(url)
         di = json.loads(r.text)
-        return di[self.key]
+        return di['characteristics'][0][self.key]
 
 class alarm_control_service(ControlService):
     def __init__(self):
@@ -132,11 +134,11 @@ class alarm_control_service(ControlService):
 class lamp_control_service_1(ControlService):
     def __init__(self):
         self.id = 1
-        self.aid = 2
+        self.aid = 8
         self.iid = 10
 
 class lamp_control_service_2(ControlService):
     def __init__(self):
         self.id = 2
-        self.aid = 3
+        self.aid = 9
         self.iid = 10
