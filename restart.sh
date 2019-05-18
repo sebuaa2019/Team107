@@ -5,17 +5,14 @@ echo "Kill Complete"
 python3 /home/pi/Scripts/GetFromArduino.py 192.168.50.106 &
 sleep 3
 echo "GetFromArduino.py Started"
-python3 /home/pi/AlarmSysLocal/manage.py runserver 0.0.0.0:8000 &
+python3 /home/pi/AlarmSysLocal/manage.py runserver 0.0.0.0:8000 >django.log 2>&1 &
 sleep 7
 echo "Django Started"
-homebridge -P home/pi/plugin_test/homebridge-httpalarm/ -I &
+DEBUG=* homebridge -D -P /home/pi/plugin_test/homebridge-httpalarm/ -I >hombridge.log 2>&1 &
 sleep 20
 echo "homebridge Started"
 python3 /home/pi/Scripts/DataToServer.py &
 sleep 5
 echo "DataToServer.py Started"
-python3 /home/pi/Scripts/SceneToServer.py &
-sleep 30
-echo "SceneToServer.py Started"
 python3 /home/pi/Scripts/Scene.py &
 echo "Scene.py Started"

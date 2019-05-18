@@ -52,11 +52,11 @@ class action():
         return self.control_service.set_value(self.value)
 
 
-def SceneLoop(scenes = scene_dict['scenes']):
-
+def SceneLoop():
     while(1):
         with open('/home/pi/Scripts/Scenes.json', 'r') as f:
             scene_dict = json.load(f)
+            scenes = scene_dict['scenes']
         for i in range(len(scenes)):
             tr = trigger(scenes[i]['trigger']['readserviceid'], scenes[i]['trigger']['condition'], scenes[i]['trigger']['value'])
             ac = action(scenes[i]['action']['controlserviceid'], scenes[i]['action']['value'])
