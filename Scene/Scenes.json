@@ -1,0 +1,45 @@
+{
+    "scenes":[
+        {
+            "id" : 0,
+            "trigger" : {
+                "readserviceid" : 0,
+                "description" : "time",
+                "condition" : 0,
+                "value" : 16.30
+            },
+            "action" : {
+                "controlserviceid" : 1,
+                "value" : true,
+                "description" : "lamp"
+            }
+        },{
+            "id" : 1,
+            "trigger" : {
+                "readserviceid" : 0,
+                "description" : "time",
+                "condition" : 0,
+                "value" : 16.5
+            },
+            "action" : {
+                "controlserviceid" : 0,
+                "value" : true,
+                "description" : "Alarm switch"
+            }
+        },{
+            "id" : 2,
+            "trigger" : {
+                "readserviceid" : 1,
+                "description" : "tempture",
+                "condition" : 1,
+                "value" : 26
+            },
+            "action" : {
+                "controlserviceid" : 2,
+                "value" : true,
+                "description" : "Alarm switch"
+            }
+        }
+    ]
+    
+}
