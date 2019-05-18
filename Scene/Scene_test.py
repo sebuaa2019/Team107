@@ -29,6 +29,8 @@ class trigger():
     
     def isTriggered(self):
         if(self.read_service.allowercondition==0):
+            print(self.read_service.get_value())
+            print(self.value)
             return self.read_service.get_value() == self.value
         else :
             if(self.condition == 0):
@@ -56,6 +58,9 @@ def SceneLoop(scenes = scene_dict['scenes']):
             ac = action(scenes[i]['action']['controlserviceid'], scenes[i]['action']['value'])
             if(tr.isTriggered()):
                 ac.act()
+                print("ACT: Scene[" + str(i) + "]")
+            else:
+                print("DEACT: Scene[" + str(i) + "]")
             del tr
             del ac
         time.sleep(10)

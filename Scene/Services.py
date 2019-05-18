@@ -1,3 +1,6 @@
+import requests
+import json
+import time
 class ReadService():
     def __init__(self):
         self.id = 0
@@ -7,23 +10,33 @@ class ReadService():
         self.key = ''
     
     def get_value(self):
-        r = requests.get('localhost:8000/sensor_db/')
-        di = json.loads(r.text)
-        return di[self.key]
-
+        try:
+            r = requests.get('localhost:8000/sensor_db/')
+            di = json.loads(r.text)
+            return di[self.key]
+        except:
+            print("Local Django not Response")
+            return 0
+        
 class ControlService():
+    id = 0
+    aid = 0
+    iid = 0
+    key = '031-45-155'
+    allowedvalue = 0
     def __init__(self):
-        self.id = 0
-        self.aid = 0
-        self.iid = 0
-        self.key = '031-45-155'
-        self.allowedvalue = 0
+        pass
     
     def set_value(self, value):
         Raspberry_headers = {'authorization': self.key}
         Raspberry_url = 'http://localhost:39000/characteristics' 
         data = '{"characteristics":[{"aid":' + str(self.aid) + ',"iid":' + str(self.iid) + ',"value":' + str(value).lower() + ',"status":0}]}'
-        r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
+        try:
+            r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
+        except:
+            print("HomeBridge not Response")
+            return -1
+        return True
 
 class time_service(ReadService):
     def __init__(self):

@@ -6,7 +6,7 @@
                 "readserviceid" : 0,
                 "description" : "time",
                 "condition" : 0,
-                "value" : 16.30
+                "value" : 14.29
             },
             "action" : {
                 "controlserviceid" : 1,
