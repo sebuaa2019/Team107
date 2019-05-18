@@ -17,11 +17,13 @@ dbnumber.commit()
 while 1:
     try:
         r = requests.get('http://' + str(sys.argv[1]) + ':8080',timeout = 100)
+        data = json.loads(r.text)
+        insert_re = "UPDATE apps_info SET temperature=%s, humidity=%s, occupancy=%s, smoke=%s where id = 1" % (data['temperature'],data['humidity'],data['occupancy'],data['smoke'])
+        cursor.execute(insert_re)
+        dbnumber.commit()
+        time.sleep(1)
     except:
+        print("GetFromArduino.py: Arduino no Response")
         continue
-    data = json.loads(r.text)
-    insert_re = "UPDATE apps_info SET temperature=%s, humidity=%s, occupancy=%s, smoke=%s where id = 1" % (data['temperature'],data['humidity'],data['occupancy'],data['smoke'])
-    cursor.execute(insert_re)
-    dbnumber.commit()
-    time.sleep(1)
+        time.sleep(30)
 dbnumber.close()             #最后关闭数据库连接

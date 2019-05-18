@@ -2,14 +2,14 @@
 ps -ef | grep python3 | cut -c 9-15| xargs kill -s 9
 ps -ef | grep homebridge | cut -c 9-15| xargs kill -s 9
 echo "Kill Complete"
-python3 /home/pi/Scripts/GetFromArduino.py &
-sleep 10
+python3 /home/pi/Scripts/GetFromArduino.py 192.168.50.106 &
+sleep 3
 echo "GetFromArduino.py Started"
 python3 /home/pi/AlarmSysLocal/manage.py runserver 0.0.0.0:8000 &
-sleep 5
+sleep 7
 echo "Django Started"
-DEBUG=* homebridge -D -P home/pi/plugin_test/homebridge-httpalarm/ -I &
-sleep 30
+homebridge -P home/pi/plugin_test/homebridge-httpalarm/ -I &
+sleep 20
 echo "homebridge Started"
 python3 /home/pi/Scripts/DataToServer.py &
 sleep 5

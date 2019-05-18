@@ -6,11 +6,11 @@
                 "readserviceid" : 0,
                 "description" : "time",
                 "condition" : 0,
-                "value" : 14.29
+                "value" : 19.36
             },
             "action" : {
-                "controlserviceid" : 1,
-                "value" : true,
+                "controlserviceid" : 2,
+                "value" : false,
                 "description" : "lamp"
             }
         },{

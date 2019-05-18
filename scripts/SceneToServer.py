@@ -7,7 +7,7 @@ server_url = 'http://39.106.138.175/scene/uploadScene/'
 headers = {'Content-Type': 'application/json'}
 
 # In[]
-with open('./Scenes.json') as f:
+with open('/home/pi/Scripts/Scenes.json') as f:
     load_dict = json.load(f)
 # In[]
 while 1:
@@ -17,5 +17,5 @@ while 1:
         with open('./Scenes.json') as fo:
             fo.write(json.dumps(response_server.text,ensure_ascii=False,indent=2))
     except:
-        print("SceneToServer: Server no Response")
+        print("SceneToServer.py: Server no Response")
     time.sleep(30)

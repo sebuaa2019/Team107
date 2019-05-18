@@ -12,7 +12,7 @@ port = 39000
 headers = {'Content-Type': 'application/json'}
 
 # In[]
-with open('./DataTemplate.json') as f:
+with open('/home/pi/Scripts/DataTemplate.json') as f:
     load_dict = json.load(f)
 # In[]
 while 1:
@@ -23,7 +23,7 @@ while 1:
             di = json.loads(r.text)
             load_dict['sensors'][i]['type']['currentvalue'] = di[load_dict['sensors'][i]['key']]
         except:
-            print("Local Django no Response")
+            print("DataToServer.py: Local Django no Response")
 
     for i in range(len(load_dict['accessories'])):
         try:
@@ -33,7 +33,7 @@ while 1:
                 di = json.loads(r.text)
                 load_dict['accessories'][i]['iids'][j]['currentvalue'] = di['characteristics'][0]['value']
         except:
-            print("HB no Response")
+            print("DataToServer.py: HB no Response")
     # Send to Server
     try:
         response_server = requests.post(url=server_url, headers=headers, data=json.dumps(load_dict))
@@ -46,5 +46,5 @@ while 1:
         else:
             alarm.set_value(False)
     except:
-        print("Server no Response")
+        print("DataToServer.py: Server no Response")
     time.sleep(10)

@@ -1,9 +1,12 @@
 import requests
 import json
 from Services import *
+import requests
+import time
+server_url = 'http://39.106.138.175/scene/uploadScene/'
+headers = {'Content-Type': 'application/json'}
 
-with open('./Scenes.json') as f:
-    scene_dict = json.load(f)
+scene_dict = {}
 
 ReadServices = []
 ControlServices = []
@@ -38,7 +41,7 @@ class trigger():
             elif(self.condition == 2):
                 return self.read_service.get_value() > self.value
             else:
-                print("Error condition")
+                print("Scene.py: Error condition")
 
 class action():
     def __init__(self, controlserviceid, value):
@@ -50,7 +53,10 @@ class action():
 
 
 def SceneLoop(scenes = scene_dict['scenes']):
+
     while(1):
+        with open('/home/pi/Scripts/Scenes.json', 'r') as f:
+            scene_dict = json.load(f)
         for i in range(len(scenes)):
             tr = trigger(scenes[i]['trigger']['readserviceid'], scenes[i]['trigger']['condition'], scenes[i]['trigger']['value'])
             ac = action(scenes[i]['action']['controlserviceid'], scenes[i]['action']['value'])
@@ -58,7 +64,14 @@ def SceneLoop(scenes = scene_dict['scenes']):
                 ac.act()
             del tr
             del ac
-        time.sleep(10)
+        time.sleep(20)
+
+        try:
+            response_server = requests.post(purl=server_url, headers=headers, data=json.dumps(scene_dict))
+            with open('/home/pi/Scripts/Scenes.json', 'w') as fo:
+                fo.write(json.dumps(response_server.text,ensure_ascii=False,indent=2))
+        except:
+            print("Scene.py: SceneToServer Server no Response")
 
 if __name__ == '__main__':
     setup()
