@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/device_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/device_manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/scene_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/scene_manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/view/scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/view/scene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeAlarmSys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeAlarmSys/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +72,7 @@
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="5" />
-          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -93,7 +85,7 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -105,7 +97,7 @@
           <entry key="JavaScript" value="111" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="182" />
+          <entry key="Python" value="183" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -116,7 +108,7 @@
           <entry key="JavaScript" value="5636" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1279" />
-          <entry key="Python" value="14959" />
+          <entry key="Python" value="14962" />
         </counts>
       </usages-collector>
     </session>
@@ -124,18 +116,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/add_device.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="1900">
               <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
             </state>
           </provider>
@@ -149,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="750">
               <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
             </state>
           </provider>
@@ -157,32 +140,23 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/devices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/templates/app/scene_manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
+            <state relative-caret-position="675">
               <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+            <state relative-caret-position="331">
+              <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -190,11 +164,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="1025">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -202,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
+            <state relative-caret-position="1775">
               <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -214,7 +197,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/view/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3029">
+            <state>
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -274,7 +257,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/apps/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/HomeAlarmSys/settings.py" />
         <option value="$PROJECT_DIR$/apps/templates/app/profile.html" />
         <option value="$PROJECT_DIR$/apps/static/vendors/bootstrap-table/src/locale/README.md" />
         <option value="$PROJECT_DIR$/apps/templates/app/tables.html" />
@@ -324,6 +306,7 @@
         <option value="$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js" />
         <option value="$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js" />
         <option value="$PROJECT_DIR$/apps/view/scene.py" />
+        <option value="$PROJECT_DIR$/HomeAlarmSys/settings.py" />
       </list>
     </option>
   </component>
@@ -357,10 +340,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-63" />
-    <option name="y" value="-63" />
+    <option name="x" value="-65" />
+    <option name="y" value="-65" />
     <option name="width" value="1001" />
-    <option name="height" value="1098" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -385,51 +368,7 @@
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,10 +467,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1302" height="698" extended-state="6" />
+    <frame x="-7" y="-7" width="1732" height="940" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27309564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27704328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -545,7 +484,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50060093" side_tool="true" weight="0.40699816" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.55616945" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.555414" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" show_stripe_button="false" weight="0.3296501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -590,9 +529,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="use templates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/static/images/forward_disabled.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/images/forward_enabled.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -723,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,59 +669,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/devices.js">
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/scene_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="1625">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/add_device.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="1900">
           <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/add_scene.js">
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/edit_scene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="750">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/devices.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/templates/app/scene_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="1025">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
+        <state relative-caret-position="1775">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -798,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/view/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3029">
+        <state>
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -807,11 +731,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+        <state relative-caret-position="331">
+          <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
