@@ -22,6 +22,44 @@
                                     <label>场景名：</label>
                                     <input type="text" name="scene_name" placeholder="请输入场景名" class="form-control">
                                 </div>
+
+                                <div class="form-group">
+                                    <label>触发服务</label>
+                                    <select id="triggerSelect" class="form-control" name="tri-service">
+
+                                    </select>
+                                </div>
+
+                                <div class="form-group" id="tri-div">
+                                    <label for="tri-condition">触发条件</label>
+                                    <select id="tri-condition" class="form-control" name="tri-condition">
+                                        <option value=1>等于</option>
+                                        <option value=0>小于</option>
+                                        <option value=2>大于</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>参数：</label>
+                                    <input type="text" name="arg"
+                                           placeholder="请输入具体参数" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>动作服务</label>
+                                    <select id="actionSelect" class="form-control" name="action-service">
+
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="action-val">开关选项</label>
+                                    <select id="action-val" class="form-control" name="of-value">
+                                        <option value=0>关闭</option>
+                                        <option value=1>打开</option>
+                                    </select>
+                                </div>
+
                                 <div class="form-group">
                                     <label class="radio-inline">
                                         <input type="radio" name="status" style="margin: 2px 10px 0 -20px" id="statusRadio1" value="1" checked> 启用

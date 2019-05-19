@@ -39,6 +39,10 @@ urlpatterns = [
     url(r'scene/getScene/', scene.scene_get, name='scene_get'),
     url(r'scene/update/', scene.scene_update, name='scene_update'),
     url(r'scene/delete/', scene.scene_delete, name='scene_delete'),
+    url(r'scene/service/', scene.scene_service, name='scene_service'),
+    url(r'scene/download/', scene.scene_download, name='scene_download'),
+    url(r'scene/serviceList/', scene.service_list, name='service_list'),
+
 
     url(r'device/manage/', device.device_manage, name='device_manage'),
     url(r'device/table/', device.device_table, name='device_table'),

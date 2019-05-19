@@ -64,9 +64,71 @@ class Scene(models.Model):
     scene_name = models.CharField(verbose_name="场景名称", max_length=20)
     status = models.IntegerField(verbose_name="状态", default=0)
 
+    read_service_id = models.IntegerField(verbose_name='只读服务id', default=0)
+    trigger_description = models.CharField(verbose_name='描述', max_length=256)
+    trigger_condition = models.IntegerField(verbose_name='触发条件', default=0)
+    trigger_value = models.FloatField(verbose_name='触发值', default=0.0)
+
+    control_service_id = models.IntegerField(verbose_name='控制服务id', default=0)
+    action_description = models.CharField('描述', max_length=256)
+    action_value = models.BooleanField('动作值', default=False)
+
     def __str__(self):
-        return json.dumps({"id": self.id, "scene_name": self.scene_name, 'status': self.status})
+        return {
+            "id": self.id,
+            "scene_name": self.scene_name,
+            "status": self.status,
+            'trigger': {
+                'readserviceid': self.read_service_id,
+                'condition': self.trigger_condition,
+                'value': self.trigger_value
+            },
+            'action': {
+                'controlserviceid': self.control_service_id,
+                'value': self.action_value,
+            }
+        }
 
     class Meta:
         verbose_name = "场景"
+        verbose_name_plural = verbose_name
+
+
+class ReadService(models.Model):
+    service_id = models.IntegerField(verbose_name='服务id', primary_key=True, default=0)
+    name = models.CharField(verbose_name='name', max_length=100)
+    aid = models.IntegerField(verbose_name="aid")
+    iid = models.IntegerField(verbose_name="iid")
+    allowed = models.IntegerField(verbose_name="允许值")
+    description = models.CharField(verbose_name='描述', max_length=256)
+
+    def __str__(self):
+        return {
+            "id": self.service_id, "aid": self.aid,
+            "iid": self.iid, 'name':self.name,
+            'allowed': self.allowed, 'description': self.description
+        }
+
+    class Meta:
+        verbose_name = "只读服务"
+        verbose_name_plural = verbose_name
+
+
+class ControlService(models.Model):
+    service_id = models.IntegerField(verbose_name='服务id', primary_key=True, default=0)
+    name = models.CharField(verbose_name='name', max_length=100)
+    aid = models.IntegerField(verbose_name="aid")
+    iid = models.IntegerField(verbose_name="iid")
+    allowed = models.IntegerField(verbose_name="允许值")
+    description = models.CharField(verbose_name='描述', max_length=256)
+
+    def __str__(self):
+        return {
+            "id": self.service_id, "aid": self.aid,
+            "iid": self.iid, 'name':self.name,
+            'allowed': self.allowed, 'description': self.description
+        }
+
+    class Meta:
+        verbose_name = "控制服务"
         verbose_name_plural = verbose_name
