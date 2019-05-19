@@ -119,11 +119,15 @@ def scene_service(request):
         name = ser.get('name')
         db_service_update(service_id, aid, iid, allowed, description, name, _type)
 
+
+
+    return HttpResponse(200)
+
+def scene_download(request):
     # 返回场景信息
     scene_list = []
     for sc in models.Scene.objects.all():
         scene_list.append(sc.__str__())
-
     return HttpResponse(json.dumps({'scenes':scene_list}),
                         content_type='application/json; charset=utf-8')
 
