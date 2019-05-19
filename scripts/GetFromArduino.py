@@ -23,7 +23,7 @@ while 1:
         dbnumber.commit()
         time.sleep(1)
     except:
-        print("GetFromArduino.py: Arduino no Response")
+        print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "GetFromArduino.py: Arduino no Response")
         continue
         time.sleep(30)
 dbnumber.close()             #最后关闭数据库连接

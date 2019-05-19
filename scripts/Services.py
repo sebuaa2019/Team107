@@ -18,7 +18,7 @@ class ReadService():
             di = json.loads(r.text)
             return di[self.key]
         except:
-            print("Service.py: Local Django not Response")
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: Local Django not Response")
             return 0
         
 class ControlService():
@@ -36,7 +36,7 @@ class ControlService():
         try:
             r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
-            print("Service.py: HomeBridge not Response")
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: HomeBridge not Response")
             return -1
         return True
 
