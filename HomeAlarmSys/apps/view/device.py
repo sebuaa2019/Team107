@@ -7,6 +7,7 @@ from django.http import HttpResponse
 from django.core import serializers
 import json
 import requests
+import time
 
 URL = 'https://sc.ftqq.com/SCU51140T3ac7e7e2b2032b1a7bf562f03d19d5405cd66313d0f96.send'
 
@@ -88,9 +89,10 @@ def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
 
 
 def alarm_detect():
+    localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发现入侵行为！',
+        'desp': '家中疑似发现入侵行为！'+" message id: "+localtime,
     }
     alarm_control = models.Device.objects.get(device_id="70010")
     body_sensor = models.Device.objects.get(device_id="50025")
@@ -101,9 +103,11 @@ def alarm_detect():
 
 
 def fire_detect():
+    localtime = str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+    #print(localtime)
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发生火灾！',
+        'desp': '家中疑似发生火灾！'+"message id: "+localtime,
     }
     alarm_control = models.Device.objects.get(device_id="70010")
     fire_sensor = models.Device.objects.get(device_id="50019")
