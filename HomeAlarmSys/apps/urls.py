@@ -51,6 +51,8 @@ urlpatterns = [
     url(r'device/update/', device.device_update, name='device_update'),
     url(r'device/delete/', device.device_delete, name='device_delete'),
     url(r'device/upload/', device.device_upload, name='device_upload'),
+    url(r'device/on_off/', device.device_on_off, name='device_on_off'),
+    url(r'device/controlDeviceList/', device.control_device_list, name='device_control_list'),
 
 
     url(r'device/alarm/', device.device_alarm, name='device_alarm'),

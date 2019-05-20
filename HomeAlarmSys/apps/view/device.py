@@ -69,16 +69,19 @@ def device_update(request):
     return HttpResponse(200)
 
 
-def db_device_update(device_id, arg_type, arg, device_name=" "):
+def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
     device = models.Device.objects.filter(device_id=device_id)
     if len(device) == 0:
         device = models.Device.objects.create(device_id=device_id,
                                               arg_type=arg_type,
-                                              arg=arg, device_name=device_name)
+                                              arg=arg,
+                                              device_name=device_name,
+                                              device_type=device_type)
     else:
         device = device[0]
         device.arg_type = arg_type
         device.arg = arg
+        device.device_type = device_type
     device.status = 1
     device.save()
     return
@@ -121,7 +124,7 @@ def device_upload(request):
         device_name = sensor.get('name')
         arg_type = arg_info.get('valuetype')  # 参数类型: 0连续型, 1布尔型
         arg = arg_info.get('currentvalue')  # 参数值
-        db_device_update(sensor_id, arg_type, arg, device_name)
+        db_device_update(sensor_id, arg_type, arg, 0, device_name)
 
     for acc in accessories:
         aid = acc.get('aid')
@@ -132,12 +135,34 @@ def device_upload(request):
             device_id = int(aid) * 10000 + int(iid)
             arg_type = item.get('valuetype')
             arg = item.get('currentvalue')
-            db_device_update(device_id, arg_type, arg, device_name)
+            db_device_update(device_id, arg_type, arg, 1, device_name)
 
     alarm_detect()
     fire_detect()
 
-    return HttpResponse(200)
+    acc_list = []
+    aid_list = []
+    acc_devs = models.Device.objects.filter(device_type=1)
+    for ac in acc_devs:
+        aid_list.append(ac.device_id // 10000)
+
+    aid_list = set(aid_list)
+    for aid in aid_list:
+        ac_dict = {'aid': aid, 'name': '', 'iids': []}
+        for ac in acc_devs:
+            if aid == ac.device_id // 10000:
+                ac_dict['name'] = ac.device_name
+                iid = {'iid': ac.device_id % 10000, 'valuetype': ac.arg_type, 'currentvalue': ac.arg}
+                if ac.arg_type == 1:
+                    if iid['currentvalue'] == 0:
+                        iid['currentvalue'] = False
+                    else:
+                        iid['currentvalue'] = True
+                ac_dict['iids'].append(iid)
+        acc_list.append(ac_dict)
+    #print(acc_list)
+    return HttpResponse(json.dumps({"accessories": acc_list}),
+                        content_type='application/json; charset=utf-8')
 
 
 def device_delete(request):
@@ -158,3 +183,22 @@ def device_fire(request):
 
 def device_smoke(request):
     pass
+
+
+def device_on_off(request):
+    device_id = request.GET.get('id')
+    device = models.Device.objects.filter(device_id=device_id)[0]
+    if device.arg == 1:
+        device.arg = 0
+    else:
+        device.arg = 1
+    device.save()
+    return HttpResponse(200)
+
+
+def control_device_list(request):
+    device_list = []
+    ret = models.Device.objects.filter(device_type=1, arg_type=1)
+    for de in ret:
+        device_list.append(de.__str__())
+    return HttpResponse(json.dumps(device_list), content_type="application/json; charset=utf-8")

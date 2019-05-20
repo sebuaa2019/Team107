@@ -36,6 +36,7 @@ class Device(models.Model):
     status = models.IntegerField(verbose_name="状态", default=0)
     arg_type = models.IntegerField(verbose_name="参数类型", default=0)
     arg = models.FloatField(verbose_name="参数值", default=0)
+    device_type = models.IntegerField(verbose_name='设备类型', default=0)
 
     def __str__(self):
         return {"id": self.device_id,
@@ -43,6 +44,7 @@ class Device(models.Model):
                 "status": self.status,
                 "arg_type": self.arg_type,
                 "arg": self.arg,
+                "device_type": self.device_type,
                 "room_id": "",
                 }
 
