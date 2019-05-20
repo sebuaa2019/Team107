@@ -3,7 +3,7 @@ import json
 from Services import *
 import requests
 import time
-server_url = 'http://39.106.138.175/scene/uploadScene/'
+server_url = 'http://39.106.138.175/scene/download/'
 headers = {'Content-Type': 'application/json'}
 
 scene_dict = {}
@@ -41,7 +41,7 @@ class trigger():
             elif(self.condition == 2):
                 return self.read_service.get_value() > self.value
             else:
-                print("Scene.py: Error condition")
+                print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: Error condition")
 
 class action():
     def __init__(self, controlserviceid, value):
@@ -54,6 +54,7 @@ class action():
 
 def SceneLoop():
     while(1):
+        time.sleep(10)
         with open('/home/pi/Scripts/Scenes.json', 'r') as f:
             scene_dict = json.load(f)
             scenes = scene_dict['scenes']
@@ -64,14 +65,14 @@ def SceneLoop():
                 ac.act()
             del tr
             del ac
-        time.sleep(20)
-
+        time.sleep(10)
         try:
-            response_server = requests.post(purl=server_url, headers=headers, data=json.dumps(scene_dict))
+            #response_server = requests.post(purl=server_url, headers=headers, data=json.dumps(scene_dict))
+            response_server = requests.get(url=server_url)
             with open('/home/pi/Scripts/Scenes.json', 'w') as fo:
-                fo.write(json.dumps(response_server.text,ensure_ascii=False,indent=2))
+                fo.write(response_server.text)
         except:
-            print("Scene.py: SceneToServer Server no Response")
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: SceneToServer Server no Response")
 
 if __name__ == '__main__':
     setup()
