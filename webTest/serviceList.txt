@@ -1,0 +1,52 @@
+url:localhost8000/device/controlDeviceList
+body: null
+
+response:
+[
+    {
+        "id": 20010,
+        "device_name": "Desk-Lamp-1",
+        "status": 1,
+        "arg_type": 1,
+        "arg": 1,
+        "device_type": 1,
+        "room_id": ""
+    },
+    {
+        "id": 30010,
+        "device_name": "Desk-Lamp-2-pro",
+        "status": 1,
+        "arg_type": 1,
+        "arg": 1,
+        "device_type": 1,
+        "room_id": ""
+    },
+    {
+        "id": 70010,
+        "device_name": "Overall-Alarm-Control",
+        "status": 1,
+        "arg_type": 1,
+        "arg": 1,
+        "device_type": 1,
+        "room_id": ""
+    },
+    {
+        "id": 80010,
+        "device_name": "Desk-Lamp-1",
+        "status": 1,
+        "arg_type": 1,
+        "arg": 1,
+        "device_type": 1,
+        "room_id": ""
+    },
+    {
+        "id": 90010,
+        "device_name": "Desk-Lamp-2-pro",
+        "status": 1,
+        "arg_type": 1,
+        "arg": 1,
+        "device_type": 1,
+        "room_id": ""
+    }
+]
+result:返回服务列表正确, 测试通过!

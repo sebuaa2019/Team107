@@ -1,0 +1,101 @@
+url: localhost:8000/scene/service/
+body:
+    {
+    "readservices": [
+        {
+            "id": 0,
+            "aid": 0,
+            "iid": 0,
+            "name": "time_read_service",
+            "allowed_condition": 0,
+            "description": "time. allowed_condition 0 for equal and condition 0 for equal"
+        },
+        {
+            "id": 1,
+            "aid": 5,
+            "iid": 10,
+            "allowed_condition": 1,
+            "name": "temperature_read_service",
+            "description": "temperature. allowed_condition 1 for less, equal, bigger and 0 for less, 1 for equal, 2 for bigger"
+        },
+        {
+            "id": 2,
+            "aid": 5,
+            "iid": 13,
+            "allowed_condition": 1,
+            "name": "humidity_read_service",
+            "description": "humidity. allowed_condition 1 for less, equal, bigger"
+        },
+        {
+            "id": 3,
+            "aid": 5,
+            "iid": 19,
+            "allowed_condition": 0,
+            "name": "smoke_read_service",
+            "description": "smoke. allowed_condition 0 for equal"
+        },
+        {
+            "id": 4,
+            "aid": 5,
+            "iid": 25,
+            "allowed_condition": 0,
+            "name": "occupancy_read_service",
+            "description": "Occupancy. allowed_condition 0 for equal"
+        },
+        {
+            "id": 5,
+            "aid": 8,
+            "iid": 10,
+            "allowed_condition": 0,
+            "name": "lamp_power_read_service_1",
+            "description": "Lamp power. allowed_condition 0 for equal"
+        },
+        {
+            "id": 6,
+            "aid": 9,
+            "iid": 10,
+            "allowed_condition": 0,
+            "name": "lamp_power_read_service_2",
+            "description": "Lamp power. allowed_condition 0 for equal"
+        },
+        {
+            "id": 7,
+            "aid": 7,
+            "iid": 10,
+            "allowed_condition": 0,
+            "name": "alarm_switch_read_service",
+            "description": "Alarm switch. allowed_condition 0 for equal"
+        }
+    ],
+    "description_read": "Read-only data, containing time, sensor value and accessory status",
+    "controlservices": [
+        {
+            "id": 0,
+            "aid": 7,
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "alarm_switch_control_service",
+            "description": "Alarm switch. allowed_value 0 for bool"
+        },
+        {
+            "id": 1,
+            "aid": 8,
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "lamp_power_control_service_1",
+            "description": "Lamp Power. allowed_value 0 for bool"
+        },
+        {
+            "id": 2,
+            "aid": 9,
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "lamp_power_control_service_2",
+            "description": "Lamp Power. allowed_value 0 for bool"
+        }
+    ],
+    "description_control": "information to control certain accessory like a lamp(aid, iid, value)"
+}
+
+response:200
+result:正确, 测试通过!
