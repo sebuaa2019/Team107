@@ -19,6 +19,7 @@ with open('/home/pi/Scripts/DataTemplate.json') as f:
 with open('/home/pi/Scripts/Service_List.json') as f:
     service_dict = json.load(f)
 # In[]
+sendAll = 1
 while 1:
     current_dict = {'sensors':[], 'accessories':[]}
     for i in range(len(data_dict['sensors'])):
@@ -44,7 +45,11 @@ while 1:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "DataToServer.py: HB no Response")
     # Send to Server
     try:
-        response_server = requests.post(url=server_device_url, headers=headers, data=json.dumps(current_dict))
+        if(sendAll == 1):
+            response_server = requests.post(url=server_device_url, headers=headers, data=json.dumps(data_dict))
+            sendAll = 0
+        else:
+            response_server = requests.post(url=server_device_url, headers=headers, data=json.dumps(current_dict))
         current_dict = {'sensors':[], 'accessories':[]}
         # Status Refresh
         # Alarm Switch
@@ -86,4 +91,4 @@ while 1:
         requests.post(url=server_service_url, headers=headers, data=json.dumps(service_dict))
     except:
         print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "DataToServer.py: Service post failed, Server no Response")
-    time.sleep(10)
+    time.sleep(5)
