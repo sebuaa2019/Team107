@@ -1,31 +1,65 @@
 $(function () {
+
     loadControlDevice();
     getAlarmInfo();
     getFireInfo();
-    getSmokeInfo();
 
 });
 
 function getAlarmInfo(){
 
-
     $.ajax({
         url: "/device/alarm/",
         type: 'POST',
+        data:{},
         contentType: 'application/json; charset=utf-8',
         success: function (r) {
-
+            if (r['alarm_control'] === 1)
+                $('#alarm-info').find('h3').html("正在正常工作");
+            else {
+                $('#alarm-info').find('h3').html("注意!报警装置已被关闭!");
+            }
+            if (r['alarm_control'] === 1 && r['alarm_info'] === 1){
+                $('#alarm-info').find('p').html("发现入侵!");
+            }
+            else if (r['alarm_control'] === 1 && r['alarm_info'] === 0){
+                $('#alarm-info').find('p').html("未发现入侵");
+            }
+            else{
+                $('#alarm-info').find('p').html("");
+            }
         }
     })
 }
 
 function getFireInfo(){
 
+    $.ajax({
+        url: "/device/fire/",
+        type: 'POST',
+        data:{},
+        contentType: 'application/json; charset=utf-8',
+        success: function (r) {
+            var $fire = $('#fire-info');
+            if (r['alarm_control'] === 1)
+                $fire.find('h3').html("正在正常工作");
+            else {
+                $fire.find('h3').html("注意!报警装置已被关闭!");
+            }
+            if (r['alarm_control'] === 1 && r['fire_info'] === 1){
+                $fire.find('p').html("疑似发生火灾!");
+            }
+            else if (r['alarm_control'] === 1 && r['fire_info'] === 0){
+                $fire.find('p').html("正常");
+            }
+            else{
+                $fire.find('p').html("");
+            }
+        }
+    })
+
 }
 
-function getSmokeInfo(){
-
-}
 
 
 function loadControlDevice(){

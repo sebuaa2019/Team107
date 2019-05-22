@@ -92,7 +92,7 @@ def alarm_detect():
     localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发现入侵行为！'+" message id: "+localtime,
+        'desp': '家中疑似发现入侵行为！' + " message id: " + localtime,
     }
     alarm_control = models.Device.objects.get(device_id="70010")
     body_sensor = models.Device.objects.get(device_id="50025")
@@ -104,10 +104,10 @@ def alarm_detect():
 
 def fire_detect():
     localtime = str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    #print(localtime)
+    # print(localtime)
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发生火灾！'+"message id: "+localtime,
+        'desp': '家中疑似发生火灾！' + "message id: " + localtime,
     }
     alarm_control = models.Device.objects.get(device_id="70010")
     fire_sensor = models.Device.objects.get(device_id="50019")
@@ -164,7 +164,7 @@ def device_upload(request):
                         iid['currentvalue'] = True
                 ac_dict['iids'].append(iid)
         acc_list.append(ac_dict)
-    #print(acc_list)
+    # print(acc_list)
     return HttpResponse(json.dumps({"accessories": acc_list}),
                         content_type='application/json; charset=utf-8')
 
@@ -178,11 +178,25 @@ def device_delete(request):
 
 
 def device_alarm(request):
-    pass
+    info = {'alarm_control': 0, 'alarm_info': 0}
+    alarm_control = models.Device.objects.get(device_id="70010")
+    body_sensor = models.Device.objects.get(device_id="50025")
+
+    info['alarm_control'] = alarm_control.arg
+    info['alarm_info'] = body_sensor.arg
+
+    return HttpResponse(json.dumps(info), content_type='application/json; charset=utf-8')
 
 
 def device_fire(request):
-    pass
+    info = {'alarm_control': 0, 'fire_info': 0}
+    alarm_control = models.Device.objects.get(device_id="70010")
+    fire_sensor = models.Device.objects.get(device_id="50019")
+
+    info['alarm_control'] = alarm_control.arg
+    info['fire_info'] = fire_sensor.arg
+
+    return HttpResponse(json.dumps(info), content_type='application/json; charset=utf-8')
 
 
 def device_smoke(request):
