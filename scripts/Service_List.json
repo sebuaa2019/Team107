@@ -4,7 +4,7 @@
             "id": 0,
             "aid": 0,
             "iid": 0,
-            "name": "time_read_service",
+            "name": "时间服务",
             "allowed_condition": 0,
             "description": "time. allowed_condition 0 for equal and condition 0 for equal"
         },
@@ -13,7 +13,7 @@
             "aid": 5,
             "iid": 10,
             "allowed_condition": 1,
-            "name": "temperature_read_service",
+            "name": "温度数据",
             "description": "temperature. allowed_condition 1 for less, equal, bigger and 0 for less, 1 for equal, 2 for bigger"
         },
         {
@@ -21,7 +21,7 @@
             "aid": 5,
             "iid": 13,
             "allowed_condition": 1,
-            "name": "humidity_read_service",
+            "name": "湿度数据",
             "description": "humidity. allowed_condition 1 for less, equal, bigger"
         },
         {
@@ -29,7 +29,7 @@
             "aid": 5,
             "iid": 19,
             "allowed_condition": 0,
-            "name": "smoke_read_service",
+            "name": "烟雾传感器数据",
             "description": "smoke. allowed_condition 0 for equal"
         },
         {
@@ -37,7 +37,7 @@
             "aid": 5,
             "iid": 25,
             "allowed_condition": 0,
-            "name": "occupancy_read_service",
+            "name": "人体传感器数据",
             "description": "Occupancy. allowed_condition 0 for equal"
         },
         {
@@ -45,7 +45,7 @@
             "aid": 8,
             "iid": 10,
             "allowed_condition": 0,
-            "name": "lamp_power_read_service_1",
+            "name": "台灯_1电源",
             "description": "Lamp power. allowed_condition 0 for equal"
         },
         {
@@ -53,7 +53,7 @@
             "aid": 9,
             "iid": 10,
             "allowed_condition": 0,
-            "name": "lamp_power_read_service_2",
+            "name": "台灯_2电源",
             "description": "Lamp power. allowed_condition 0 for equal"
         },
         {
@@ -61,7 +61,7 @@
             "aid": 7,
             "iid": 10,
             "allowed_condition": 0,
-            "name": "alarm_switch_read_service",
+            "name": "报警器电源",
             "description": "Alarm switch. allowed_condition 0 for equal"
         }
     ],
@@ -72,7 +72,7 @@
             "aid": 7,
             "iid": 10,
             "allowed_value": 0,
-            "name": "alarm_switch_control_service",
+            "name": "报警器开关",
             "description": "Alarm switch. allowed_value 0 for bool"
         },
         {
@@ -80,7 +80,7 @@
             "aid": 8,
             "iid": 10,
             "allowed_value": 0,
-            "name": "lamp_power_control_service_1",
+            "name": "台灯_1开关",
             "description": "Lamp Power. allowed_value 0 for bool"
         },
         {
@@ -88,7 +88,7 @@
             "aid": 9,
             "iid": 10,
             "allowed_value": 0,
-            "name": "lamp_power_control_service_2",
+            "name": "台灯_2开关",
             "description": "Lamp Power. allowed_value 0 for bool"
         }
     ],
