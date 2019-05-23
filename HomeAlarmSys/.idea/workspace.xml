@@ -3,12 +3,494 @@
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/static/build/js/device/device_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/static/build/js/device/device_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/base_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/00-Getting-Started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/01-Chart-Configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/02-Scales.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/03-Line-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/04-Bar-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/05-Radar-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/06-Polar-Area-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/07-Pie-Doughnut-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/08-Bubble-Chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/09-Advanced.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/docs/10-Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/AnimationCallbacks/progress-bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/bar-horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/bar-multi-axis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/bar-stacked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/bubble.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/combo-bar-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/data_label_combo-bar-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/different-point-sizes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/doughnut.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-customTooltips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-legend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-logarithmic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-multi-axis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-skip-points.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-stacked-area.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line-x-axis-filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/pie-customTooltips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/pie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/polar-area.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/radar-skip-points.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/radar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/scatter-logX.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/scatter-multi-axis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/scatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/timeScale/combo-time-scale.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/timeScale/line-time-point-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/timeScale/line-time-scale.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/samples/tooltip-hooks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.bar.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.bubble.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.doughnut.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.line.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.polarArea.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/controller.radar.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.element.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.helpers.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.layoutService.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.legend.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.plugin.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.scaleService.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/core.title.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/defaultConfig.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/element.arc.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/element.line.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/element.point.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/element.rectangle.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/mockContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/scale.category.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/scale.linear.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/scale.logarithmic.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/scale.radialLinear.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Chart.js/test/scale.time.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/NEWS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/PLUGINS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth-3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth-4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth-5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-eu-gdp-growth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-japan-gdp-growth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/data-usa-gdp-growth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/ajax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/annotating/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-interacting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-multiple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/africa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/antarctica" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/asia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/australasia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/backward" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/etcetera" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/europe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/factory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/iso3166.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/leapseconds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/northamerica" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/pacificnew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/solar87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/solar88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/solar89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/southamerica" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/systemv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/yearistype.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time-zones/tz/zone.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/axes-time/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/basic-options/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/basic-usage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/canvas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/examples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/image/hs-2004-27-a-large-web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/image/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/interacting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/navigate/arrow-down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/navigate/arrow-left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/navigate/arrow-right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/navigate/arrow-up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/navigate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/percentiles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/realtime/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/resize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/selection/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/series-errorbars/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/series-pie/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/series-toggle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/series-types/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/shared/jquery-ui/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/stacking/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/symbols/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/threshold/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/tracking/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/visitors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/examples/zooming/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/Flot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/animate.css/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/animate.css/animate-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/animate.css/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/animate.css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/autosize/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/amd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/amd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/amd/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/browserify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/browserify/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/browserify/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/example/browserify/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/CONTRIBUTORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/clear-formatting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/form-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/formatblock-example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/html-editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/multiple-editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/php/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/examples/simple-toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/cropper/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/devbridge-autocomplete.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/dropzone/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/dropzone/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/echarts/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/echarts/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/echarts/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/eve/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/eve/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/eve/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/eve/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/eve/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fastclick/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fastclick/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fastclick/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fastclick/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot-spline/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot-spline/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot-spline/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot-spline/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.curvedlines/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.curvedlines/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/examples/js/flot/flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/examples/js/flot/stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/examples/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/flot.orderbars/examples/js/vendor/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/font-awesome/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/font-awesome/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/font-awesome/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/font-awesome/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/fullcalendar/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/gauge.js/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/gauge.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/gauge.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/gauge.js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/CHANGES.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/README-zh-Hans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/google-code-prettify/examples/quine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/iCheck/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/iCheck/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/iCheck/icheck.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/history.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/readme.ru.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/more_examples/services/service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/more_examples/smartwizard2-ajax.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/more_examples/smartwizard2-validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/smartwizard2-ajax.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/smartwizard2-multiple.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/smartwizard2-validation.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jQuery-Smart-Wizard/smartwizard2-vertical.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/knob.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-knob/secretplan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-mousewheel/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-mousewheel/ChangeLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-mousewheel/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-mousewheel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-mousewheel/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/Changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/minheader.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/sparkline.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery-sparkline/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/README.tmpl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/bagdes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/browser-support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/callbacks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/credits.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/get-started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/plugin-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/docs/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/LICENSE.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/docs/APPNOTE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/docs/ZIP spec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/docs/references.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/constructor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/constructor_load.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/file_data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/file_name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/file_regex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/filter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/folder_data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/folder_regex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/generate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/load.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/remove.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_jszip/support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/api_zipobject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/css/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples/download-zip-file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples/downloader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples/downloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples/get-binary-files-ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/examples/read-local-file-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/howto/read_zip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/howto/write_zip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/limitations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/documentation/upgrade_guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/jszip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/malihu-custom-scrollbar-plugin/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/malihu-custom-scrollbar-plugin/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/helpers/code/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/api.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/example.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/01_basic.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/02_component.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/03_component_options.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/04_events.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/05_transparent.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/06_horizontal.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/07_inline.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/08_palette.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/09_size.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/10_disabled.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/examples/11_modal.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/includes/social.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/layout.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mjolnic-bootstrap-colorpicker/docs/pages/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/mocha/mocha.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/moment/moment.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/bower.travis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/area-as-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/area.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/bar-colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/bar-no-axes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/days.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/decimal-custom-hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/diagonal-xlabels-bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/diagonal-xlabels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/donut-colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/donut-formatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/donut.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/dst.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/goals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/lib/example.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/lib/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/months-no-smooth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/negative.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/no-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/non-continuous.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/non-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/quarters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/resize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/stacked_bars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/timestamps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/updating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/weeks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/examples/years.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/morris.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/normalize-css/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/License.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/nprogress/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pnotify/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pnotify/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pnotify/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pnotify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/pnotify/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/requirejs/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/requirejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/requirejs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/skycons/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/skycons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/skycons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/skycons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/starrr/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/starrr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/starrr/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/starrr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/starrr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/switchery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/switchery/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/switchery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/switchery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/transitionize/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/transitionize/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/transitionize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/static/vendors/validator/validator.jquery.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/view/device.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/view/device.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +556,12 @@
     <session id="156718619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="7" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="1" />
@@ -92,27 +574,28 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="164" />
-          <entry key="Image" value="17" />
-          <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="131" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="211" />
+          <entry key="HTML" value="165" />
+          <entry key="Image" value="24" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="132" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="216" />
           <entry key="TypeScript" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4985" />
+          <entry key="HTML" value="4990" />
           <entry key="JSON" value="274" />
-          <entry key="JavaScript" value="8185" />
+          <entry key="JavaScript" value="8186" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1418" />
           <entry key="Python" value="16933" />
@@ -123,68 +606,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/apps/static/build/images/forward_enabled_hover.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/device_info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3700">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="156" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/view/device.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/apps/static/build/images/loading.gif">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -287,8 +715,8 @@
         <option value="$PROJECT_DIR$/apps/urls.py" />
         <option value="$PROJECT_DIR$/apps/templates/app/base_site.html" />
         <option value="$PROJECT_DIR$/apps/view/device.py" />
-        <option value="$PROJECT_DIR$/apps/templates/app/index.html" />
         <option value="$PROJECT_DIR$/apps/static/build/js/device/device_info.js" />
+        <option value="$PROJECT_DIR$/apps/templates/app/index.html" />
       </list>
     </option>
   </component>
@@ -298,34 +726,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/apps/static/vendors/Chart.js/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/Flot/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/animate.css/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/autosize/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/bootstrap-daterangepicker/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/bootstrap-progressbar/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/bootstrap-wysiwyg/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/cropper/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/devbridge-autocomplete/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/eve/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/flot-spline/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/ion.rangeSlider/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/jquery-knob/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/jszip/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/morris.js/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/starrr/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/switchery/package.json" />
-      <path value="$PROJECT_DIR$/apps/static/vendors/transitionize/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-72" />
-    <option name="y" value="-72" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-73" />
+    <option name="y" value="-73" />
     <option name="width" value="1001" />
-    <option name="height" value="1107" />
+    <option name="height" value="1109" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -358,33 +763,15 @@
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="autosize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
@@ -398,17 +785,6 @@
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeAlarmSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeAlarmSys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,14 +884,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1732" height="940" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21634616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21935096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939904" weight="0.39779004" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939904" weight="0.39745224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5174954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,7 +899,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50060093" side_tool="true" weight="0.40699816" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.555414" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4522293" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" show_stripe_button="false" weight="0.3296501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -569,99 +944,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="use templates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/static/images/inbox.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/chartjs2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/DateJS/build/date-zh-CN.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/calendar.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/images/img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/invoice.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/map.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/scene/delete_scene.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/templates/app/device_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="96" column="2" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/edit_device.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/vendors/bootstrap-table/dist/bootstrap-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3718" column="4" selection-start-line="3718" selection-start-column="4" selection-end-line="3718" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/delete_room.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/edit_room.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/room/rooms.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/view/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1310655275/time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-452">
@@ -673,16 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,9 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,17 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="838">
           <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#span#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -795,6 +1053,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/view/device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeAlarmSys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -808,43 +1112,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/device_info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="2800">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/view/device.py">
+    <entry file="file://$PROJECT_DIR$/apps/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="198" column="31" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="707">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/view/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/templates/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="156" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/static/build/js/device/device_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="613">
+          <caret line="280" column="44" lean-forward="true" selection-start-line="280" selection-start-column="44" selection-end-line="280" selection-end-column="44" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/back_disabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/back_enabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/back_enabled_hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/forward_disabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/forward_enabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/forward_enabled_hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/flot-spline/.bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/flot-spline/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/flot-spline/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/flot-spline/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/changelog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/.bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/vendors/jquery.easy-pie-chart/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/static/build/images/loading.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
