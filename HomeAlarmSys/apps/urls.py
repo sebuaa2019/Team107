@@ -55,6 +55,8 @@ urlpatterns = [
     url(r'device/alarm/', device.device_alarm, name='device_alarm'),
     url(r'device/smoke/', device.device_smoke, name='device_smoke'),
     url(r'device/fire/', device.device_fire, name='device_fire'),
+    url(r'device/temperature/', device.device_temperature, name='device_temperature'),
+    url(r'device/humidity/', device.device_humidity, name='device_humidity'),
     url(r'device/controlDeviceList/', device.control_device_list, name='device_control_list'),
 
 

@@ -203,6 +203,16 @@ def device_smoke(request):
     pass
 
 
+def device_temperature(request):
+    device_id = request.GET.get('id')
+    device = models.Device.objects.filter(device_id=device_id)[0]
+    return HttpResponse(json.dumps({"temp": device.arg}), content_type='application/json; charset=utf-8')
+
+def device_humidity(request):
+    device_id = request.GET.get('id')
+    device = models.Device.objects.filter(device_id=device_id)[0]
+    return HttpResponse(json.dumps({'humi':device.arg}), content_type='application/json; charset=utf-8')
+
 def device_on_off(request):
     device_id = request.GET.get('id')
     device = models.Device.objects.filter(device_id=device_id)[0]

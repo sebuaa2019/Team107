@@ -777,10 +777,16 @@ function init_gauge() {
 
 
     if ($('#gauge-text').length) {
-
-        chart_gauge_01.maxValue = 6000;
+        chart_gauge_01.maxValue = 80;
         chart_gauge_01.animationSpeed = 32;
-        chart_gauge_01.set(3200);
+        $.ajax({
+           url:'/device/temperature/',
+           data:{'id':'50010'},
+           type:'GET',
+           success: function (r) {
+               chart_gauge_01.set(r['temp']);
+           }
+        });
         chart_gauge_01.setTextField(document.getElementById("gauge-text"));
 
     }
@@ -795,9 +801,18 @@ function init_gauge() {
 
     if ($('#gauge-text2').length) {
 
-        chart_gauge_02.maxValue = 9000;
+        chart_gauge_02.maxValue = 80;
         chart_gauge_02.animationSpeed = 32;
-        chart_gauge_02.set(2400);
+
+        $.ajax({
+           url:'/device/humidity/',
+           data:{'id':'50013'},
+           type:'GET',
+           success: function (r) {
+               chart_gauge_02.set(r['humi']);
+           }
+        });
+
         chart_gauge_02.setTextField(document.getElementById("gauge-text2"));
 
     }
