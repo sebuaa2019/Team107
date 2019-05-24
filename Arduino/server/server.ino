@@ -2,6 +2,7 @@
 #include <EduIntro.h>
 #define buz 6
 #define smoke 3
+//const String ssid="\"PresentationSSID\"";
 const String ssid="\"ASUS\"";
 const String password="\"xuyitaodashabi\"";
 PIR pir(D7);
@@ -30,7 +31,7 @@ void setup()
   pinMode(smoke,INPUT);
   //Serial.println(postRequest.length());
   //mySerial.println("AT+CIFSR");
-  //setwifi();
+  setwifi();
   mySerial.println("AT+CIPMUX=1");
   delay(100);
   mySerial.println("AT+CIPSERVER=1,8080");
