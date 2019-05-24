@@ -781,7 +781,7 @@ function init_gauge() {
         chart_gauge_01.animationSpeed = 32;
         $.ajax({
            url:'/device/temperature/',
-           data:{'id':'50010'},
+           data:{'id':'40010'},
            type:'GET',
            success: function (r) {
                chart_gauge_01.set(r['temp']);
@@ -806,7 +806,7 @@ function init_gauge() {
 
         $.ajax({
            url:'/device/humidity/',
-           data:{'id':'50013'},
+           data:{'id':'50010'},
            type:'GET',
            success: function (r) {
                chart_gauge_02.set(r['humi']);
