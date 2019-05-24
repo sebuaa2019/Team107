@@ -1,4 +1,5 @@
 require('./Devices/temperature');
+require('./Devices/humidity');
 
 var fs = require('fs');
 var packageFile = require("./package.json");
@@ -84,11 +85,11 @@ ArdSenPlatform.prototype = {
 					new Temperature(this.log, this, deviceCfg).forEach(function (accessory, index, arr) {
 						myAccessories.push(accessory);
 					});
-				}/* else if(deviceCfg['type'] == "DeskLamp") {
-                    new DeskLamp(this, deviceCfg).forEach(function(accessory, index, arr){
+				}else if(deviceCfg['type'] == "humidity") {
+                    new Humidity(this.log, this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
-                } else if(deviceCfg['type'] == "ColorLEDStrip") {
+				} /*else if(deviceCfg['type'] == "ColorLEDStrip") {
                     new ColorLEDStrip(this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
