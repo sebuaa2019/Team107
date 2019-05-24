@@ -95,8 +95,8 @@ def alarm_detect():
         'text': 'AAA家庭报警装置提醒',
         'desp': '家中疑似发现入侵行为！' + " message id: " + localtime,
     }
-    alarm_control = models.Device.objects.get(device_id="70010")
-    body_sensor = models.Device.objects.get(device_id="50025")
+    alarm_control = models.Device.objects.get(device_id="80010")
+    body_sensor = models.Device.objects.get(device_id="70010")
     if alarm_control.arg == 1 and body_sensor.arg == 1:
         # print("alarm！")
         r = requests.post(URL, data=data)
@@ -110,8 +110,8 @@ def fire_detect():
         'text': 'AAA家庭报警装置提醒',
         'desp': '家中疑似发生火灾！' + "message id: " + localtime,
     }
-    alarm_control = models.Device.objects.get(device_id="70010")
-    fire_sensor = models.Device.objects.get(device_id="50019")
+    alarm_control = models.Device.objects.get(device_id="80010")
+    fire_sensor = models.Device.objects.get(device_id="60010")
     if alarm_control.arg == 1 and fire_sensor.arg == 1:
         # print("alarm！fire")
         r = requests.post(URL, data=data)
