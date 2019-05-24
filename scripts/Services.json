@@ -1,0 +1,72 @@
+{
+    "controlservices": [
+        {
+            "allowed_value": 0,
+            "aid": 2,
+            "name": "\u5c0f\u7c73\u53f0\u706f-1\u5f00\u5173",
+            "iid": 10
+        },
+        {
+            "allowed_value": 0,
+            "aid": 3,
+            "name": "\u5c0f\u7c73\u53f0\u706f-2\u5f00\u5173",
+            "iid": 10
+        },
+        {
+            "allowed_value": 0,
+            "aid": 8,
+            "name": "\u62a5\u8b66\u5f00\u5173\u5f00\u5173",
+            "iid": 10
+        }
+    ],
+    "readservices": [
+        {
+            "allowed_condition": 0,
+            "name": "\u65f6\u95f4\u670d\u52a1",
+            "aid": 0,
+            "iid": 0
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u6e29\u5ea6\u4f20\u611f\u5668",
+            "aid": 4,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u6e7f\u5ea6\u4f20\u611f\u5668",
+            "aid": 5,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u70df\u96fe\u4f20\u611f\u5668",
+            "aid": 6,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u4eba\u4f53\u4f20\u611f\u5668",
+            "aid": 7,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u5c0f\u7c73\u53f0\u706f-1\u5f00\u5173",
+            "aid": 2,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u5c0f\u7c73\u53f0\u706f-2\u5f00\u5173",
+            "aid": 3,
+            "iid": 10
+        },
+        {
+            "allowed_condition": 0,
+            "name": "\u62a5\u8b66\u5f00\u5173\u5f00\u5173",
+            "aid": 8,
+            "iid": 10
+        }
+    ]
+}
