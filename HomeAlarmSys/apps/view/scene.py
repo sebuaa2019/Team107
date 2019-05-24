@@ -100,9 +100,9 @@ def scene_service(request):
 
     _type = 0
     for ser in read_service:
-        service_id = ser.get('id')
         aid = ser.get('aid')
         iid = ser.get('iid')
+        service_id = int(aid)*10000 + int(iid)
         allowed = ser.get('allowed_condition')
         description = ser.get('description')
         name = ser.get('name')
@@ -111,9 +111,9 @@ def scene_service(request):
 
     _type = 1
     for ser in control_service:
-        service_id = ser.get('id')
         aid = ser.get('aid')
         iid = ser.get('iid')
+        service_id = int(aid) * 10000 + int(iid)
         allowed = ser.get('allowed_value')
         description = ser.get('description')
         name = ser.get('name')

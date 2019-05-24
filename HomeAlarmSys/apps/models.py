@@ -53,6 +53,16 @@ class Device(models.Model):
         verbose_name_plural = verbose_name
 
 
+class DeviceArg(models.Model):
+    device_id = models.IntegerField(verbose_name='设备id')
+    time = models.DateTimeField(verbose_name='数据记录时间', auto_now_add=True)
+    arg = models.IntegerField(verbose_name='设备参数', default=0)
+
+    class Meta:
+        verbose_name = '参数记录'
+        verbose_name_plural = verbose_name
+
+
 class RoomDevice(models.Model):
     room_id = models.IntegerField(verbose_name="房间id")
     device_id = models.IntegerField(verbose_name="设备id")
@@ -107,7 +117,7 @@ class ReadService(models.Model):
     def __str__(self):
         return {
             "id": self.service_id, "aid": self.aid,
-            "iid": self.iid, 'name':self.name,
+            "iid": self.iid, 'name': self.name,
             'allowed': self.allowed, 'description': self.description
         }
 
@@ -127,7 +137,7 @@ class ControlService(models.Model):
     def __str__(self):
         return {
             "id": self.service_id, "aid": self.aid,
-            "iid": self.iid, 'name':self.name,
+            "iid": self.iid, 'name': self.name,
             'allowed': self.allowed, 'description': self.description
         }
 

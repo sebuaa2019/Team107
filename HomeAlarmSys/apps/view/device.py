@@ -83,6 +83,7 @@ def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
         device.arg_type = arg_type
         device.arg = arg
         device.device_type = device_type
+        device.name = device_name
     device.status = 1
     device.save()
     return
@@ -179,8 +180,8 @@ def device_delete(request):
 
 def device_alarm(request):
     info = {'alarm_control': 0, 'alarm_info': 0}
-    alarm_control = models.Device.objects.get(device_id="70010")
-    body_sensor = models.Device.objects.get(device_id="50025")
+    alarm_control = models.Device.objects.get(device_id="80010")
+    body_sensor = models.Device.objects.get(device_id="70010")
 
     info['alarm_control'] = alarm_control.arg
     info['alarm_info'] = body_sensor.arg
@@ -190,8 +191,8 @@ def device_alarm(request):
 
 def device_fire(request):
     info = {'alarm_control': 0, 'fire_info': 0}
-    alarm_control = models.Device.objects.get(device_id="70010")
-    fire_sensor = models.Device.objects.get(device_id="50019")
+    alarm_control = models.Device.objects.get(device_id="80010")
+    fire_sensor = models.Device.objects.get(device_id="60010")
 
     info['alarm_control'] = alarm_control.arg
     info['fire_info'] = fire_sensor.arg
