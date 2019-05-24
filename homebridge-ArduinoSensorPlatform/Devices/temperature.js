@@ -2,13 +2,18 @@ require('./Base');
 
 var request = require("superagent");
 
+// Require and instantiate a cache module
+var cacheModule = require("cache-service-cache-module");
+var cache = new cacheModule({ storage: "session", defaultExpiration: 60 });
+
+var superagentCache = require("superagent-cache-plugin")(cache);
+
 const inherits = require('util').inherits;
 
 var Accessory, PlatformAccessory, Service, Characteristic, UUIDGen;
 
-Temperature = function (platform, config) {
+Temperature = function (log, platform, config) {
     this.init(platform, config);
-
     Accessory = platform.Accessory;
     PlatformAccessory = platform.PlatformAccessory;
     Service = platform.Service;
@@ -17,7 +22,7 @@ Temperature = function (platform, config) {
 
     this.accessories = {};
     if (this.config['Name'] && this.config['Name'] != "") {
-        this.accessories['SensorAccessory'] = new TemperatureService(this);
+        this.accessories['SensorAccessory'] = new TemperatureService(log, this);
     }
     var accessoriesArr = this.obj2array(this.accessories);
 
@@ -26,7 +31,8 @@ Temperature = function (platform, config) {
 
 inherits(Temperature, Base);
 
-TemperatureService = function (dThis) {
+TemperatureService = function (log, dThis) {
+    this.log = log
     this.device = dThis.device;
     this.name = dThis.config['Name'];
     //this.token = dThis.config['token'];
@@ -34,10 +40,13 @@ TemperatureService = function (dThis) {
     this.updatetimere = dThis.config["updatetimer"] || true;
     this.interval = dThis.config["interval"] || 3;
     this.httpMethod = dThis.config["httpMethod"] || "GET";
-    this.cacheExpiration = dThis.config["cacheExpiration"] || 60;
+    this.cacheExpiration = dThis.config["cacheExpiration"] || 10;
     this.url = dThis.config["url"]
     this.Senservice = false;
     this.timer;
+    if(this.updatetimere === true){
+        this.updateTimer();
+    }
 }
 
 TemperatureService.prototype.getTemperatureState = function (callback) {
@@ -56,6 +65,7 @@ TemperatureService.prototype.getTemperatureState = function (callback) {
                     Characteristic.CurrentTemperature,
                     res.body.temperature
                 );
+                this.platform.log.debug("[ArdSenPlatform][" + this.name + "][DEBUG]Temperature - getCurrentTemperature: " + res.body.temperature);
                 callback(null, res.body.temperature);
             }
         }.bind(this));
@@ -76,7 +86,7 @@ TemperatureService.prototype.getServices = function () {
         .getCharacteristic(Characteristic.CurrentTemperature)
         .setProps({ minValue: -273, maxValue: 200 })
         .on('get', this.getTemperatureState.bind(this));
-    services.push(TemperatureServices);
+    services.push(this.TemperatureServices);
     return services;
 }
 
@@ -94,5 +104,10 @@ TemperatureService.prototype.updateTimer = function () {
 }
 
 TemperatureService.prototype.runTimer = function () {
-    this.getTemperatureState(callback);
+    var that = this
+    this.getTemperatureState(function(err, value){
+        //this.Senservice.setCharacteristic(Characteristic.CurrentTemperature).updateValue(value);
+    });
+
+    
 }

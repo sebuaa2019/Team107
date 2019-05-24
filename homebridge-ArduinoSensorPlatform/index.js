@@ -67,7 +67,7 @@ function ArdSenPlatform(log, config, api) {
 
 }
 
-ReYeelightPlatform.prototype = {
+ArdSenPlatform.prototype = {
 	accessories: function (callback) {
 		var myAccessories = [];
 
@@ -76,12 +76,12 @@ ReYeelightPlatform.prototype = {
 		if (deviceCfgs instanceof Array) {
 			for (var i = 0; i < deviceCfgs.length; i++) {
 				var deviceCfg = deviceCfgs[i];
-				if (null == deviceCfg['type'] || "" == deviceCfg['type'] || null == deviceCfg['token'] || "" == deviceCfg['token'] || null == deviceCfg['ip'] || "" == deviceCfg['ip']) {
+				if (null == deviceCfg['type'] || "" == deviceCfg['type'] ||  null == deviceCfg['url'] || "" == deviceCfg['url']) {
 					continue;
 				}
 
 				if (deviceCfg['type'] == "temperature") {
-					new Temperature(this, deviceCfg).forEach(function (accessory, index, arr) {
+					new Temperature(this.log, this, deviceCfg).forEach(function (accessory, index, arr) {
 						myAccessories.push(accessory);
 					});
 				}/* else if(deviceCfg['type'] == "DeskLamp") {
