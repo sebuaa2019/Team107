@@ -1,0 +1,34 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "B8:27:EB:7B:47:EA",
+        "port": 39000,
+        "pin": "031-45-155"
+    },
+    "platforms": [
+        {
+            "platform": "config",
+            "name": "Config",
+            "port": 8080,
+            "sudo": true,
+            "log": {
+                "method": "file",
+                "path": "/var/log/homebridge.log"
+            }
+        },
+        {
+            "platform": "ArdSenPlatform",
+            "deviceCfgs": [
+                {
+                    "type": "temperature",
+                    "Name": "温度传感器",
+                    "url": "http://localhost:8000/sensor_db",
+                    "httpMethod": "GET",
+                    "cacheExpiration": 60,
+                    "updatetimer": true,
+                    "interval": 5
+                }
+            ]
+        }
+    ]
+}
