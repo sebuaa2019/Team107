@@ -1,5 +1,7 @@
 require('./Devices/temperature');
 require('./Devices/humidity');
+require('./Devices/smoke');
+require('./Devices/occupancy');
 
 var fs = require('fs');
 var packageFile = require("./package.json");
@@ -89,15 +91,15 @@ ArdSenPlatform.prototype = {
                     new Humidity(this.log, this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
-				} /*else if(deviceCfg['type'] == "ColorLEDStrip") {
-                    new ColorLEDStrip(this, deviceCfg).forEach(function(accessory, index, arr){
+				}else if(deviceCfg['type'] == "smoke") {
+                    new Smoke(this.log, this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
-                } else if(deviceCfg['type'] == "CeilingLamp") {
-                    new CeilingLamp(this, deviceCfg).forEach(function(accessory, index, arr){
+                }else if(deviceCfg['type'] == "occupancy") {
+                    new Occupancy(this.log, this, deviceCfg).forEach(function(accessory, index, arr){
                         myAccessories.push(accessory);
                     });
-                }*/
+                }
 			}
 			this.log.info("[ArdSenPlatform][INFO]device size: " + deviceCfgs.length + ", accessories size: " + myAccessories.length);
 		}

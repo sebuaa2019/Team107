@@ -4,31 +4,29 @@ import time
 
 HB_url = 'http://localhost'
 
-class ReadService():
+class ReadService:
     def __init__(self):
-        self.id = 0
-        self.aid = 0
-        self.iid = 0
+        self.aid = aid
+        self.iid = iid
         self.allowercondition = 0
-        self.key = ''
-    
+        self.key = 'value'
     def get_value(self):
-        try:
-            r = requests.get(HB_url + ':8000/sensor_db/')
+        if(self.aid == 0):
+            if(self.iid == 0):
+                localtime = time.localtime(time.time())
+                return localtime.tm_hour+(localtime.tm_min/100)
+        else:
+            url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
+            r = requests.get(url)
             di = json.loads(r.text)
-            return di[self.key]
-        except:
-            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: Local Django not Response")
-            return 0
+            return di['characteristics'][0][self.key]
         
-class ControlService():
-    id = 0
-    aid = 0
-    iid = 0
-    key = '031-45-155'
-    allowedvalue = 0
-    def __init__(self):
-        pass
+class ControlService:
+    def __init__(self, aid, iid):
+        self.aid = aid
+        self.iid = iid
+        self.key = '031-45-155'
+        self.allowedvalue = 0
     def set_value(self, value):
         Raspberry_headers = {'authorization': self.key}
         Raspberry_url = HB_url + ':39000/characteristics' 
@@ -47,17 +45,13 @@ class time_service(ReadService):
         self.iid = 0
         self.allowercondition = 0
 
-    def get_value(self):
-        localtime = time.localtime(time.time())
-        return localtime.tm_hour+(localtime.tm_min/100)
-
 class temperature_service(ReadService):
     def __init__(self):
         self.id = 1
         self.aid = 5
         self.iid = 10
         self.allowercondition = 1
-        self.key = "temperature"
+        self.key = "value"
 
 class humidity_service(ReadService):
     def __init__(self):
@@ -65,7 +59,7 @@ class humidity_service(ReadService):
         self.aid = 5
         self.iid = 13
         self.allowercondition = 1
-        self.key = "humidity"
+        self.key = "value"
 
 class smoke_service(ReadService):
     def __init__(self):
@@ -73,7 +67,7 @@ class smoke_service(ReadService):
         self.aid = 5
         self.iid = 19
         self.allowercondition = 0
-        self.key = "smoke"
+        self.key = "value"
 
 class occupancy_service(ReadService):
     def __init__(self):
@@ -81,7 +75,7 @@ class occupancy_service(ReadService):
         self.aid = 5
         self.iid = 25
         self.allowercondition = 0
-        self.key = "occupancy"
+        self.key = "value"
 
 class lamp_service_1(ReadService):
     def __init__(self):
@@ -91,12 +85,6 @@ class lamp_service_1(ReadService):
         self.allowercondition = 0
         self.key = "value"
 
-    def get_value(self):
-        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
-        r = requests.get(url)
-        di = json.loads(r.text)
-        return di['characteristics'][0][self.key]
-
 class lamp_service_2(ReadService):
     def __init__(self):
         self.id = 6
@@ -105,12 +93,6 @@ class lamp_service_2(ReadService):
         self.allowercondition = 0
         self.key = "value"
 
-    def get_value(self):
-        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
-        r = requests.get(url)
-        di = json.loads(r.text)
-        return di['characteristics'][0][self.key]
-
 class alarm_read_service(ReadService):
     def __init__(self):
         self.id = 7
@@ -118,12 +100,6 @@ class alarm_read_service(ReadService):
         self.iid = 10
         self.allowercondition = 0
         self.key = "value"
-
-    def get_value(self):
-        url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
-        r = requests.get(url)
-        di = json.loads(r.text)
-        return di['characteristics'][0][self.key]
 
 class alarm_control_service(ControlService):
     def __init__(self):

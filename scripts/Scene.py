@@ -8,25 +8,12 @@ headers = {'Content-Type': 'application/json'}
 
 scene_dict = {}
 
-ReadServices = []
-ControlServices = []
-
-def setup():
-    ReadServices.append(time_service())
-    ReadServices.append(temperature_service())
-    ReadServices.append(humidity_service())
-    ReadServices.append(smoke_service())
-    ReadServices.append(occupancy_service())
-    ReadServices.append(lamp_service_1())
-    ReadServices.append(lamp_service_2())
-    ReadServices.append(alarm_read_service())
-    ControlServices.append(alarm_control_service())
-    ControlServices.append(lamp_control_service_1())
-    ControlServices.append(lamp_control_service_2())
+#ReadServices = []
+#ControlServices = []
 
 class trigger():
-    def __init__(self, readserviceid, condition, value):
-        self.read_service = ReadServices[readserviceid]
+    def __init__(self, readservice_aid, readservice_iid, condition, value):
+        self.read_service = ReadService(readservice_aid, readservice_iid)
         self.condition = condition
         self.value = value
     
@@ -44,13 +31,12 @@ class trigger():
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: Error condition")
 
 class action():
-    def __init__(self, controlserviceid, value):
-        self.control_service = ControlServices[controlserviceid]
+    def __init__(self, controlservice_aid, controlservice_iid, value):
+        self.control_service = ControlService(controlservice_aid, controlservice_iid)
         self.value = value
     
     def act(self):
         return self.control_service.set_value(self.value)
-
 
 def SceneLoop():
     while(1):
@@ -59,21 +45,16 @@ def SceneLoop():
             scene_dict = json.load(f)
             scenes = scene_dict['scenes']
         for i in range(len(scenes)):
-            tr = trigger(scenes[i]['trigger']['readserviceid'], scenes[i]['trigger']['condition'], scenes[i]['trigger']['value'])
-            ac = action(scenes[i]['action']['controlserviceid'], scenes[i]['action']['value'])
+            tr = trigger(scenes[i]['trigger']['readserviceid']//10000, scenes[i]['trigger']['readserviceid']%10000, scenes[i]['trigger']['condition'], scenes[i]['trigger']['value'])
+            ac = action(scenes[i]['action']['controlserviceid']//10000, scenes[i]['action']['controlserviceid']%10000, scenes[i]['action']['value'])
             if(tr.isTriggered()):
                 ac.act()
             del tr
             del ac
         time.sleep(10)
         try:
-            #response_server = requests.post(purl=server_url, headers=headers, data=json.dumps(scene_dict))
             response_server = requests.get(url=server_url)
             with open('/home/pi/Scripts/Scenes.json', 'w') as fo:
                 fo.write(response_server.text)
         except:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: SceneToServer Server no Response")
-
-if __name__ == '__main__':
-    setup()
-    SceneLoop()
