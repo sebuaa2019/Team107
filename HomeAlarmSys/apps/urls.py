@@ -4,6 +4,7 @@ from .view import views
 from .view import scene
 from .view import room
 from .view import device
+from .view import service
 
 urlpatterns = [
     # Matches any html file - to be used for gentella
@@ -43,6 +44,8 @@ urlpatterns = [
     url(r'scene/download/', scene.scene_download, name='scene_download'),
     url(r'scene/serviceList/', scene.service_list, name='service_list'),
 
+    url(r'service/manage/', service.service_manage, name='service_manage'),
+    url(r'service/table/', service.service_table, name='service_table'),
 
     url(r'device/manage/', device.device_manage, name='device_manage'),
     url(r'device/table/', device.device_table, name='device_table'),

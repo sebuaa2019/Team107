@@ -72,6 +72,10 @@ def device_update(request):
 
 def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
     device = models.Device.objects.filter(device_id=device_id)
+
+    print(arg)
+
+
     if len(device) == 0:
         device = models.Device.objects.create(device_id=device_id,
                                               arg_type=arg_type,

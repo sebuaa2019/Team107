@@ -118,7 +118,9 @@ class ReadService(models.Model):
         return {
             "id": self.service_id, "aid": self.aid,
             "iid": self.iid, 'name': self.name,
-            'allowed': self.allowed, 'description': self.description
+            'allowed': self.allowed,
+            'description': self.description,
+            'type':'read',
         }
 
     class Meta:
@@ -138,7 +140,9 @@ class ControlService(models.Model):
         return {
             "id": self.service_id, "aid": self.aid,
             "iid": self.iid, 'name': self.name,
-            'allowed': self.allowed, 'description': self.description
+            'allowed': self.allowed,
+            'description': self.description,
+            'type': 'control',
         }
 
     class Meta:
