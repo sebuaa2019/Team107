@@ -1,7 +1,7 @@
 $(function () {
 
     var settings = {
-        url : "/service/table/",
+        url : "/service/triTable/",
         pageSize: 10,
 
         columns:[{
@@ -12,11 +12,29 @@ $(function () {
         },{
             field:'name',
             title:'服务名称'
-        },{
-            field:'type',
-            title:'类型'
         }
         ]
     };
-    $TableManager.initTable('serviceTable', settings);
+    $TableManager.initTable('triServiceTable', settings);
+});
+
+
+$(function () {
+
+    var settings = {
+        url : "/service/actTable/",
+        pageSize: 10,
+
+        columns:[{
+            checkbox: true,
+        }, {
+            field:'id',
+            title:'id'
+        },{
+            field:'name',
+            title:'服务名称'
+        }
+        ]
+    };
+    $TableManager.initTable('actServiceTable', settings);
 });

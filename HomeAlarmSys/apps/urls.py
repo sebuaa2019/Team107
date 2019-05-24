@@ -45,7 +45,10 @@ urlpatterns = [
     url(r'scene/serviceList/', scene.service_list, name='service_list'),
 
     url(r'service/manage/', service.service_manage, name='service_manage'),
-    url(r'service/table/', service.service_table, name='service_table'),
+    url(r'service/triTable/', service.service_table_tri, name='service_table_tri'),
+    url(r'service/actTable/', service.service_table_act, name='service_table_act'),
+    url(r'service/act_delete/', service.service_delete_act, name='service_delete_act'),
+    url(r'service/tri_delete/', service.service_delete_tri, name='service_delete_tri'),
 
     url(r'device/manage/', device.device_manage, name='device_manage'),
     url(r'device/table/', device.device_table, name='device_table'),
