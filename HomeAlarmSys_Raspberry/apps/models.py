@@ -58,3 +58,12 @@ class Info(models.Model):
         verbose_name = "开关表"
         verbose_name_plural = verbose_name
 
+class Sensors(models.Model):
+    iid = models.IntegerField()
+    name = models.CharField()
+    aid = models.IntegerField()
+    currentvalue = models.IntegerField()
+    valuetype = models.IntegerField()
+    class Meta:
+        verbose_name = "传感器表"
+        verbose_name_plural = verbose_name
