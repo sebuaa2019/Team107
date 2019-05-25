@@ -1,7 +1,10 @@
 import requests
 import json
 import time
-
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+import sys
 HB_url = 'http://localhost'
 
 with open('/home/pi/Scripts/Services.json') as f:
@@ -44,6 +47,15 @@ class ControlService:
             if(value != present_value['characteristics'][0]['value']):
                 r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
+            dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+            cursor = dbnumber.cursor()
+            dbnumber.commit()
+            cursor.execute('select num  from apps_error where id = 1')
+            result = cursor.fetchone()
+            insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+            cursor.execute(insert_re)
+            dbnumber.commit()
+            dbnumber.close()
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ControlService: HomeBridge no Response")
             return -1
         return True
