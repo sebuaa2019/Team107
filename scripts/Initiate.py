@@ -2,6 +2,11 @@ import os
 import json
 import requests
 import time
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+import sys
+
 
 with open('/home/pi/.homebridge/config.json',encoding = 'utf-8') as f:
     CONFIG = json.load(f)
@@ -70,8 +75,16 @@ for i in range(len(devices)):
                     }
                     Devices['sensors'].append(sen_instance)
             except:
+                dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+                cursor = dbnumber.cursor()
+                dbnumber.commit()
+                cursor.execute('select num  from apps_error where id = 1')
+                result = cursor.fetchone()
+                insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+                cursor.execute(insert_re)
+                dbnumber.commit()
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Initiate.py: HomeBridge no Response")
-
+                dbnumber.close()
 with open('/home/pi/Scripts/Devices.json', 'w', encoding='utf-8') as f:
     json.dump(Devices, f)
 #with open('/home/pi/Scripts/Scenes.json', 'w', encoding='utf-8') as f:
