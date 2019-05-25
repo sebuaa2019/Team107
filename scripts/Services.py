@@ -22,9 +22,12 @@ class ReadService:
                 return localtime.tm_hour+(localtime.tm_min/100)
         else:
             url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
-            r = requests.get(url)
-            di = json.loads(r.text)
-            return di['characteristics'][0][self.key]
+            try:
+                r = requests.get(url)
+                di = json.loads(r.text)
+                return di['characteristics'][0][self.key]
+            except:
+                print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ReadService: HomeBridge no Response")
         
 class ControlService:
     def __init__(self, aid, iid):
@@ -41,7 +44,7 @@ class ControlService:
             if(value != present_value['characteristics'][0]['value']):
                 r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
-            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: HomeBridge not Response")
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ControlService: HomeBridge no Response")
             return -1
         return True
 

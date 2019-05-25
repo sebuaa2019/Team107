@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import time
 
 with open('/home/pi/.homebridge/config.json',encoding = 'utf-8') as f:
     CONFIG = json.load(f)
@@ -41,32 +42,35 @@ for i in range(len(devices)):
     for j in range(len(accessory_names)):
         if(devices[i]['characteristics'][0]['value'] == accessory_names[j]):
             HB_url = 'http://localhost:39000/characteristics?id=' + str(devices[i]['characteristics'][0]['aid']) + '.10'
-            req = json.loads(requests.get(HB_url).text)
-            if(isinstance(req['characteristics'][0]['value'], bool)):   #accessory
-                acc_instance = {
-                    'aid' : req['characteristics'][0]['aid'],
-                    'name' : accessory_names[j], 
-                    'iids':[
-                        {
-                            'iid':10, 
-                            'valuetype' : 1, 
+            try:
+                req = json.loads(requests.get(HB_url).text)
+                if(isinstance(req['characteristics'][0]['value'], bool)):   #accessory
+                    acc_instance = {
+                        'aid' : req['characteristics'][0]['aid'],
+                        'name' : accessory_names[j], 
+                        'iids':[
+                            {
+                                'iid':10, 
+                                'valuetype' : 1, 
+                                'currentvalue' : req['characteristics'][0]['value']
+                            }
+                        ]
+                    }
+                    Devices['accessories'].append(acc_instance)
+                elif(isinstance(req['characteristics'][0]['value'], int)):  #sensor
+                    valuetype = 0 if(req['characteristics'][0]['value']>1) else 1
+                    sen_instance = {
+                        'aid' : req['characteristics'][0]['aid'],
+                        'iid' : 10,
+                        'name' : accessory_names[j], 
+                        'type':{
+                            'valuetype' : valuetype,
                             'currentvalue' : req['characteristics'][0]['value']
                         }
-                    ]
-                }
-                Devices['accessories'].append(acc_instance)
-            elif(isinstance(req['characteristics'][0]['value'], int)):  #sensor
-                valuetype = 0 if(req['characteristics'][0]['value']>1) else 1
-                sen_instance = {
-                    'aid' : req['characteristics'][0]['aid'],
-                    'iid' : 10,
-                    'name' : accessory_names[j], 
-                    'type':{
-                        'valuetype' : valuetype,
-                        'currentvalue' : req['characteristics'][0]['value']
                     }
-                }
-                Devices['sensors'].append(sen_instance)
+                    Devices['sensors'].append(sen_instance)
+            except:
+                print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Initiate.py: HomeBridge no Response")
 
 with open('/home/pi/Scripts/Devices.json', 'w', encoding='utf-8') as f:
     json.dump(Devices, f)
