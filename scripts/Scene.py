@@ -3,6 +3,10 @@ import json
 from Services import *
 import requests
 import time
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+import sys
 server_url = 'http://39.106.138.175/scene/download/'
 headers = {'Content-Type': 'application/json'}
 
@@ -74,6 +78,15 @@ def SceneLoop():
             with open('/home/pi/Scripts/Scenes.json', 'w') as fo:
                 fo.write(response_server.text)
         except:
+            dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+            cursor = dbnumber.cursor()
+            dbnumber.commit()
+            cursor.execute('select num  from apps_error where id = 1')
+            result = cursor.fetchone()
+            insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+            cursor.execute(insert_re)
+            dbnumber.commit()
+            dbnumber.close()
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: SceneToServer Server no Response")
 
 if __name__ == "__main__":
