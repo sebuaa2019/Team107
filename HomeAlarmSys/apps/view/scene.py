@@ -66,7 +66,7 @@ def scene_delete(request):
 '''
 
 
-def db_service_update(service_id, aid, iid, allowed, description, name, _type):
+def db_service_update(service_id, aid, iid, allowed, name, _type):
     if _type == 0:
         service = models.ReadService.objects.filter(service_id=service_id)
     else:
@@ -77,19 +77,19 @@ def db_service_update(service_id, aid, iid, allowed, description, name, _type):
             service = models.ReadService.objects.create(
                 service_id=service_id, name=name,
                 aid=aid, iid=iid, allowed=allowed,
-                description=description)
+                )
         else:
             service = models.ControlService.objects.create(
                 service_id=service_id, name=name,
                 aid=aid, iid=iid, allowed=allowed,
-                description=description)
+                )
     else:
         service = service[0]
         service.aid = aid
         service.iid = iid
         service.name = name
         service.allowed = allowed
-        service.description = description
+
     service.save()
     return
 
@@ -104,10 +104,10 @@ def scene_service(request):
         iid = ser.get('iid')
         service_id = int(aid)*10000 + int(iid)
         allowed = ser.get('allowed_condition')
-        description = ser.get('description')
+
         name = ser.get('name')
         db_service_update(service_id, aid, iid,
-                          allowed, description, name, _type)
+                          allowed,  name, _type)
 
     _type = 1
     for ser in control_service:
@@ -115,9 +115,9 @@ def scene_service(request):
         iid = ser.get('iid')
         service_id = int(aid) * 10000 + int(iid)
         allowed = ser.get('allowed_value')
-        description = ser.get('description')
+
         name = ser.get('name')
-        db_service_update(service_id, aid, iid, allowed, description, name, _type)
+        db_service_update(service_id, aid, iid, allowed, name, _type)
 
 
 

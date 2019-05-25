@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/view/scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/view/scene.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,18 +110,18 @@
           <entry key="JavaScript" value="8529" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1736" />
-          <entry key="Python" value="18405" />
+          <entry key="Python" value="18407" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="-159">
+              <caret line="119" column="57" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -130,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
@@ -209,7 +208,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mail</find>
       <find>{</find>
       <find>table</find>
       <find>tables</find>
@@ -239,6 +237,7 @@
       <find>3200</find>
       <find>arg_type</find>
       <find>room</find>
+      <find>description</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -286,7 +285,6 @@
         <option value="$PROJECT_DIR$/apps/static/build/js/device/device_info.js" />
         <option value="$PROJECT_DIR$/apps/templates/app/index.html" />
         <option value="$PROJECT_DIR$/apps/templates/app/device_manage.html" />
-        <option value="$PROJECT_DIR$/apps/view/scene.py" />
         <option value="$PROJECT_DIR$/apps/static/build/js/custom.js" />
         <option value="$PROJECT_DIR$/apps/view/device.py" />
         <option value="$PROJECT_DIR$/apps/templates/app/sidebar.html" />
@@ -298,6 +296,7 @@
         <option value="$PROJECT_DIR$/HomeAlarmSys/urls.py" />
         <option value="$PROJECT_DIR$/apps/__init__.py" />
         <option value="$PROJECT_DIR$/apps/models.py" />
+        <option value="$PROJECT_DIR$/apps/view/scene.py" />
       </list>
     </option>
   </component>
@@ -503,8 +502,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50060093" side_tool="true" weight="0.40699816" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45095542" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44935542" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3296501" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" show_stripe_button="false" weight="0.3296501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -787,16 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -810,6 +799,16 @@
           <caret line="114" column="80" selection-start-line="114" selection-start-column="80" selection-end-line="114" selection-end-column="80" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/view/scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="119" column="57" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
