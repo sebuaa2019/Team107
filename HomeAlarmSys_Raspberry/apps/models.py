@@ -77,3 +77,11 @@ class Accessories(models.Model):
     class Meta:
         verbose_name = "配件表"
         verbose_name_plural = verbose_name
+class Controlservices(models.Model):
+    iid = models.IntegerField()
+    allowed_value = models.IntegerField()
+    name = models.CharField()
+    aid = models.IntegerField()
+    class Meta:
+        verbose_name = "控制设备表"
+        verbose_name_plural = verbose_name
