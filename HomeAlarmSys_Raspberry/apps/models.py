@@ -67,3 +67,13 @@ class Sensors(models.Model):
     class Meta:
         verbose_name = "传感器表"
         verbose_name_plural = verbose_name
+
+class Accessories(models.Model):
+    name = models.CharField()
+    iid = models.IntegerField()
+    currentvalue = models.BooleanField()
+    valuetype = models.IntegerField()
+    aid = models.IntegerField()
+    class Meta:
+        verbose_name = "配件表"
+        verbose_name_plural = verbose_name
