@@ -16,5 +16,5 @@ echo "Devices.json, Scenes.json and Services.json complete initializing"
 python3 /home/pi/Scripts/DataToServer.py &
 sleep 5
 echo "DataToServer.py Started"
-python3 /home/pi/Scripts/Scene.py &
+python3 /home/pi/Scripts/Scene.py >scenes.log 2>&1 &
 echo "Scene.py Started"

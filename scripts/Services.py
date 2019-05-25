@@ -4,11 +4,16 @@ import time
 
 HB_url = 'http://localhost'
 
+with open('/home/pi/Scripts/Services.json') as f:
+    Service_dict = json.load(f)
+
 class ReadService:
     def __init__(self, aid, iid):
         self.aid = aid
         self.iid = iid
-        self.allowercondition = 0
+        for i in range(len(Service_dict['readservices'])):
+            if (Service_dict['readservices'][i]['aid']==aid and Service_dict['readservices'][i]['iid']==iid):
+                self.allowercondition = Service_dict['readservices'][i]['allowed_condition']
         self.key = 'value'
     def get_value(self):
         if(self.aid == 0):
@@ -32,7 +37,9 @@ class ControlService:
         Raspberry_url = HB_url + ':39000/characteristics' 
         data = '{\"characteristics\":[{\"aid\":' + str(self.aid) + ',\"iid\":' + str(self.iid) + ',\"value\":' + str(value).lower() + ',\"status\":0}]}'
         try:
-            r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
+            present_value = json.loads(requests.get(url = 'http://localhost:39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)).text)
+            if(value != present_value['characteristics'][0]['value']):
+                r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: HomeBridge not Response")
             return -1

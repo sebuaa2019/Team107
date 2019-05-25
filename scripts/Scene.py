@@ -19,25 +19,26 @@ class trigger():
     
     def isTriggered(self):
         if(self.read_service.allowercondition==0):
-            print("Condition: Equal")
+            print("Condition: Equal - 0")
             print('Present HB value: ' + str(self.read_service.get_value()))
             print('Scene value: ' + str(self.value))
             return self.read_service.get_value() == self.value
         else :
             if(self.condition == 0):
-                print("Condition: Less")
+                print("Condition: Smaller - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
-                return  self.value < self.read_service.get_value()
+                return  self.value > self.read_service.get_value()
             elif(self.condition == 1):
-                print("Condition: Equal")
+                print("Condition: Equal - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
                 return self.read_service.get_value() == self.value
             elif(self.condition == 2):
+                print("Condition: Bigger - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
-                return self.value > self.read_service.get_value()
+                return self.value < self.read_service.get_value()
             else:
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: Error condition")
 
@@ -61,8 +62,10 @@ def SceneLoop():
             if(tr.isTriggered()):
                 ac.act()
                 print("scenes[" + str(i) + '] is triggered')
+                print('-------------------------------------------------------------------')
             else:
                 print("scenes[" + str(i) + '] is not triggered')
+                print('-------------------------------------------------------------------')
             del tr
             del ac
         time.sleep(10)
