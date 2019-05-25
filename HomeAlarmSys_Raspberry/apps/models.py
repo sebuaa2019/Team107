@@ -58,3 +58,40 @@ class Info(models.Model):
         verbose_name = "开关表"
         verbose_name_plural = verbose_name
 
+class Sensors(models.Model):
+    iid = models.IntegerField()
+    name = models.CharField()
+    aid = models.IntegerField()
+    currentvalue = models.IntegerField()
+    valuetype = models.IntegerField()
+    class Meta:
+        verbose_name = "传感器表"
+        verbose_name_plural = verbose_name
+
+class Accessories(models.Model):
+    name = models.CharField()
+    iid = models.IntegerField()
+    currentvalue = models.BooleanField()
+    valuetype = models.IntegerField()
+    aid = models.IntegerField()
+    class Meta:
+        verbose_name = "配件表"
+        verbose_name_plural = verbose_name
+
+class Controlservices(models.Model):
+    iid = models.IntegerField()
+    allowed_value = models.IntegerField()
+    name = models.CharField()
+    aid = models.IntegerField()
+    class Meta:
+        verbose_name = "控制设备表"
+        verbose_name_plural = verbose_name
+
+class Readservices(models.Model):
+    iid = models.IntegerField()
+    name = models.CharField()
+    aid = models.IntegerField()
+    allowed_condition = models.IntegerField()
+    class Meta:
+        verbose_name = "读取设备表"
+        verbose_name_plural = verbose_name

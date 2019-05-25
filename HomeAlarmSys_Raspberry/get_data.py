@@ -7,10 +7,6 @@ import MySQLdb
 
 dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')           #连接本地数据库
 cursor = dbnumber.cursor()
-#r = requests.get('http://192.168.50.106:8080',timeout = 100)
-#data = json.loads(r.text)
-#insert_re = "insert into apps_info(temperature, humidity, occupancy, smoke) values (%s, %s, %s, %s)" % (data['temperature'],data['humidity'],data['occupancy'],data['smoke'])
-#cursor.execute(insert_re)
 dbnumber.commit()
 
 while 1:
