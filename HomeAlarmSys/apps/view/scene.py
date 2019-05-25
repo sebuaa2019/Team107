@@ -48,6 +48,7 @@ def scene_update(request):
     scene.control_service_id = info.get('action-service')
     scene.trigger_value = info.get('arg')
     scene.action_value = info.get('of-value')
+    scene.trigger_condition = info.get('tri-condition')
     scene.status = info.get('status')
     scene.save()
     return HttpResponse(200)

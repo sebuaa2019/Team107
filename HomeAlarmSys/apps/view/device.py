@@ -73,9 +73,6 @@ def device_update(request):
 def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
     device = models.Device.objects.filter(device_id=device_id)
 
-    print(arg)
-
-
     if len(device) == 0:
         device = models.Device.objects.create(device_id=device_id,
                                               arg_type=arg_type,
@@ -169,7 +166,7 @@ def device_upload(request):
                         iid['currentvalue'] = True
                 ac_dict['iids'].append(iid)
         acc_list.append(ac_dict)
-    # print(acc_list)
+
     return HttpResponse(json.dumps({"accessories": acc_list}),
                         content_type='application/json; charset=utf-8')
 
@@ -213,10 +210,12 @@ def device_temperature(request):
     device = models.Device.objects.filter(device_id=device_id)[0]
     return HttpResponse(json.dumps({"temp": device.arg}), content_type='application/json; charset=utf-8')
 
+
 def device_humidity(request):
     device_id = request.GET.get('id')
     device = models.Device.objects.filter(device_id=device_id)[0]
-    return HttpResponse(json.dumps({'humi':device.arg}), content_type='application/json; charset=utf-8')
+    return HttpResponse(json.dumps({'humi': device.arg}), content_type='application/json; charset=utf-8')
+
 
 def device_on_off(request):
     device_id = request.GET.get('id')
