@@ -5,7 +5,7 @@ import time
 HB_url = 'http://localhost'
 
 class ReadService:
-    def __init__(self):
+    def __init__(self, aid, iid):
         self.aid = aid
         self.iid = iid
         self.allowercondition = 0

@@ -1,1 +1,33 @@
-{"scenes": []}
+{"scenes": [
+    {
+        "trigger" : {
+            "readserviceid" : 0,
+            "condition" : 0,
+            "value" : 13.24
+        },
+        "action" : {
+            "controlserviceid" : 30010,
+            "value" : false
+        }
+    },{
+        "trigger" : {
+            "readserviceid" : 0,
+            "condition" : 0,
+            "value" : 13.24
+        },
+        "action" : {
+            "controlserviceid" : 80010,
+            "value" : true
+        }
+    },{
+        "trigger" : {
+            "readserviceid" : 40010,
+            "condition" : 1,
+            "value" : 20
+        },
+        "action" : {
+            "controlserviceid" : 80010,
+            "value" : true
+        }
+    }
+]}

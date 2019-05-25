@@ -19,14 +19,25 @@ class trigger():
     
     def isTriggered(self):
         if(self.read_service.allowercondition==0):
+            print("Condition: Equal")
+            print('Present HB value: ' + str(self.read_service.get_value()))
+            print('Scene value: ' + str(self.value))
             return self.read_service.get_value() == self.value
         else :
             if(self.condition == 0):
-                return self.read_service.get_value() < self.value
+                print("Condition: Less")
+                print('Present HB value: ' + str(self.read_service.get_value()))
+                print('Scene value: ' + str(self.value))
+                return  self.value < self.read_service.get_value()
             elif(self.condition == 1):
+                print("Condition: Equal")
+                print('Present HB value: ' + str(self.read_service.get_value()))
+                print('Scene value: ' + str(self.value))
                 return self.read_service.get_value() == self.value
             elif(self.condition == 2):
-                return self.read_service.get_value() > self.value
+                print('Present HB value: ' + str(self.read_service.get_value()))
+                print('Scene value: ' + str(self.value))
+                return self.value > self.read_service.get_value()
             else:
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: Error condition")
 
@@ -49,6 +60,9 @@ def SceneLoop():
             ac = action(scenes[i]['action']['controlserviceid']//10000, scenes[i]['action']['controlserviceid']%10000, scenes[i]['action']['value'])
             if(tr.isTriggered()):
                 ac.act()
+                print("scenes[" + str(i) + '] is triggered')
+            else:
+                print("scenes[" + str(i) + '] is not triggered')
             del tr
             del ac
         time.sleep(10)
@@ -58,3 +72,6 @@ def SceneLoop():
                 fo.write(response_server.text)
         except:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: SceneToServer Server no Response")
+
+if __name__ == "__main__":
+    SceneLoop()

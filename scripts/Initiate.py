@@ -5,10 +5,23 @@ import requests
 with open('/home/pi/.homebridge/config.json',encoding = 'utf-8') as f:
     CONFIG = json.load(f)
 
-devices = []
-accessory_names = []
 Devices = {'sensors' : [], 'accessories' : []}
 Scenes = {'scenes':[]}
+Service_list = {
+    "readservices": [
+        {
+            "aid": 0,
+            "iid": 0,
+            "name": "时间服务",
+            "allowed_condition": 0
+        }
+    ],
+    "controlservices": [
+    ]
+}
+
+devices = []
+accessory_names = []
 
 for i in range(1, len(CONFIG['platforms'])):
     for j in range(len(CONFIG['platforms'][i]['deviceCfgs'])):
@@ -57,24 +70,12 @@ for i in range(len(devices)):
 
 with open('/home/pi/Scripts/Devices.json', 'w', encoding='utf-8') as f:
     json.dump(Devices, f)
-with open('/home/pi/Scripts/Scenes.json', 'w', encoding='utf-8') as f:
-    json.dump(Scenes, f)
-
-Service_list = {
-    "readservices": [
-        {
-            "aid": 0,
-            "iid": 0,
-            "name": "时间服务",
-            "allowed_condition": 0
-        }
-    ],
-    "controlservices": [
-    ]
-}
+#with open('/home/pi/Scripts/Scenes.json', 'w', encoding='utf-8') as f:
+    #json.dump(Scenes, f)
 
 for i in range(len(Devices['sensors'])):
-    allowed_condition = 1 if(req['characteristics'][0]['value']>1) else 0
+    #allowed_condition = 1 if(req['characteristics'][0]['value']>1) else 0
+    allowed_condition = 1 if(Devices['sensors'][i]['type']['valuetype']==0) else 0
     read_service_instance = {
         'aid' : Devices['sensors'][i]['aid'],
         'iid' : Devices['sensors'][i]['iid'],
@@ -88,7 +89,7 @@ for i in range(len(Devices['accessories'])):
         'aid' : Devices['accessories'][i]['aid'],
         'iid' : Devices['accessories'][i]['iids'][0]['iid'],
         'name' : Devices['accessories'][i]['name'] + '开关',
-        'allowed_condition' : allowed_condition
+        'allowed_condition' : 0
     }
     Service_list['readservices'].append(read_service_instance)
 
