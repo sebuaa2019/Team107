@@ -95,3 +95,9 @@ class Readservices(models.Model):
     class Meta:
         verbose_name = "读取设备表"
         verbose_name_plural = verbose_name
+
+class Error(models.Model):
+    num = models.IntegerField()
+    class Meta:
+        verbose_name = "错误数量表"
+        verbose_name_plural = verbose_name
