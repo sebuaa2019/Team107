@@ -112,7 +112,7 @@ class ReadService(models.Model):
     aid = models.IntegerField(verbose_name="aid")
     iid = models.IntegerField(verbose_name="iid")
     allowed = models.IntegerField(verbose_name="允许值")
-    description = models.CharField(verbose_name='描述', max_length=256, default="")
+    description = models.CharField(verbose_name='描述', max_length=256, default=" ")
 
     def __str__(self):
         return {
@@ -134,7 +134,7 @@ class ControlService(models.Model):
     aid = models.IntegerField(verbose_name="aid")
     iid = models.IntegerField(verbose_name="iid")
     allowed = models.IntegerField(verbose_name="允许值")
-    description = models.CharField(verbose_name='描述', max_length=256 , default="")
+    description = models.CharField(verbose_name='描述', max_length=256, default=" ")
 
     def __str__(self):
         return {
