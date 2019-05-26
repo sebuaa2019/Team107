@@ -14,6 +14,7 @@ dbnumber.commit()
 while 1:
     cursor.execute('select num  from apps_error where id = 1')
     result = cursor.fetchone()
-    dbnumber.commit()
+    error_dict = {'num': result[0]}
+    requests.post(url=server_error_url, headers=headers, data=json.dumps(error_dict))
     time.sleep(1)
 dbnumber.close()             #最后关闭数据库连接
