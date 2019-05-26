@@ -3,6 +3,10 @@ import json
 from Services import *
 import requests
 import time
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+import sys
 server_url = 'http://39.106.138.175/scene/download/'
 headers = {'Content-Type': 'application/json'}
 
@@ -19,25 +23,26 @@ class trigger():
     
     def isTriggered(self):
         if(self.read_service.allowercondition==0):
-            print("Condition: Equal")
+            print("Condition: Equal - 0")
             print('Present HB value: ' + str(self.read_service.get_value()))
             print('Scene value: ' + str(self.value))
             return self.read_service.get_value() == self.value
         else :
             if(self.condition == 0):
-                print("Condition: Less")
+                print("Condition: Smaller - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
-                return  self.value < self.read_service.get_value()
+                return  self.value > self.read_service.get_value()
             elif(self.condition == 1):
-                print("Condition: Equal")
+                print("Condition: Equal - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
                 return self.read_service.get_value() == self.value
             elif(self.condition == 2):
+                print("Condition: Bigger - 1")
                 print('Present HB value: ' + str(self.read_service.get_value()))
                 print('Scene value: ' + str(self.value))
-                return self.value > self.read_service.get_value()
+                return self.value < self.read_service.get_value()
             else:
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: Error condition")
 
@@ -61,8 +66,10 @@ def SceneLoop():
             if(tr.isTriggered()):
                 ac.act()
                 print("scenes[" + str(i) + '] is triggered')
+                print('-------------------------------------------------------------------')
             else:
                 print("scenes[" + str(i) + '] is not triggered')
+                print('-------------------------------------------------------------------')
             del tr
             del ac
         time.sleep(10)
@@ -71,6 +78,15 @@ def SceneLoop():
             with open('/home/pi/Scripts/Scenes.json', 'w') as fo:
                 fo.write(response_server.text)
         except:
+            dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+            cursor = dbnumber.cursor()
+            dbnumber.commit()
+            cursor.execute('select num  from apps_error where id = 1')
+            result = cursor.fetchone()
+            insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+            cursor.execute(insert_re)
+            dbnumber.commit()
+            dbnumber.close()
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Scene.py: SceneToServer Server no Response")
 
 if __name__ == "__main__":

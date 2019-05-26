@@ -60,7 +60,7 @@ class Info(models.Model):
 
 class Sensors(models.Model):
     iid = models.IntegerField()
-    name = models.CharField()
+    name = models.CharField(max_length=100)
     aid = models.IntegerField()
     currentvalue = models.IntegerField()
     valuetype = models.IntegerField()
@@ -69,7 +69,7 @@ class Sensors(models.Model):
         verbose_name_plural = verbose_name
 
 class Accessories(models.Model):
-    name = models.CharField()
+    name = models.CharField(max_length=100)
     iid = models.IntegerField()
     currentvalue = models.BooleanField()
     valuetype = models.IntegerField()
@@ -81,7 +81,7 @@ class Accessories(models.Model):
 class Controlservices(models.Model):
     iid = models.IntegerField()
     allowed_value = models.IntegerField()
-    name = models.CharField()
+    name = models.CharField(max_length=100)
     aid = models.IntegerField()
     class Meta:
         verbose_name = "控制设备表"
@@ -89,9 +89,15 @@ class Controlservices(models.Model):
 
 class Readservices(models.Model):
     iid = models.IntegerField()
-    name = models.CharField()
+    name = models.CharField(max_length=100)
     aid = models.IntegerField()
     allowed_condition = models.IntegerField()
     class Meta:
         verbose_name = "读取设备表"
+        verbose_name_plural = verbose_name
+
+class Error(models.Model):
+    num = models.IntegerField()
+    class Meta:
+        verbose_name = "错误数量表"
         verbose_name_plural = verbose_name

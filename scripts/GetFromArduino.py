@@ -23,6 +23,11 @@ while 1:
         dbnumber.commit()
         time.sleep(1)
     except:
+        cursor.execute('select num  from apps_error where id = 1')
+        result = cursor.fetchone()
+        insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0]+1)
+        cursor.execute(insert_re)
+        dbnumber.commit()
         print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "GetFromArduino.py: Arduino no Response")
         time.sleep(30)
 dbnumber.close()             #最后关闭数据库连接

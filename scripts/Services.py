@@ -1,14 +1,22 @@
 import requests
 import json
 import time
-
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+import sys
 HB_url = 'http://localhost'
+
+with open('/home/pi/Scripts/Services.json') as f:
+    Service_dict = json.load(f)
 
 class ReadService:
     def __init__(self, aid, iid):
         self.aid = aid
         self.iid = iid
-        self.allowercondition = 0
+        for i in range(len(Service_dict['readservices'])):
+            if (Service_dict['readservices'][i]['aid']==aid and Service_dict['readservices'][i]['iid']==iid):
+                self.allowercondition = Service_dict['readservices'][i]['allowed_condition']
         self.key = 'value'
     def get_value(self):
         if(self.aid == 0):
@@ -17,9 +25,12 @@ class ReadService:
                 return localtime.tm_hour+(localtime.tm_min/100)
         else:
             url = HB_url + ':39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)
-            r = requests.get(url)
-            di = json.loads(r.text)
-            return di['characteristics'][0][self.key]
+            try:
+                r = requests.get(url)
+                di = json.loads(r.text)
+                return di['characteristics'][0][self.key]
+            except:
+                print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ReadService: HomeBridge no Response")
         
 class ControlService:
     def __init__(self, aid, iid):
@@ -32,9 +43,20 @@ class ControlService:
         Raspberry_url = HB_url + ':39000/characteristics' 
         data = '{\"characteristics\":[{\"aid\":' + str(self.aid) + ',\"iid\":' + str(self.iid) + ',\"value\":' + str(value).lower() + ',\"status\":0}]}'
         try:
-            r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
+            present_value = json.loads(requests.get(url = 'http://localhost:39000/characteristics?id=' + str(self.aid) + '.' + str(self.iid)).text)
+            if(value != present_value['characteristics'][0]['value']):
+                r = requests.put(url=Raspberry_url,headers=Raspberry_headers,data=data)
         except:
-            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py: HomeBridge not Response")
+            dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+            cursor = dbnumber.cursor()
+            dbnumber.commit()
+            cursor.execute('select num  from apps_error where id = 1')
+            result = cursor.fetchone()
+            insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+            cursor.execute(insert_re)
+            dbnumber.commit()
+            dbnumber.close()
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ControlService: HomeBridge no Response")
             return -1
         return True
 
