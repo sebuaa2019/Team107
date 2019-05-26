@@ -2,7 +2,7 @@
 #include <EduIntro.h>
 #define buz 6
 #define smoke 3
-//const String ssid="\"PresentationSSID\"";
+//const String ssid="\"PresentationSID\"";
 const String ssid="\"ASUS\"";
 const String password="\"xuyitaodashabi\"";
 PIR pir(D7);
