@@ -18,3 +18,6 @@ sleep 5
 echo "DataToServer.py Started"
 python3 /home/pi/Scripts/Scene.py >scenes.log 2>&1 &
 echo "Scene.py Started"
+sleep 5
+python3 /home/pi/Scripts/send_data.py &
+echo "send_data.py Started"
