@@ -1,0 +1,75 @@
+{
+    "sensors": [
+        {
+            "iid": 10,
+            "name": "温度传感器",
+            "aid": 4,
+            "type": {
+                "currentvalue": 24,
+                "valuetype": 0
+            }
+        },
+        {
+            "iid": 10,
+            "name": "湿度传感器",
+            "aid": 5,
+            "type": {
+                "currentvalue": 36,
+                "valuetype": 0
+            }
+        },
+        {
+            "iid": 10,
+            "name": "烟雾传感器",
+            "aid": 6,
+            "type": {
+                "currentvalue": 0,
+                "valuetype": 1
+            }
+        },
+        {
+            "iid": 10,
+            "name": "人体传感器",
+            "aid": 7,
+            "type": {
+                "currentvalue": 0,
+                "valuetype": 1
+            }
+        }
+    ],
+    "accessories": [
+        {
+            "name": "小米台灯-1",
+            "iids": [
+                {
+                    "iid": 10,
+                    "currentvalue": false,
+                    "valuetype": 1
+                }
+            ],
+            "aid": 2
+        },
+        {
+            "name": "小米台灯-2",
+            "iids": [
+                {
+                    "iid": 10,
+                    "currentvalue": true,
+                    "valuetype": 1
+                }
+            ],
+            "aid": 3
+        },
+        {
+            "name": "报警开关",
+            "iids": [
+                {
+                    "iid": 10,
+                    "currentvalue": false,
+                    "valuetype": 1
+                }
+            ],
+            "aid": 8
+        }
+    ]
+}
