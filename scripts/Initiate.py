@@ -49,6 +49,9 @@ for i in range(len(devices)):
             HB_url = 'http://localhost:39000/characteristics?id=' + str(devices[i]['characteristics'][0]['aid']) + '.10'
             try:
                 req = json.loads(requests.get(HB_url).text)
+                if(req['characteristics'][0]['status']!=0):
+                    print('Device[' + str(i) + '] initiate failed, Device name: ' +  accessory_names[j])
+                    continue
                 if(isinstance(req['characteristics'][0]['value'], bool)):   #accessory
                     acc_instance = {
                         'aid' : req['characteristics'][0]['aid'],

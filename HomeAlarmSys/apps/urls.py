@@ -5,6 +5,7 @@ from .view import scene
 from .view import room
 from .view import device
 from .view import service
+from .view import error
 
 urlpatterns = [
     # Matches any html file - to be used for gentella
@@ -33,7 +34,6 @@ urlpatterns = [
     url(r'room/delete/', room.room_delete, name='room_delete'),
     url(r'room/list/', room.room_list, name='room_list'),
 
-
     url(r'scene/manage/', scene.scene_manage, name='scene_manage'),
     url(r'scene/table/', scene.scene_table, name='scene_table'),
     url(r'scene/add/', scene.scene_add, name='scene_add'),
@@ -43,6 +43,8 @@ urlpatterns = [
     url(r'scene/service/', scene.scene_service, name='scene_service'),
     url(r'scene/download/', scene.scene_download, name='scene_download'),
     url(r'scene/serviceList/', scene.service_list, name='service_list'),
+
+    url(r'error/notify/', error.local_error, name='local_error'),
 
     url(r'service/manage/', service.service_manage, name='service_manage'),
     url(r'service/triTable/', service.service_table_tri, name='service_table_tri'),

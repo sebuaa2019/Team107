@@ -2,8 +2,8 @@
 #include <EduIntro.h>
 #define buz 6
 #define smoke 3
-//const String ssid="\"PresentationSID\"";
-const String ssid="\"ASUS\"";
+const String ssid="\"PresentationSID\"";
+const String subssid="\"ASUS\"";
 const String password="\"xuyitaodashabi\"";
 PIR pir(D7);
 DHT11 dht11(D2);  // creating the object sensor on pin 'D7'
@@ -85,11 +85,26 @@ boolean getmessage(String val){
   }
   return 0;
 }
+boolean getwifimessage(String val){
+  while(mySerial.available()){
+    String line = mySerial.readStringUntil('\r');
+    line.trim();
+    Serial.println(line);
+    if(line.endsWith(val)||line.endsWith("FAIL")){
+      if(line.endsWith("FAIL")){
+        mySerial.println("AT+CWJAP="+subssid+","+password);
+        while(!getmessage("OK"));
+      }
+      return 1;
+    }
+  }
+  return 0;
+}
 void setwifi(){
-  mySerial.println("AT+CWMODE=3");
+  mySerial.println("AT+CWMODE=1");
   while(!getmessage("OK"));
   mySerial.println("AT+CWJAP="+ssid+","+password);
-  while(!getmessage("OK"));
+  while(!getwifimessage("OK"));
   mySerial.println("AT+CIFSR");
   while(!getmessage("OK"));
 }

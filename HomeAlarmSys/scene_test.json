@@ -1,0 +1,72 @@
+{
+    "controlservices": [
+        {
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "小米台灯-1开关",
+            "aid": 2
+        },
+        {
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "小米台灯-2开关",
+            "aid": 3
+        },
+        {
+            "iid": 10,
+            "allowed_value": 0,
+            "name": "报警开关开关",
+            "aid": 8
+        }
+    ],
+    "readservices": [
+        {
+            "iid": 0,
+            "name": "时间服务",
+            "aid": 0,
+            "allowed_condition": 0
+        },
+        {
+            "iid": 10,
+            "name": "温度传感器",
+            "aid": 4,
+            "allowed_condition": 1
+        },
+        {
+            "iid": 10,
+            "name": "湿度传感器",
+            "aid": 5,
+            "allowed_condition": 1
+        },
+        {
+            "iid": 10,
+            "name": "烟雾传感器",
+            "aid": 6,
+            "allowed_condition": 0
+        },
+        {
+            "iid": 10,
+            "name": "人体传感器",
+            "aid": 7,
+            "allowed_condition": 0
+        },
+        {
+            "iid": 10,
+            "name": "小米台灯-1开关",
+            "aid": 2,
+            "allowed_condition": 0
+        },
+        {
+            "iid": 10,
+            "name": "小米台灯-2开关",
+            "aid": 3,
+            "allowed_condition": 0
+        },
+        {
+            "iid": 10,
+            "name": "报警开关开关",
+            "aid": 8,
+            "allowed_condition": 0
+        }
+    ]
+}
