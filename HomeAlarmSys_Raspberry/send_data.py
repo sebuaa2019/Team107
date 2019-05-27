@@ -12,14 +12,12 @@ cursor = dbnumber.cursor()
 dbnumber.commit()
 
 while 1:
-    #try:
-    cursor.execute('select num  from apps_error where id = 1')
-    result = cursor.fetchone()
-   # print(result[0])
-    error_dict = {'num':result[0]}
-        #print(json.dumps(error_dict))
-    requests.post(url=server_error_url, headers=headers, data=json.dumps(error_dict))
-    #except:
-        #print("Error occurs when send error!")
+    try:
+        cursor.execute('select num  from apps_error where id = 1')
+        result = cursor.fetchone()
+        error_dict = {'num':result[0]}
+        requests.post(url=server_error_url, headers=headers, data=json.dumps(error_dict))
+    except:
+        print("Error occurs when send error!")
     time.sleep(5)
 dbnumber.close()             #最后关闭数据库连接
