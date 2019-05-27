@@ -41,7 +41,10 @@ with open('/home/pi/charac.txt') as f:
     for i in range(len(accessory_names)):
         grep_flg = 'grep -m 1 ' + accessory_names[i]
         command = 'cat charac.txt | ' + grep_flg
-        devices.append(json.loads(os.popen(command).read()))
+        try:
+            devices.append(json.loads(os.popen(command).read()))
+        except:
+            print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Initiate.py: HomeBridge no Response. Receive blank list of decive names")
 
 for i in range(len(devices)):
     for j in range(len(accessory_names)):
@@ -125,3 +128,8 @@ for i in range(len(Devices['accessories'])):
 
 with open('/home/pi/Scripts/Services.json', 'w', encoding='utf-8') as f:
     json.dump(Service_list, f)
+
+print("Devices: Got sensors: " + str(len(Devices['sensors'])))
+print("Devices: Got accessories: " + str(len(Devices['accessories'])))
+print("Devices: Got readservices: " + str(len(Service_list['readservices'])))
+print("Devices: Got controlservices: " + str(len(Service_list['controlservices'])))
