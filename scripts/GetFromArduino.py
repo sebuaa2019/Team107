@@ -5,7 +5,17 @@ import json
 pymysql.install_as_MySQLdb()
 import MySQLdb
 import sys
-
+import serial
+import re
+ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+i = 0
+while (i<=25):
+    response = ser.readall().decode()
+    result = re.findall(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', response)
+    if(result):
+        print(result[0])
+        break
+    i = i+1
 dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')           #连接本地数据库
 cursor = dbnumber.cursor()
 #r = requests.get('http://192.168.50.106:8080',timeout = 100)
@@ -16,7 +26,7 @@ dbnumber.commit()
 
 while 1:
     try:
-        r = requests.get('http://' + str(sys.argv[1]) + ':8080',timeout = 100)
+        r = requests.get('http://' + str(result[0]) + ':8080',timeout = 100)
         data = json.loads(r.text)
         insert_re = "UPDATE apps_info SET temperature=%s, humidity=%s, occupancy=%s, smoke=%s where id = 1" % (data['temperature'],data['humidity'],data['occupancy'],data['smoke'])
         cursor.execute(insert_re)
