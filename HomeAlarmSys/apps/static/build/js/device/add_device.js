@@ -48,7 +48,7 @@ $(function () {
         if (name === 'update'){
             var $form = $addDeviceForm.serializeObject();
             $form['id'] =  $("#deviceTable").bootstrapTable("getSelections")[0].id;
-            $form['status'] =$addDeviceForm.find("input[name='status']:checked").val();
+                $form['status'] =$addDeviceForm.find("input[name='status']:checked").val();
             $form['room'] = $rooms.val();
             $.ajax({
                     url: '/device/update/',

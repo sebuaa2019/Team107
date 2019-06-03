@@ -9,7 +9,7 @@ import json
 import requests
 import time
 
-URL = 'https://sc.ftqq.com/SCU51140T3ac7e7e2b2032b1a7bf562f03d19d5405cd66313d0f96.send'
+URL = 'https://sc.ftqq.com/SCU37298T847874b7bf139ffb4081081f070bcbbc5c0bc8a6a0078.send'
 
 
 def device_manage(request):
