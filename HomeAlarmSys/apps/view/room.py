@@ -12,7 +12,7 @@ def room_add(request):
     room = models.Room.objects.create()
     room.room_name = json.loads(request.body).get('room_name')
     room.save()
-    return HttpResponse(200)
+    return HttpResponse("200")
 
 
 def room_manage(request):
@@ -30,7 +30,8 @@ def room_table(request):
 def room_get(request):
     room_id = json.loads(request.body).get("roomId")
     room = models.Room.objects.get(id=room_id)
-    return HttpResponse(room, content_type="application/json; charset=utf-8")
+    return HttpResponse(json.dumps(room.__str__()), content_type="application/json; charset=utf-8")
+    #return HttpResponse(room, content_type="application/json; charset=utf-8")
 
 
 def room_update(request):

@@ -30,6 +30,15 @@ class ReadService:
                 di = json.loads(r.text)
                 return di['characteristics'][0][self.key]
             except:
+                dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')  # 连接本地数据库
+                cursor = dbnumber.cursor()
+                dbnumber.commit()
+                cursor.execute('select num  from apps_error where id = 1')
+                result = cursor.fetchone()
+                insert_re = "UPDATE apps_error SET num=%s where id = 1" % (result[0] + 1)
+                cursor.execute(insert_re)
+                dbnumber.commit()
+                dbnumber.close()
                 print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "Service.py-ReadService: HomeBridge no Response")
         
 class ControlService:
