@@ -148,3 +148,8 @@ def edit(request):
         request.session['phone'] = user.phone
         return HttpResponse(200)
     return HttpResponse(500)
+
+
+def weather(request):
+
+    pass
