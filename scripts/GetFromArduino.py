@@ -7,15 +7,26 @@ import MySQLdb
 import sys
 import serial
 import re
+
+basic_ip = '192.168.50.106'
+renwed_ip = ''
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 i = 0
+result = []
 while (i<=25):
-    response = ser.readall().decode()
-    result = re.findall(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', response)
+    try:
+        response = ser.readall().decode('utf-8', 'ignore')
+        result = re.findall(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', response)
+    except:
+        pass
     if(result):
-        print(result[0])
         break
     i = i+1
+if(result):
+    print(result[0])
+    renwed_ip = result[0]
+elif(i==26):
+    print("FATAL ERROR: Cannot Get IP of Arduino")
 dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')           #连接本地数据库
 cursor = dbnumber.cursor()
 #r = requests.get('http://192.168.50.106:8080',timeout = 100)
@@ -26,12 +37,12 @@ dbnumber.commit()
 
 while 1:
     try:
-        r = requests.get('http://' + str(result[0]) + ':8080',timeout = 100)
+        r = requests.get('http://' + renwed_ip + ':8080',timeout = 100)
         data = json.loads(r.text)
         insert_re = "UPDATE apps_info SET temperature=%s, humidity=%s, occupancy=%s, smoke=%s where id = 1" % (data['temperature'],data['humidity'],data['occupancy'],data['smoke'])
         cursor.execute(insert_re)
         dbnumber.commit()
-        time.sleep(1)
+        time.sleep(2)
     except:
         cursor.execute('select num  from apps_error where id = 1')
         result = cursor.fetchone()
@@ -39,5 +50,6 @@ while 1:
         cursor.execute(insert_re)
         dbnumber.commit()
         print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "GetFromArduino.py: Arduino no Response")
-        time.sleep(30)
+        print("Failed on IP: " + renwed_ip)
+        time.sleep(10)
 dbnumber.close()             #最后关闭数据库连接

@@ -29,6 +29,7 @@ while 1:
             di = json.loads(r.text)
             data_dict['sensors'][i]['type']['currentvalue'] = di['characteristics'][0]['value']
             current_dict['sensors'].append(data_dict['sensors'][i])
+            print('Current ' + data_dict['sensors'][i]['name'] + ' value:' + str(data_dict['sensors'][i]['type']['currentvalue']))
         except:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "DataToServer.py: Local Django no Response")
 
@@ -42,6 +43,7 @@ while 1:
                 if(data_dict['accessories'][i]['iids'][j]['currentvalue'] != di['characteristics'][0]['value']):
                     data_dict['accessories'][i]['iids'][j]['currentvalue'] = di['characteristics'][0]['value']
                     current_dict['accessories'].append(data_dict['accessories'][i])
+                print('Current ' + data_dict['accessories'][i]['name'] + ' value:' + str(data_dict['accessories'][i]['iids'][j]['currentvalue']))
         except:
             print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "DataToServer.py: HB no Response")
     # Send to Server
