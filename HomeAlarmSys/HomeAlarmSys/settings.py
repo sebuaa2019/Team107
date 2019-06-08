@@ -129,5 +129,5 @@ STATICFILES_DIRS = [
 ]
 
 CRONJOBS = [
-    ('*/10 * * * *', 'apps.task.ExceptionDetect'),
+    ('*/1 * * * *', 'apps.task.ExceptionDetect'),
 ]

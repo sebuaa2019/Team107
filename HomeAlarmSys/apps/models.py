@@ -130,7 +130,9 @@ class ReadService(models.Model):
 class UpdateTime(models.Model):
     update_time = models.DateTimeField(verbose_name="更新时间")
 
-
+    class Meta:
+        verbose_name = "更新时间"
+        verbose_name_plural = verbose_name
 
 
 class ControlService(models.Model):
