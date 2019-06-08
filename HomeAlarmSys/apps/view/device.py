@@ -8,8 +8,8 @@ from django.core import serializers
 import json
 import requests
 import time
-
-URL = 'https://sc.ftqq.com/SCU37298T847874b7bf139ffb4081081f070bcbbc5c0bc8a6a0078.send'
+from datetime import datetime
+from ..config import *
 
 
 def device_manage(request):
@@ -123,6 +123,14 @@ def device_upload(request):
     device_info = json.loads(request.body)
     sensors = device_info.get('sensors')
     accessories = device_info.get('accessories')
+
+    update_time = models.UpdateTime.objects.all()
+    if len(update_time) == 0:
+        update_time = models.UpdateTime.objects.create(update_time=datetime.now())
+    else:
+        update_time = update_time[0]
+        update_time.update_time = datetime.now()
+    update_time.save()
 
     for sensor in sensors:
         sensor_id = int(sensor.get('aid')) * 10000 + int(sensor.get('iid'))
