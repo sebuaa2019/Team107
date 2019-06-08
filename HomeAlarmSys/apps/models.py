@@ -127,6 +127,11 @@ class ReadService(models.Model):
         verbose_name = "只读服务"
         verbose_name_plural = verbose_name
 
+class UpdateTime(models.Model):
+    update_time = models.DateTimeField(verbose_name="更新时间")
+
+
+
 
 class ControlService(models.Model):
     service_id = models.IntegerField(verbose_name='服务id', primary_key=True, default=0)
