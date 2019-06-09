@@ -13,7 +13,7 @@ renwed_ip = ''
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 i = 0
 result = []
-while (i<=25):
+while (i<=30):
     try:
         response = ser.readall().decode('utf-8', 'ignore')
         result = re.findall(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', response)
@@ -25,8 +25,9 @@ while (i<=25):
 if(result):
     print(result[0])
     renwed_ip = result[0]
-elif(i==26):
-    print("FATAL ERROR: Cannot Get IP of Arduino")
+elif(i==31):
+    print("FATAL ERROR: Cannot Get IP of Arduino, using basic IP")
+    renwed_ip = basic_ip
 dbnumber = MySQLdb.connect('localhost', 'root', '123456', 'home')           #连接本地数据库
 cursor = dbnumber.cursor()
 #r = requests.get('http://192.168.50.106:8080',timeout = 100)
@@ -51,5 +52,5 @@ while 1:
         dbnumber.commit()
         print(str(time.localtime().tm_hour) + ':' + str(time.localtime().tm_min) + ':' + str(time.localtime().tm_sec) + "    " + "GetFromArduino.py: Arduino no Response")
         print("Failed on IP: " + renwed_ip)
-        time.sleep(10)
+        time.sleep(1)
 dbnumber.close()             #最后关闭数据库连接

@@ -13,7 +13,7 @@ sleep 20
 echo "homebridge Started"
 python3 ./Scripts/Initiate.py
 echo "Devices.json, Scenes.json and Services.json complete initializing"
-python3 /home/pi/Scripts/DataToServer.py &
+python3 /home/pi/Scripts/DataToServer.py >DataToServer.log 2>&1 &
 sleep 5
 echo "DataToServer.py Started"
 python3 /home/pi/Scripts/Scene.py >scenes.log 2>&1 &

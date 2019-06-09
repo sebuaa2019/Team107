@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfc8c959-93c6-4f93-bc01-231dec2e0e8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Documents/SDD-107.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/SDD-107.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetFromArduino.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetFromArduino.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataToServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scene.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Services.py">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Services.py</OriginalElement>
+              <nodes>
+                <node x="0.0" y="182.0">Services.alarm_control_service</node>
+                <node x="2280.0" y="182.0">Services.smoke_service</node>
+                <node x="2830.0" y="182.0">Services.occupancy_service</node>
+                <node x="1410.3125" y="0.0">object</node>
+                <node x="1400.0" y="182.0">Services.humidity_service</node>
+                <node x="2550.0" y="182.0">Services.lamp_service_1</node>
+                <node x="3140.0" y="182.0">Services.lamp_service_2</node>
+                <node x="2157.5" y="81.0">Services.ReadService</node>
+                <node x="2020.0" y="182.0">Services.time_service</node>
+                <node x="1700.0" y="182.0">Services.alarm_read_service</node>
+                <node x="387.64136904761904" y="81.0">Services.ControlService</node>
+                <node x="350.0" y="182.0">Services.lamp_control_service_1</node>
+                <node x="1070.0" y="182.0">Services.temperature_service</node>
+                <node x="710.0" y="182.0">Services.lamp_control_service_2</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Services.temperature_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="1225.0" y="132.0" />
+                  <point x="2171.875" y="132.0" />
+                  <point x="-100.625" y="15.5" />
+                </edge>
+                <edge source="Services.alarm_control_service" target="Services.ControlService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="165.0" y="162.0" />
+                  <point x="430.9747023809525" y="162.0" />
+                  <point x="-86.66666666666652" y="15.5" />
+                </edge>
+                <edge source="Services.ControlService" target="object">
+                  <point x="0.0" y="-15.5" />
+                  <point x="517.641369047619" y="56.0" />
+                  <point x="1432.8125" y="56.0" />
+                  <point x="-22.5" y="15.5" />
+                </edge>
+                <edge source="Services.smoke_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="2405.0" y="162.0" />
+                  <point x="2286.875" y="162.0" />
+                  <point x="14.375" y="15.5" />
+                </edge>
+                <edge source="Services.alarm_read_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="1850.0" y="152.0" />
+                  <point x="2229.375" y="152.0" />
+                  <point x="-43.125" y="15.5" />
+                </edge>
+                <edge source="Services.ReadService" target="object">
+                  <point x="0.0" y="-15.5" />
+                  <point x="2272.5" y="56.0" />
+                  <point x="1477.8125" y="56.0" />
+                  <point x="22.5" y="15.5" />
+                </edge>
+                <edge source="Services.lamp_service_2" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="3270.0" y="132.0" />
+                  <point x="2373.125" y="132.0" />
+                  <point x="100.625" y="15.5" />
+                </edge>
+                <edge source="Services.lamp_service_1" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="2680.0" y="152.0" />
+                  <point x="2315.625" y="152.0" />
+                  <point x="43.125" y="15.5" />
+                </edge>
+                <edge source="Services.humidity_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="1540.0" y="142.0" />
+                  <point x="2200.625" y="142.0" />
+                  <point x="-71.875" y="15.5" />
+                </edge>
+                <edge source="Services.lamp_control_service_1" target="Services.ControlService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="520.0" y="162.0" />
+                  <point x="517.641369047619" y="162.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="Services.occupancy_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="2975.0" y="142.0" />
+                  <point x="2344.375" y="142.0" />
+                  <point x="71.875" y="15.5" />
+                </edge>
+                <edge source="Services.lamp_control_service_2" target="Services.ControlService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="880.0" y="162.0" />
+                  <point x="604.3080357142856" y="162.0" />
+                  <point x="86.66666666666652" y="15.5" />
+                </edge>
+                <edge source="Services.time_service" target="Services.ReadService">
+                  <point x="0.0" y="-15.5" />
+                  <point x="2140.0" y="162.0" />
+                  <point x="2258.125" y="162.0" />
+                  <point x="-14.375" y="15.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1938596491228068" x="1601.8393732813163" y="135.85474392405405" />
+              <SelectedNodes>
+                <node>Services.smoke_service</node>
+              </SelectedNodes>
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Scene.py">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Scene.py</OriginalElement>
+              <nodes>
+                <node x="0.0" y="81.0">Scene.trigger</node>
+                <node x="120.0" y="0.0">object</node>
+                <node x="175.0" y="81.0">Scene.action</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Scene.trigger" target="object">
+                  <point x="0.0" y="-15.5" />
+                  <point x="77.5" y="56.0" />
+                  <point x="141.25" y="56.0" />
+                  <point x="-21.25" y="15.5" />
+                </edge>
+                <edge source="Scene.action" target="object">
+                  <point x="0.0" y="-15.5" />
+                  <point x="247.5" y="56.0" />
+                  <point x="183.75" y="56.0" />
+                  <point x="21.25" y="15.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-97.5" y="-111.0" />
+              <SelectedNodes>
+                <node>Scene.action</node>
+              </SelectedNodes>
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/DataToServer.py">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/DataToServer.py</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+              <SelectedNodes />
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/scripts.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="105" />
+    <option name="y" value="157" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfc8c959-93c6-4f93-bc01-231dec2e0e8b" name="Default Changelist" comment="" />
+      <created>1560069648175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560069648175</updated>
+      <workItem from="1560069651232" duration="782000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="782000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="105" y="157" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Scene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/11706/.PyCharm2019.1/system/python_stubs/429538564/sys.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/11706/.PyCharm2019.1/system/python_stubs/429538564/sys.py</OriginalElement>
+          <nodes>
+            <node x="" y="">object</node>
+            <node x="" y="">sys.__loader__</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Scene.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Scene.py</OriginalElement>
+          <nodes>
+            <node x="0.0" y="81.0">Scene.trigger</node>
+            <node x="120.0" y="0.0">object</node>
+            <node x="175.0" y="81.0">Scene.action</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Scene.trigger" target="object">
+              <point x="0.0" y="-15.5" />
+              <point x="77.5" y="56.0" />
+              <point x="141.25" y="56.0" />
+              <point x="-21.25" y="15.5" />
+            </edge>
+            <edge source="Scene.action" target="object">
+              <point x="0.0" y="-15.5" />
+              <point x="247.5" y="56.0" />
+              <point x="183.75" y="56.0" />
+              <point x="21.25" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-97.5" y="-111.0" />
+          <SelectedNodes>
+            <node>Scene.action</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/DataToServer.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/DataToServer.py</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataToServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Services.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/11706/OneDrive/SoftwareEngineering/Team107/scripts/Services.py</OriginalElement>
+          <nodes>
+            <node x="0.0" y="182.0">Services.alarm_control_service</node>
+            <node x="2280.0" y="182.0">Services.smoke_service</node>
+            <node x="2830.0" y="182.0">Services.occupancy_service</node>
+            <node x="1410.3125" y="0.0">object</node>
+            <node x="1400.0" y="182.0">Services.humidity_service</node>
+            <node x="2550.0" y="182.0">Services.lamp_service_1</node>
+            <node x="3140.0" y="182.0">Services.lamp_service_2</node>
+            <node x="2157.5" y="81.0">Services.ReadService</node>
+            <node x="2020.0" y="182.0">Services.time_service</node>
+            <node x="1700.0" y="182.0">Services.alarm_read_service</node>
+            <node x="387.64136904761904" y="81.0">Services.ControlService</node>
+            <node x="350.0" y="182.0">Services.lamp_control_service_1</node>
+            <node x="1070.0" y="182.0">Services.temperature_service</node>
+            <node x="710.0" y="182.0">Services.lamp_control_service_2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Services.temperature_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="1225.0" y="132.0" />
+              <point x="2171.875" y="132.0" />
+              <point x="-100.625" y="15.5" />
+            </edge>
+            <edge source="Services.alarm_control_service" target="Services.ControlService">
+              <point x="0.0" y="-15.5" />
+              <point x="165.0" y="162.0" />
+              <point x="430.9747023809525" y="162.0" />
+              <point x="-86.66666666666652" y="15.5" />
+            </edge>
+            <edge source="Services.ControlService" target="object">
+              <point x="0.0" y="-15.5" />
+              <point x="517.641369047619" y="56.0" />
+              <point x="1432.8125" y="56.0" />
+              <point x="-22.5" y="15.5" />
+            </edge>
+            <edge source="Services.smoke_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="2405.0" y="162.0" />
+              <point x="2286.875" y="162.0" />
+              <point x="14.375" y="15.5" />
+            </edge>
+            <edge source="Services.alarm_read_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="1850.0" y="152.0" />
+              <point x="2229.375" y="152.0" />
+              <point x="-43.125" y="15.5" />
+            </edge>
+            <edge source="Services.ReadService" target="object">
+              <point x="0.0" y="-15.5" />
+              <point x="2272.5" y="56.0" />
+              <point x="1477.8125" y="56.0" />
+              <point x="22.5" y="15.5" />
+            </edge>
+            <edge source="Services.lamp_service_2" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="3270.0" y="132.0" />
+              <point x="2373.125" y="132.0" />
+              <point x="100.625" y="15.5" />
+            </edge>
+            <edge source="Services.lamp_service_1" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="2680.0" y="152.0" />
+              <point x="2315.625" y="152.0" />
+              <point x="43.125" y="15.5" />
+            </edge>
+            <edge source="Services.humidity_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="1540.0" y="142.0" />
+              <point x="2200.625" y="142.0" />
+              <point x="-71.875" y="15.5" />
+            </edge>
+            <edge source="Services.lamp_control_service_1" target="Services.ControlService">
+              <point x="0.0" y="-15.5" />
+              <point x="520.0" y="162.0" />
+              <point x="517.641369047619" y="162.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Services.occupancy_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="2975.0" y="142.0" />
+              <point x="2344.375" y="142.0" />
+              <point x="71.875" y="15.5" />
+            </edge>
+            <edge source="Services.lamp_control_service_2" target="Services.ControlService">
+              <point x="0.0" y="-15.5" />
+              <point x="880.0" y="162.0" />
+              <point x="604.3080357142856" y="162.0" />
+              <point x="86.66666666666652" y="15.5" />
+            </edge>
+            <edge source="Services.time_service" target="Services.ReadService">
+              <point x="0.0" y="-15.5" />
+              <point x="2140.0" y="162.0" />
+              <point x="2258.125" y="162.0" />
+              <point x="-14.375" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1938596491228068" x="1601.8393732813163" y="135.85474392405405" />
+          <SelectedNodes>
+            <node>Services.smoke_service</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
