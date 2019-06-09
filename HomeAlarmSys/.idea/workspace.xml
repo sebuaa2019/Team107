@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bce8f8-3637-4644-9db7-372dc3a41b95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/static/build/js/echarts/temperature_show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Documents/SRS-107.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/SRS-107.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/templates/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/view/device.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/view/device.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/view/scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/view/scene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/SDD-107.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/SDD-107.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/SDP-107.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/SRS-107.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/STR-107.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/~$DD-107.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/~$RS-107.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/~WRL0003.tmp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,7 @@
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="61" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="331" />
+          <entry key="Python" value="332" />
           <entry key="TypeScript" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -125,11 +125,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,9 +153,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scene_test.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/view/error.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -690,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/view/error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/templates/app/base_site.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -827,7 +826,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scene_test.json">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/view/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
