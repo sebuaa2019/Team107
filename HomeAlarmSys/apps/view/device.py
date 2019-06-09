@@ -100,7 +100,7 @@ def alarm_detect():
     localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发现入侵行为！',
+        'desp': '家中疑似发现入侵行为',
     }
     alarm_control = models.Device.objects.get(device_id="80010")
     body_sensor = models.Device.objects.get(device_id="70010")
@@ -115,7 +115,7 @@ def fire_detect():
 
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发生火灾！'  ,
+        'desp': '家中疑似发生火灾！',
     }
     alarm_control = models.Device.objects.get(device_id="80010")
     fire_sensor = models.Device.objects.get(device_id="60010")
