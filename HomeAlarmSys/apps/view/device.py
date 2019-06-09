@@ -8,7 +8,7 @@ from django.core import serializers
 import json
 import requests
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from ..config import *
 
 
@@ -87,6 +87,12 @@ def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
         device.name = device_name
     device.status = 1
     device.save()
+
+    last_update = models.UpdateTime.objects.all()[0]
+    now = datetime.now()
+    if now-last_update > timedelta(minutes=10):
+        models.DeviceArg.objects.create(device_id=device_id, arg=arg)
+
     return
 
 
@@ -94,7 +100,7 @@ def alarm_detect():
     localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发现入侵行为！' + " message id: " + localtime,
+        'desp': '家中疑似发现入侵行为！',
     }
     alarm_control = models.Device.objects.get(device_id="80010")
     body_sensor = models.Device.objects.get(device_id="70010")
@@ -106,17 +112,15 @@ def alarm_detect():
 
 def fire_detect():
     localtime = str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    # print(localtime)
+
     data = {
         'text': 'AAA家庭报警装置提醒',
-        'desp': '家中疑似发生火灾！' + "message id: " + localtime,
+        'desp': '家中疑似发生火灾！'  ,
     }
     alarm_control = models.Device.objects.get(device_id="80010")
     fire_sensor = models.Device.objects.get(device_id="60010")
     if alarm_control.arg == 1 and fire_sensor.arg == 1:
-        # print("alarm！fire")
         r = requests.post(URL, data=data)
-        # print(r.text)
 
 
 def device_upload(request):

@@ -120,12 +120,13 @@ class ReadService(models.Model):
             "iid": self.iid, 'name': self.name,
             'allowed': self.allowed,
             'description': self.description,
-            'type':'read',
+            'type': 'read',
         }
 
     class Meta:
         verbose_name = "只读服务"
         verbose_name_plural = verbose_name
+
 
 class UpdateTime(models.Model):
     update_time = models.DateTimeField(verbose_name="更新时间")

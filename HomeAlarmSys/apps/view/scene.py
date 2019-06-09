@@ -119,9 +119,6 @@ def scene_service(request):
 
         name = ser.get('name')
         db_service_update(service_id, aid, iid, allowed, name, _type)
-
-
-
     return HttpResponse(200)
 
 def scene_download(request):
