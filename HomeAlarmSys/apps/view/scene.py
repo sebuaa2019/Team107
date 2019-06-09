@@ -78,12 +78,12 @@ def db_service_update(service_id, aid, iid, allowed, name, _type):
             service = models.ReadService.objects.create(
                 service_id=service_id, name=name,
                 aid=aid, iid=iid, allowed=allowed,
-                )
+            )
         else:
             service = models.ControlService.objects.create(
                 service_id=service_id, name=name,
                 aid=aid, iid=iid, allowed=allowed,
-                )
+            )
     else:
         service = service[0]
         service.aid = aid
@@ -103,12 +103,12 @@ def scene_service(request):
     for ser in read_service:
         aid = ser.get('aid')
         iid = ser.get('iid')
-        service_id = int(aid)*10000 + int(iid)
+        service_id = int(aid) * 10000 + int(iid)
         allowed = ser.get('allowed_condition')
 
         name = ser.get('name')
         db_service_update(service_id, aid, iid,
-                          allowed,  name, _type)
+                          allowed, name, _type)
 
     _type = 1
     for ser in control_service:
@@ -121,12 +121,13 @@ def scene_service(request):
         db_service_update(service_id, aid, iid, allowed, name, _type)
     return HttpResponse(200)
 
+
 def scene_download(request):
     # 返回场景信息
     scene_list = []
     for sc in models.Scene.objects.all():
         scene_list.append(sc.__str__())
-    return HttpResponse(json.dumps({'scenes':scene_list}),
+    return HttpResponse(json.dumps({'scenes': scene_list}),
                         content_type='application/json; charset=utf-8')
 
 
