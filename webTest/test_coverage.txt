@@ -1,6 +1,6 @@
 Total 608 41 93%
 
-apps/__init__.py                                                                                                  2      0   100%
+apps/__init__.py                                                                                                        2      0   100%
 apps/admin.py                                                                                                           3      0   100%
 apps/apps.py                                                                                                            3      0   100%
 apps/models.py                                                                                                         85      3    96%
