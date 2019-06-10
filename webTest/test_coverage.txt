@@ -1,0 +1,14 @@
+Total 608 41 93%
+
+apps/__init__.py                                                                                                  2      0   100%
+apps/admin.py                                                                                                           3      0   100%
+apps/apps.py                                                                                                            3      0   100%
+apps/models.py                                                                                                         85      3    96%
+apps/tests.py                                                                                                         188      0   100%
+apps/urls.py                                                                                                            7      0   100%
+apps/view/device.py                                                                                                   165     24    85%
+apps/view/room.py                                                                                                      45      1    98%
+apps/view/scene.py                                                                                                     97     13    87%
+apps/forms.py                                                                                                          16      0   100%
+
+
