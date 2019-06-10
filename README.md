@@ -25,5 +25,6 @@
 + SRS-107.docx
 + STR-107.docx
 + 第一次迭代总结.docx
++ 开发和测试过程数据统计对照表.xlsx
 
 ### 所有ppt都在./Keynotes
