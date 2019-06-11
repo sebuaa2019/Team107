@@ -90,8 +90,7 @@ def db_device_update(device_id, arg_type, arg, device_type, device_name=" "):
 
     last_update = models.UpdateTime.objects.all()[0]
     now = datetime.now()
-    if now-last_update > timedelta(minutes=10):
-        models.DeviceArg.objects.create(device_id=device_id, arg=arg)
+    models.DeviceArg.objects.create(device_id=device_id, arg=arg)
 
     return
 
